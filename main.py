@@ -1,0 +1,48 @@
+from itertools import chain
+from pathlib import Path
+
+def main():
+    stores = {}
+    for p in Path("pizzas").iterdir():
+        store = p.name
+        stores[store] = {}
+        with open(p) as f:
+            for pizza in f.read().splitlines():
+                if ":" in pizza:
+                    name, ingr = pizza.split(":")
+                    name = name.strip()
+                    ingr = tuple(sorted([i.strip() for i in ingr.strip().split(",")]))
+                else:
+                    name = pizza.strip()
+                    ingr = tuple()
+                stores[store][ingr] = name
+    all_ingr = set() # { ingr }
+    for pizzas in stores.values():
+        all_ingr |= set(chain.from_iterable(pizzas.keys()))
+
+    name_by_ingr = dict() # { ingr => (store, name) }
+    for store, pizzas in stores.items():
+        for ingr, name in pizzas.items():
+            if ingr in name_by_ingr:
+                name_by_ingr[ingr].append((store, name))
+            else:
+                name_by_ingr[ingr] = [(store, name)]
+
+    # report unique pizzas for each store
+    for store, pizzas in stores.items():
+        pizzagamis = []
+        for ingr, name in sorted(pizzas.items(), key=lambda kv: kv[1]):
+            if len(name_by_ingr[ingr]) == 1:
+                pizzagamis.append((name, ingr))
+        if pizzagamis:
+            print("{}: {} pizzagami!".format(store, len(pizzagamis)))
+            for name, ingr in pizzagamis:
+                print("  {} ({})".format(name, ", ".join(ingr)))
+        else:
+            print("{}: no pizzagami :(".format(store))
+
+    print("all ingredients: ", list(sorted(all_ingr)))
+    print("number of ingredients: ", len(all_ingr))
+    print("number of possible pizzas: 2**{} = {}".format(len(all_ingr), 2**len(all_ingr)))
+    print("number of seen pizzas: {} ({:.0E} %)".format(len(pizzas), 100 * len(pizzas) / (2**len(all_ingr))))
+main()
