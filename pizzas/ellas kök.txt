@@ -1,0 +1,40 @@
+Margerita
+Vesuvio: skinka
+Capricciosa: skinka, champinjoner
+Venezia: skinka, räkor
+Hawaii: skinka, ananas
+Tonno: tonfisk
+Romana: köttfärs
+Calzone: skinka
+Paradiso: champinjoner, räkor
+Tutti Frutti: ananas, banan
+Marinara: musslor, räkor
+Paesana: lök, bacon
+Funghi: champinjoner
+Melina: lök, salami
+Pescatore: tonfisk, räkor
+Long John: skinka, tonfisk, räkor
+Quattro: skinka, champinjoner, räkor, musslor
+Chalom: skinka, champinjoner, räkor
+Honolulu: skinka, ananas, banan, curry
+Ciao Ciao: champinjoner, tonfisk, räkor
+Gorgonzola: skinka, champinjoner, gorgonzola
+Vegetarisk 1: falafel, lök, champinjoner, tomater, kebabsås
+Vegetarisk 2: champinjoner, paprika, lök, oliver
+Bolognese: lök, köttfärs, paprika
+Black & white: oxfilé, fläskfilé, tomater, bea
+Ikea special; fläskfilé, räkor, champinjoner, bea
+Autopartner: gyroskött, skinka, pepperoni, bea
+Ljusexperten: fläskfilé, oxfilé, champinjoner, banan, bea
+Tropicana: fläskfilé, skinka, räkor, banan
+Husets: gyroskött, pepperoni, lök, champinjoner, bea
+Gyrosbåt: gyroskött, rå lök, isbergssallad, kebabsås, lök, pepperoni
+Kebab: kebab, lök, kebabsås, pepperoni
+Kyckling: kyckling, kebabsås
+Tornby: oxfilé, purjolök, tomater, bea
+Curry: kyckling, banan, ananas, curry, vitlökssås
+Capricciosa super: oxfilé, fläskfilé, skinka, champinjoner, räkor, banan
+Pomodoro: gyros, kebabsås, pepperoni, salladsost, isbergssallad, rå lök
+Marcus: oxfilé, fläskfilé, champinjoner, lök, tomater, bea
+Mexicana: köttfärs, paprika, lök, jalapeno, tacokrydda
+Acapulco: oxfilé, champinjoner, lök, vitlök, jalapeno, tacokrydda
