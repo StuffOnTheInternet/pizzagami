@@ -26,19 +26,19 @@ Tropicana: fläskfilé, banan, bea, curry
 Poker: oxfilé, tomater, champinjoner, bea
 Oscar: fläskfilé, champinjoner, bea
 Black & White: oxfilé, fläskfilé, bea
-Kyckling Pizza: kyckling, lök, tomat, kebabsås, curry
-Caprece: tomat, soltorkade tomater, mozzarella, pesto, ruccola
+Kyckling Pizza: kyckling, lök, tomater, kebabsås, curry
+Caprece: tomater, soltorkade tomater, mozzarella, pesto, ruccola
 Pepperoni: pepperoni (korv), ruccola
-Fetaost Pizza: tomat, soltorkade tomater, feta, ruccola
+Fetaost Pizza: tomater, soltorkade tomater, feta, ruccola
 Long John: skinka, räkor, tonfisk
-Kebabpizza special: kebab, lök, isbergssallad, tomat, gurka, fefferoni, kebabsås
+Kebabpizza special: kebab, lök, isbergssallad, tomater, gurka, fefferoni, kebabsås
 Studenten: kebab, pommes, fefferoni, kebabsås
 Huset speciale: oxfilé, soltorkade tomater, champinjoner, ruccola
 Provencale special: champinjoner, oxfilé, vitlök
-Falafel pizza: falafel, lök, tomat, pommes, kebabsås
-De chef: oxfilé, sparris, bacon, tomat, bea
+Falafel pizza: falafel, lök, tomater, pommes, kebabsås
+De chef: oxfilé, sparris, bacon, tomater, bea
 Maif: kebab, skinka, kebabsås
-Kycklingpizza special: kyckling, lök, isbergssallad, tomat, gurka, fefferoni, kebabsås
+Kycklingpizza special: kyckling, lök, isbergssallad, tomater, gurka, fefferoni, kebabsås
 Kyckling Studenten: kyckling, fefferoni, pommes, kebabsås
 Capri super: skinka, champinjoner, oxfilé, fläskfilé, bea
 Parma: lufttorkad skinka, ruccola, riven ost
@@ -47,5 +47,5 @@ Grigliata: aubergine, zucchini, paprika, soltorkade tomater, lufttorkad skinka, 
 Vegetaria Special: champinjoner, paprika, aubergine, zucchini, soltorkade tomater, ruccola, riven ost
 Quattro formaggio: camembert, gorgonzola, mozzarella, riven ost
 Jalapeno: oxfilé, fläskfilé, jalapeno, bea
-La camembert: champinjoner, tomat, camembert, lufttorkad skinka
+La camembert: champinjoner, tomater, camembert, lufttorkad skinka
 Bella Roma: lufttorkad skinka, salami, mortadella, riven ost, ruccola

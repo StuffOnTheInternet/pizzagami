@@ -30,6 +30,7 @@ def main():
 
     # report unique pizzas for each store
     for store, pizzas in stores.items():
+        print("")
         pizzagamis = []
         for ingr, name in sorted(pizzas.items(), key=lambda kv: kv[1]):
             if len(name_by_ingr[ingr]) == 1:

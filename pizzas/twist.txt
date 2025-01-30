@@ -11,9 +11,9 @@ Paradiso: räkor, champinjoner
 Paesana: bacon, lök
 Tropicana: skinka, räkor, banan, fläskfilé
 Mexicana: köttfärs, paprika, lök, jalapeno
-Gyros pizza: gyroskött, lök, paprika, feferoni, kebabsås
-Kycklingpizza: kyckling, lök, paprika, feferoni, kebabsås
-Falafelpizza: falafel, lök, paprika, feferoni, kebabsås
+Gyros pizza: gyroskött, lök, paprika, fefferoni, kebabsås
+Kycklingpizza: kyckling, lök, paprika, fefferoni, kebabsås
+Falafelpizza: falafel, lök, paprika, fefferoni, kebabsås
 Laluna: salami, champinjoner, oliver
 Opera: champinjoner, lök, salami, bacon
 Poker: oxfilé, fläskfilé, bea, champinjoner

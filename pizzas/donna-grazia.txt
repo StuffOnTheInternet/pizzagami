@@ -3,7 +3,7 @@ Vesuvio: skinka
 Capricciosa: champinjoner, skinka
 Hawaii: ananas, skinka
 Funghi: champinjoner
-Bolognese: köttfärssås
+Bolognese: köttfärs
 Al tonno: mild sås, tonfisk
 Tutti frutti: ananas, banan
 Salami: lök, salami
@@ -13,7 +13,7 @@ Marinara: musslor, räkor
 Sorento: räkor, skinka
 Pescatore: räkor, tonfisk
 Vegetarisk: ananas, champinjoner, kronärtskocka, lök, oliver, paprika, sparris
-Mexicana: jalapeno, köttfärssås, lök, tacokrydda, tacosås
+Mexicana: jalapeno, köttfärs, lök, tacokrydda, tacosås
 Azteka: jalapeno, skinka, tacokrydda, tacosås, vitlökssås
 Long john: räkor, skinka, tonfisk
 Jamaica: champinjoner, räkor, skinka
@@ -41,8 +41,8 @@ Spenatpizza: champinjoner, feta, mozzarella, olivolja, spenat, vitlök
 Fyra ostar: camembert, gorgonzola, mozzarella, paprika, ruccola, ädelost
 Donna grazia: basilika, champinjoner, körsbärstomater, mozzarella, oxfilé
 Di avolo: basilika, lök, mozzarella, oliver, piri piri, salami, vitlök
-Kebabpizza gyros: champinjoner, kebab (fläsk), kebabsås, lök, pepperoni
-Kebabpizza nötkött: kebab (nöt), pepperoni, starksås, vitlökssås
-Viking / kebabpizza special: gurka, isbergssallad, kebab (nöt), lök, pepperoni, starksås, tomater, vitlökssås
-Kycklingkebabpizza: kebab (kyckling), lök, pepperoni, vitlökssås
-Amed special: gurka, isbergssallad, kebab (nöt), lök, pepperoni, pommes, starksås, tomater, vitlökssås
+Kebabpizza gyros: champinjoner, gyroskött, kebabsås, lök, pepperoni
+Kebabpizza nötkött: kebab, pepperoni, starksås, vitlökssås
+Viking / kebabpizza special: gurka, isbergssallad, kebab, lök, pepperoni, starksås, tomater, vitlökssås
+Kycklingkebabpizza: kyckling, lök, pepperoni, vitlökssås
+Amed special: gurka, isbergssallad, kebab, lök, pepperoni, pommes, starksås, tomater, vitlökssås
