@@ -1,0 +1,51 @@
+Quattro Formaggi: camembert, gorgonzola, parmesan, ruccola
+Il Piatto Special: rödlök, zucchini, soltorkade tomater, oxfilé, aubergine, ruccola
+Buon Roti: lufttorkad skinka, ruccola, parmesan, tomater
+Fiesole: fläskfilé, ruccola, parmesan, tomater, bea
+Salamino: pepperoni (korv), champinjoner, paprika, ruccola
+Al Pesto: lufttorkad skinka, soltorkade tomater, oliver, pesto, ruccola
+Mazza Luna: champinjoner, ruccola, gorgonzola, oxfilé, ajvar
+Ortolana: champinjoner, paprika, zucchini, aubergine, rödlök
+Esparragos: lufttorkad skinka, soltorkade tomater, olivolja, sparris, havssalt, ruccola
+Cantarela cabrito: kantareller, sparris, oxfilé, bea, ruccola
+Isabella: paprika, feta, oliver, tomater, vitlök, parmesan, ruccola
+Il Piatto: champinjoner, lök, oxfilé, tomater, bea
+Quattro Stagioni: skinka, räkor, musslor, champinjoner, kronärtskocka
+Mixed Formaggio: ädelost, gorgonzola, camembert
+Rotunda: oxfilé, bacon, ägg, lök, purjolök
+Capricciosa Super: skinka, räkor, bacon, oxfilé, fläskfilé, champinjoner
+Shazam: champinjoner, räkor, camembert
+Rustica: bacon, köttfärs, lök, champinjoner
+Padrino: kyckling, banan, tomater, curry
+Tefat: skinka
+Tropicana: skinka, räkor, fläskfilé, banan
+Provencale: champinjoner, oxfilé, paprika
+A'La Oskar: sparris, räkor, gorgonzola, fläskfilé, bea
+Opera: salami, champinjoner, bacon, lök
+Studente: purjolök, oxfilé, ädelost, lök, paprika
+Mexicana (Het): köttfärs, lök, paprika
+Gorgonzola: oxfilé, champinjoner, lök, gorgonzola, bea
+Asteka: skinka, jalapeno, tabasco, kebabsås
+Crab: crabfish, musslor, tonfisk, räkor
+Babylon: oxfilé, banan, champinjoner, bea, fläskfilé
+Alanish: lök, kebab, sallad, pommes, kebabsås, pepperoni
+Margerita:
+Vesuvio: skinka
+Calzone: skinka
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Sorrento: skinka, räkor
+Al fungi: champinjoner
+Campagnola: lök, salami
+Paesana: lök, bacon
+Tono: tonfisk
+Lång John: skinka, tonfisk, räkor
+Ciao Ciao: champinjoner, tonfisk, räkor
+Venezia: skinka, champinjoner, räkor
+Marinara: musslor, räkor
+Bolognese: köttfärs, lök
+Pascatora: tonfisk, räkor
+Paradiso: champinjoner, räkor
+Vegetaria: champinjoner, paprika, lök, kronärtskocka, oliver
+Tutti Frotti: ananas, banan
+Hunululu: skinka, ananas, banan

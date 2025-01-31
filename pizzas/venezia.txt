@@ -1,0 +1,33 @@
+Capricciosa: skinka, champinjoner
+Tonno: tonfisk
+Hawai: skinka, ananas
+Paesana: bacon, lök
+Calzone: skinka
+Cacciatora: salami
+Bolognese: lök, köttfärs
+Vegetariana: paprika, champinjoner, lök, oliver, kronärtskocka
+Quattro Stagioni: kronärtskocka, musslor, champinjoner, räkor
+Opera: champinjoner, bacon, salami, lök
+St Tropez: kyckling, räkor, ananas, curry
+Rustica: köttfärs, bacon, champinjoner, lök
+Fyra Årstider: skinka, paprika, tonfisk, kronärtskocka, champinjoner
+Studente: purjolök, oxfilé, ädelost, paprika
+Babylon: fläskfilé, oxfilé, champinjoner, banan, bea
+Shazam: räkor, camembert, champinjoner
+Venezia: skinka, räkor, champinjoner
+Rimini Special: tomater, fläskfilé, sparris, bea
+Parma: mozzarella, lufttorkad skinka, ruccola, soltorkade tomater
+Venedig: mozzarella, sparris, oxfilé, vitlök, champinjoner, kronärtskocka, ruccola
+Da vinci: mozzarella, ädelost, soltorkade tomater, salami, sparris, ruccola
+Al Capone: mozzarella, vitlök, tomater, oxfilé, bea
+Merame: mozzarella, lufttorkad skinka, vitlök, champinjoner, ruccola, tomater, bea
+Dolce vita: mozzarella, tärnad ost, oliver, sparris, vitlök, tomater, champinjoner, ruccola
+Napolitana: san marzano tomater, buffelmozzarella, oliver, vitlök, basilika
+DI terra: san marzano tomater, buffelmozzarella, zucchini, paprika, vitlök, kronärtskocka, (chili) parmesanflakes, körsbärstomater, olivolja, ruccola, aubergine
+Il contadino: san marzano tomater, buffelmozzarella, nduja (stark salami), lök, oliver, ruccola, körsbärstomater
+Bresaola: san marzano tomater, buffelmozzarella, vitlök, bresaola (lufttorkat nötkött), parmesanflakes, olivolja, flingsalt, ruccola
+Della casa: san marzano tomater, buffelmozzarella, chili, vitlök, persilja, musslor, scampi, körsbärstomater
+Formaggi: san marzano tomater, buffelmozzarella, parmesanflakes, vitlöksost, gorgonzola, basilika
+Il presidente: buffelmozzarella, körsbärstomater, lufttorkad skinka, ruccola, parmesanflakes
+Meno Mala: buffelmozzarella, philadelphiaost, bacon, champinjoner, rödlök, ruccola, olivolja
+Ponte Rialto: buffelmozzarella, gorgonzola, nduja (stark salami), champinjoner, ruccola, olivolja

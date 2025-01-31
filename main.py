@@ -42,9 +42,9 @@ def main():
         else:
             print("{}: no pizzagami :(".format(store))
 
-    #print("all ingredients:")
-    #for ingr in sorted(all_ingr):
-    #    print("  ", ingr)
+    print("all ingredients:")
+    for ingr in sorted(all_ingr):
+        print("  ", ingr)
     print("number of ingredients: ", len(all_ingr))
     print("number of possible pizzas: 2**{} = {}".format(len(all_ingr), 2**len(all_ingr)))
     print("number of seen pizzas: {} ({:.0E} %)".format(len(pizzas), 100 * len(pizzas) / (2**len(all_ingr))))
