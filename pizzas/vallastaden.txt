@@ -1,0 +1,46 @@
+Margherita:
+Vesuvio: skinka
+Bollogna: köttfärs
+Calzone: skinka
+Tutti Frutti: ananas, banan
+Hawaii: skinka, ananas
+Capricciosa: skinka, champinjoner
+Paradiso: räkor, champinjoner
+Paesana: bacon, lök
+Cacciatora: salami, lök
+Pescatore: tonfisk, räkor
+Vegetaria: champinjoner, lök, paprika, ananas, kronärtskocka
+Nino: champinjoner, lök, köttfärs, räkor
+Long John: skinka, tonfisk, räkor
+Quattro Stagioni: skinka, tonfisk, räkor, musslor, kronärtskocka
+Kycklingpizza: kyckling, ananas, curry, banan, lök
+Grekisk Special: feta, fefferoni, lök, oliver, tomater
+Kebabpizza: kebabsås, fefferoni, lök, tomater, gyroskött
+Kebabpizza Special: kebabsås, fefferoni, isbergssallad, lök, tomater
+Viking Kebab: kebabsås, fefferoni, gurka, isbergssallad, lök, tomater, gyroskött
+Acapulco: tacosås, tacokrydda, jalapeno, oxfilé, vitlök, champinjoner, lök
+Mexicana Special: köttfärs, tacosås, jalapeno, tacokrydda, lök, paprika
+Azteka: skinka, tacosås, jalapeno, tacokrydda, kebabsås
+Black & White: oxfilé, fläskfilé, bea
+De Chef: oxfilé, champinjoner, bea
+Tropicana: skinka, räkor, banan, fläskfilé
+Robban: paprika, champinjoner, räkor, vitlök, oxfilé, bea
+Studente: oxfilé, ädelost, lök, purjolök, paprika
+Sandra: purjolök, sparris, tomater, oxfilé, bea
+El komidante: fläskfilé, bacon, champinjoner, skinka, bea
+Capri Super: skinka, oxfilé, fläskfilé, räkor, champinjoner, banan, bea
+Gorgonzola: gorgonzola, oxfilé, ananas, champinjoner
+Pizza parma: parma, olivolja, mozzarella, ruccola, vitlök, soltorkade tomater
+Pizza spenat: spenat, olivolja, champinjoner, vitlök, feta
+Mozzarella: champinjoner, olivolja, mozzarella, spenat, körsbärstomater, vitlök
+Daniella: gorgonzola, körsbärstomater, ädelost, mozzarella, feta
+Al Capone: mozzarella, tomater, vitlök, oxfilé, ruccola, bea
+Elissa: mozzarella, ädelost, soltorkade tomater, italiansksalami(stark), sparris, kronärtskocka
+Celine: zucchini, aubergine, soltorkade tomater, mozzarella, paprika, ruccola
+Vegan Vesuvio: mozzarella (v), skinka (v)
+Vegan Bolognese: mozzarella (v), köttfärs (v)
+Vegan Kyckling: mozzarella (v), kyckling (v), banan, ananas, curry
+Vegan Kebabpizza: mozzarella (v), kebab (v), tomater, fefferoni, stark tomatsås
+Vegan Paesana: mozzarella (v), bacon (v), champinjoner, lök, vitlök
+Vegan Salami: mozzarella (v), champinjoner, lök, vitlök, pepperoni (korv)
+Manifesto: mozzarella (v), oxfilé, lök, purjolök, paprika
