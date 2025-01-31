@@ -1,0 +1,51 @@
+Capri: skinka, räkor
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Marinara: räkor, musslor
+Lång John: skinka, tonfisk, räkor
+Vegetariana: champinjoner, ananas, lök, oliver, paprika, kronärtskocka
+Bolognese: köttfärs, paprika, lök, tomater
+Mozarella: mozzarella, skinka, räkor, champinjoner
+Frutti di Mare: crabfish, räkor, tonfisk, musslor
+Quattro Formaggi: gorgonzola, ädelost, mozzarella, lök, tomater
+Quattro Stagioni: skinka, räkor, musslor, champinjoner, kronärtskocka
+Dulcinea: fläskfilé, skinka, räkor, banan, curry
+Sancho Panza: oxfilé, champinjoner, paprika, lök, oliver, bea
+Kycklingpizza: kyckling, ananas, banan, curry
+Don Quixote: fläskfilé, oxfilé, ananas, lök, tomater, bea
+Fungi: champinjoner
+Al Tono: tonfisk, lök
+Calzone: skinka
+Fattig Riddare (inbakad): köttfärs
+Love it: pommes, kebabsås
+Disco: skinka, räkor, köttfärs
+Ciao Ciao: fläskfilé, champinjoner, lök, vitlök
+Superman: kyckling, curry
+La Roma: skinka, oxfilé, bea
+Black & White: oxfilé, fläskfilé, bea
+BBQ: oxfilé, ananas, tomater, lök, jalapeno, bbq-sås
+Acapulco: oxfilé, champinjoner, lök, jalapeno, vitlök, tacosås, tacokrydda
+Viking båt: lök, kebab, tomater, kebabsås, pepperoni
+Roma: parma, lök, tomater, mozzarella, ruccola
+Rossi Special: kebab, kebabsås, isbergssallad, tomater, rå lök, fefferoni
+Sveriges special: kebab, kebabsås, isbergssallad, pommes, fefferoni
+Lasse Special: skinka, tonfisk, kebab, kebabsås, fefferoni
+Titanic: räkor, ananas, isbergssallad, kebab, kebabsås, fefferoni
+Simpsons Special: ananas, kebab, pommes, vitlökssås, pepperoni
+Taras: salami, bacon, kebab, kebabsås, fefferoni
+Bari: salami
+Jamaica: skinka, champinjoner, räkor
+Romeo: skinka, bacon, salami, ägg, lök
+Mexicana: köttfärs, lök, majs, jalapeno, tacosås
+Bleco: champinjoner, räkor
+Corallo: bacon, paprika, lök
+Bella: skinka, räkor, ananas, paprika
+Hero: skinka, lök, tomater, kebabsås
+Santana: skinka, räkor, kebab, kebabsås, pepperoni
+LHC: feta, tomater, kebab, kebabsås, fefferoni
+Oahau: skinka, ananas, kebab, kebabsås, fefferoni
+Babylon Special: skinka, köttfärs, kebab, vitlökssås, fefferoni
+Daytona: ananas, banan, kebab, bea, fefferoni
+Vesuvio: skinka
+Kebabpizza: kebab, lök, tomater, fefferoni, kebabsås
+Margherita:

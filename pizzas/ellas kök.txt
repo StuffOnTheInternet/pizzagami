@@ -34,7 +34,7 @@ Kyckling: kyckling, kebabsås
 Tornby: oxfilé, purjolök, tomater, bea
 Curry: kyckling, banan, ananas, curry, vitlökssås
 Capricciosa super: oxfilé, fläskfilé, skinka, champinjoner, räkor, banan
-Pomodoro: gyros, kebabsås, pepperoni, salladsost, isbergssallad, rå lök
+Pomodoro: gyroskött, kebabsås, pepperoni, salladsost, isbergssallad, rå lök
 Marcus: oxfilé, fläskfilé, champinjoner, lök, tomater, bea
 Mexicana: köttfärs, paprika, lök, jalapeno, tacokrydda
 Acapulco: oxfilé, champinjoner, lök, vitlök, jalapeno, tacokrydda

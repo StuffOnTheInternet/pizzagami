@@ -10,7 +10,7 @@ Romana: lök, bacon
 Opera: skinka, tonfisk
 Big Ben: räkor, champinjoner
 Siciliana: räkor, tonfisk
-Milano: skinka ädelost
+Milano: skinka, ädelost
 Jamaica: skinka, banan, ananas
 Speciale: skinka, salami, lök
 Båtpizza 1: skinka, fläskfilé, tomater, bea
