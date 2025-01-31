@@ -1,0 +1,55 @@
+Margherita:
+Veusivo: skinka
+Al Funghi: champinjoner
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Calzone: skinka
+Bananpizza: skinka, banan, curry
+Marinara: räkor, musslor
+Romana: lök, bacon
+Opera: skinka, tonfisk
+Big Ben: räkor, champinjoner
+Siciliana: räkor, tonfisk
+Milano: skinka ädelost
+Jamaica: skinka, banan, ananas
+Speciale: skinka, salami, lök
+Båtpizza 1: skinka, fläskfilé, tomater, bea
+Båtpizza 2: champinjoner, lök, fläskfilé, tomater, bea
+Lång John: skinka, tonfisk, räkor
+Vegetarisk: oliver, champinjoner, lök, paprika, kronärtskocka
+Campagnola: lök, salami, champinjoner
+Ciao Ciao: skinka, räkor, camembert
+Mamma Mia: skinka, räkor, champinjoner
+Kebabpizza: kebab, kebabsås, fefferoni
+LHC: lök, tomater, kebab, kebabsås
+Mexicana: lök, paprika, köttfärs, tomater, jalapeno
+Tropicana: skinka, banan, fläskfilé
+Provencale: champinjoner, oxfilé, vitlök
+Tre Kronor: tomater, bacon, fläskfilé, sparris, bea
+Hannos: räkor, oxfilé, ädelost
+Love You: champinjoner, lök, fläskfilé, bea
+Kycklingpizza: lök, champinjoner, kyckling, kebabsås
+Exotisk: mango, banan, ananas, curry
+Västerbotten: champinjoner, räkor, västerbottenost, tomater
+Miami: ananas, banan, pepperoni (korv), curry
+Ekkällan Special: köttfärs, tomater, pepperoni (korv), jalapeno
+Quattro Stagioni: skinka, räkor, musslor, champinjoner
+Babylon: oxfilé, banan, lök, räkor, bea
+Rimini: oxfilé, bacon, sparris, tomater, bea
+Super: champinjoner, räkor, oxfilé, fläskfilé, bea
+Frutti di Mare: räkor, musslor, crabfish, tonfisk
+MAIF: skinka, kebab, kebabsås, fefferoni
+Loulou: oxfilé, räkor, lök, bacon, tomater, bea
+Mistro: skinka, kyckling, lök, salami, bea
+Di Dani Special: kebab, isbergsallad, tomater, gurka, lök, kebabsås
+BBQ: oxfilé, fläskfilé, tomater, vitlök, bbq-sås
+Parma: parma, soltorkade tomater, vitlök, ruccola
+Napoli: salami, soltorkade tomater, vitlök, ruccola
+Fyra ostar: västerbottenost, ädelost, camembert, ruccola
+Roma: sparris, tomater, vitlök, olivolja, ruccola
+Italia: aubergine, zucchini, paprika, soltorkade tomater, ruccola
+Parmesana: oxfilé, salami, parmesan, ruccola
+La Kantarell: oxfilé, kantareller, ruccola
+Chevré Pizza: parmaskinka, ruccola, chevré, honung, valnötter
+Havets: scampi, musslor, cocktailtomater, basilika, vitlök
+Husets: ruccola, salami, pepperoni (korv), salami, vitlök, cocktailtomater
