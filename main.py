@@ -1,3 +1,4 @@
+from collections import Counter
 from itertools import chain
 from pathlib import Path
 
@@ -8,6 +9,7 @@ type Ingredients = tuple[Ingredient, ...]
 
 def main():
     stores: dict[Store, dict[Ingredients, Name]] = {}
+    ingr_counter = Counter()
     for p in Path("pizzas").iterdir():
         store = p.name
         stores[store] = {}
@@ -21,6 +23,8 @@ def main():
                     name = pizza.strip()
                     ingr = tuple()
                 stores[store][ingr] = name
+                for i in ingr:
+                    ingr_counter[i] += 1
     all_ingr: set[Ingredient] = set()
     all_pizzas: set[Ingredients] = set()
     for pizzas in stores.values():
@@ -36,17 +40,25 @@ def main():
             else:
                 name_by_ingr[ingr] = [(store, name)]
 
+    top_ten_ingr = {ingr for ingr, _ in ingr_counter.most_common(10)}
+
     # report unique pizzas for each store
     for store, pizzas in stores.items():
         print("")
-        pizzagamis = []
+        pizzagami = []
         for ingr, name in sorted(pizzas.items(), key=lambda kv: kv[1]):
-            if len(name_by_ingr[ingr]) == 1:
-                pizzagamis.append((name, ingr))
-        if pizzagamis:
-            print("{}: {} pizzagami!".format(store, len(pizzagamis)) + " (out of {}".format(len(pizzas)) + " total)")
-            for name, ingr in pizzagamis:
+            is_pizzagami = len(name_by_ingr[ingr]) == 1
+            if is_pizzagami:
+                pizzagami.append((name, ingr, all(i in top_ten_ingr for i in ingr)))
+        if pizzagami:
+            total_ingr_common_pizzagami = sum(1 for gami in pizzagami if gami[2])
+            print("{}: {} pizzagami!".format(store, len(pizzagami)) + " (out of {}".format(len(pizzas)) + " total)")
+            if total_ingr_common_pizzagami:
+                print("...{} ingrdient-common pizzagami!".format(total_ingr_common_pizzagami))
+            for name, ingr, is_common in pizzagami:
                 print("  {} ({})".format(name, ", ".join(ingr)))
+                if is_common:
+                    print("    ingredient-common pizzagami!")
         else:
             print("{}: no pizzagami :(".format(store))
 
@@ -56,4 +68,6 @@ def main():
     print("number of ingredients: ", len(all_ingr))
     print("number of possible pizzas: 2**{} = {}".format(len(all_ingr), 2**len(all_ingr)))
     print("number of seen pizzas: {} ({:.0E} %)".format(len(all_pizzas), 100 * len(all_pizzas) / (2**len(all_ingr))))
+    print("10 most common ingredients: ", ingr_counter.most_common(10))
+
 main()
