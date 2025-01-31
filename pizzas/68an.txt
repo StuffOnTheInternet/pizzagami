@@ -1,5 +1,5 @@
-margarita
-vesuvio: skinka
+Margarita:
+Vesuvio: skinka
 Alfunghi: champinjoner
 Capricciosa: skinka, champinjoner
 Hawaii: skinka, ananas

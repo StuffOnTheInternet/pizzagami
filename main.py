@@ -36,7 +36,7 @@ def main():
             if len(name_by_ingr[ingr]) == 1:
                 pizzagamis.append((name, ingr))
         if pizzagamis:
-            print("{}: {} pizzagami!".format(store, len(pizzagamis)))
+            print("{}: {} pizzagami!".format(store, len(pizzagamis)) + " (out of {}".format(len(pizzas)) + " total)")
             for name, ingr in pizzagamis:
                 print("  {} ({})".format(name, ", ".join(ingr)))
         else:
