@@ -1,8 +1,13 @@
 from itertools import chain
 from pathlib import Path
 
+type Store = str
+type Name = str
+type Ingredient = str
+type Ingredients = tuple[Ingredient, ...]
+
 def main():
-    stores = {}
+    stores: dict[Store, dict[Ingredients, Name]] = {}
     for p in Path("pizzas").iterdir():
         store = p.name
         stores[store] = {}
@@ -16,11 +21,14 @@ def main():
                     name = pizza.strip()
                     ingr = tuple()
                 stores[store][ingr] = name
-    all_ingr = set() # { ingr }
+    all_ingr: set[Ingredient] = set()
+    all_pizzas: set[Ingredients] = set()
     for pizzas in stores.values():
-        all_ingr |= set(chain.from_iterable(pizzas.keys()))
+        for ingr, name in pizzas.items():
+            all_ingr |= set(ingr)
+            all_pizzas.add(ingr)
 
-    name_by_ingr = dict() # { ingr => (store, name) }
+    name_by_ingr: dict[Ingredients, tuple[Store, Name]] = dict() # { ingr => (store, name) }
     for store, pizzas in stores.items():
         for ingr, name in pizzas.items():
             if ingr in name_by_ingr:
@@ -47,5 +55,5 @@ def main():
         print("  ", ingr)
     print("number of ingredients: ", len(all_ingr))
     print("number of possible pizzas: 2**{} = {}".format(len(all_ingr), 2**len(all_ingr)))
-    print("number of seen pizzas: {} ({:.0E} %)".format(len(pizzas), 100 * len(pizzas) / (2**len(all_ingr))))
+    print("number of seen pizzas: {} ({:.0E} %)".format(len(all_pizzas), 100 * len(all_pizzas) / (2**len(all_ingr))))
 main()
