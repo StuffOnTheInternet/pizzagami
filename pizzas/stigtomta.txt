@@ -1,0 +1,58 @@
+Barnpizza: skinka
+Margherita:
+Vesuvio: skinka
+Carides: räkor
+Alfungie: champinjoner
+Calzone: skinka
+Calzone Special: skinka, räkor
+Romana: bacon, lök
+Altonno: tonfisk, lök, oliver
+Campagnola: salami, lök
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Bosola: skinka, räkor
+Opera: skinka, tonfisk
+Bolognese: köttfärs, lök
+Baran: salami, oliver, soltorkade tomater
+Orientala: köttfärs, ägg
+Marinara: räkor, musslor
+Padrino: räkor, champinjoner
+Vegetarisk: champinjoner, lök, ananas, kronärtskocka, oliver, banan
+Banana: skinka, banan, curry, ananas
+Grekisk Pizza: feta, tomater, lök, oliver
+Verona: skinka, bacon, lök
+Vagabondo: bacon, köttfärs, lök
+Pescatore: räkor, musslor, tonfisk
+Ungriya: salami, ägg, köttfärs
+Milanesa: skinka, champinjoner, köttfärs
+Castella: skinka, ananas, köttfärs
+Semana: skinka, räkor, ananas
+Quattro Stagioni: skinka, räkor, oliver, champinjoner, kronärtskocka
+Bella: skinka, champinjoner, räkor
+Tropicana: skinka, gorgonzola, lök, kronärtskocka
+Tio: skinka, champinjoner, ananas
+Mafiosa: köttfärs, lök, ägg, tabasco, fefferoni
+Botan: oxfilé, paprika, bea
+Prinsessa: skinka, champinjoner, räkor, ananas
+Tefat: skinka, räkor, champinjoner
+Stigtomta Special: oxfilé, tomater, räkor, bea
+Gorgonzola: champinjoner, köttfärs, lök, gorgonzola
+Acapulco: champinjoner, lök, oxfilé, vitlök, tacokrydda, jalapeno, tacosås
+Azteka: skinka, tacokrydda, jalapeno, tacosås
+Mardin: salami, champinjoner, oliver, paprika, vitlök
+Mexicana Special: starka kryddor, skinka, fläskfilé, champinjoner, paprika
+Tängsta Special: ungersk salami, bacon, gorgonzola, lök
+Eufrat: fläskfilé, räkor, banan, ananas, skinka
+Tigris: oxfilé, fläskfilé, champinjoner, banan, bea
+Mammamia: fläskfilé, vitlök, lök, champinjoner
+Juppi: oxfilé, lök, champinjoner, bea
+Jitana: fläskfilé, skinka, champinjoner, bea
+Tomtas Special: oxfilé, räkor, ananas, kronärtskocka, bea
+Ararat: kyckling, banan, ananas, curry
+Mesopotamia: kyckling, champinjoner, tomater, lök
+Roni Special: oxfilé, feta, ruccola, soltorkade tomater, champinjoner, jalapeno
+Sverige Special; oxfilé, kyckling, curry, bea
+Ostkant 1: skinka, champinjoner, räkor
+Ostkant 2: oxfilé, fläskfilé, skinka, bea
+Ostkant 3: kebab, fefferoni, kebabsås
+Ostkant 4: oxfilé, gorgonzola, champinjoner
