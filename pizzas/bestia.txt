@@ -1,0 +1,10 @@
+Bestia: san marzano tomater, mozzarella, olivolja, basilika
+Pesto Pizza: pesto, mozzarella, prosciutto, kvisttomater, basilika
+Friariella: riccota, mozzarella, friarielli, salsiccia, chiliolja, ruccola, pecorino
+La Croccante: mozzarella, salsiccia, basilika, olivolja, pommes
+Diavola: san marzano tomater, mozzarella, nduja, stark salami
+Svamp: mozzarella, champinjoner, pecorino, vitlök, persilja, olivolja
+Verde: san marzano tomater, ost (v), aubergine, friarielli, soltorkade tomater, kronärtskocka, oliver, bea (v)
+Tonno di Napoli: san marzano tomater, mozzarella, oliver, kronärtskocka, tonfisk, oregano, rödlök, olivolja
+Primavera: san marzano tomater, mozzarella, prosciutto, ruccola, parmesan
+Dolce Pera: mozzarella, gorgonzola, pancetta, päron, honung, valnötter
