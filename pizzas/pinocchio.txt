@@ -1,0 +1,25 @@
+Margerita: 
+Al Funghi: champinjoner
+Vesuvio: skinka
+Calzone: skinka
+Tonno: tonfisk
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Tutti Frutti: ananas, banan
+Paesana: bacon, lök
+Cacciatora: salami
+Bolognesa: köttfärs
+Kebabpizza: kebab, kebabsås, fefferoni
+Paradiso: champinjoner, räkor
+Honolulu: skinka, banan, ananas, curry
+Kycklingpizza: lök, tomater, kyckling, curry
+Långjohn: skinka, tonfisk, räkor
+Sorrento: skinka, räkor
+Vegetaria: lök, paprika, champinjoner, oliver, kronärtskocka
+Pepperoni Pizza: pepperoni (korv), ruccola
+Italia Pizza: parma, soltorkade tomater, vitlök, ruccola
+Parma Pizza: parma, ruccola, parmesan
+QUattro Formaggio Pizza: camembert, gorgonzola, mozzarella, ädelost
+Grigliata Pizza: aubergine, zucchini, paprika, soltorkade tomater, parma, ruccola, parmesan
+Vegetaria Special: aubergine, zucchini, paprika, soltorkade tomater, champinjoner, ruccola, parmesan
+Napoli Pizza: soltorkade tomater, vitlök, salami, ruccola
