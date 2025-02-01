@@ -1,0 +1,64 @@
+Vesuvio: skinka
+Calzone: skinka
+Funghi: champinjoner
+Margherita:
+Hawaii: ananas, skinka
+Paradiso: champinjoner, räkor
+Capricciosa: champinjoner, skinka
+Bussola: räkor, skinka
+Bolognese: köttfärs
+Paesana: lök, bacon
+Tonno: tonfisk
+Salami: salami
+Pescatore: tonfisk, räkor
+Vegetariana: paprika, champinjoner, oliver, kronärtskocka, lök
+Marinara: musslor, räkor
+Long John: tonfisk, räkor, skinka
+Roma: champinjoner, räkor, skinka
+Honolulu: curry, banan, ananas, skinka
+Havanna: champinjoner, ananas, skinka
+Dela casa: gorgonzola, lök, köttfärs
+Pepperoni: fefferoni, pepperoni (korv)
+Disco: köttfärs, räkor, skinka
+Kebabpizza: tomater, kebab, kebabsås, fefferoni, lök
+Kycklingpizza: curry, kyckling, banan, ananas
+Opera: champinjoner, lök, bacon, salami
+Kebabpizza special: kebab, kebabsås, fefferoni, lök, skinka
+Gyrospizza: gyroskött, kebabsås, champinjoner, fefferoni, lök
+Tropicana: fläskfilé, banan, räkor, skinka, 
+Pizza Smögen: vitlök, crabfish, musslor, räkor
+Mexicana: tacokrydda, paprika, fefferoni, lök, köttfärs
+Capri Super: champinjoner, fläskfilé, banan, skinka
+Provencale: paprika, champinjoner, oxfilé, lök
+Poker: champinjoner, bea, oxfilé, fläskfilé
+Delicato: champinjoner, kantareller, sparris, kronärtskocka
+Peanut: jordnötter, curry, kyckling, ananas
+Sultan: bea, köttfärs, skinka
+Quattro: skinka, räkor, champinjoner, musslor, kronärtskocka
+Svea: tomater, bea, oxfilé, fläskfilé, lök, ananas
+Robert special: tomater, feta, oxfilé, paprika, lök
+Jamaica: tomater, curry, banan, räkor, ananas, skinka
+Acapulco: tacokrydda, jalapeno, champinjoner, tacosås, oxfilé, lök
+Taco: tacokrydda, jalapeno, paprika, majs, köttfärs
+Al Pollo: paprika, champinjoner, purjolök, vitlökssås, kyckling
+Baccus: champinjoner, purjolök, kronärtskocka, bacon, köttfärs
+Azteka: tacokrydda, jalapeno, gräddfil, tacosås, purjolök, skinka
+Mexico Special: vitlök, tacokrydda, jalapeno, ägg, lök, bacon, köttfärs
+Sparta: jalapeno, gyroskött, kebabsås, isbergssallad, skinka
+Sverige Special: jalapeno, gyroskött, kebabsås, pommes, isbergssallad
+Vikinggyros: tomater, kebab, kebabsås, gurka, isbergssallad
+Vikingkebab: kebab, kebabsås, gurka, isbergssallad
+Vikingkyckling: kebabsås, gurka, isbergssallad, kyckling
+Funny: bea, fläskfilé, räkor, skinka
+Afamia: gyroskött, kebabsås, pommes, champinjoner, majs
+Arla: gyroskött, paprika, champinjoner, purjolök, vitlökssås
+Ogarett: jalapeno, aubergine, paprika, bea, oxfilé
+Sibylla: lökringar, chili cheese, ruccola, kebabsås, pommes
+Mozarella: parma, ruccola, mozzarella, purjolök
+Fyra Ostar: ädelost, mozzarella, gorgonzola, ruccola
+Valla Special: ruccola, tomater, mozzarella, champinjoner, feta, oliver
+Florida: curry, bacon, ananas, skinka
+Hot Chili: paprika, grön chili, lök, salami, köttfärs
+Las Vegas: tomater, paprika, fefferoni, bacon, skinka
+San Fransisco: paprika, lök, bacon, köttfärs
+Kansas: tomater, champinjoner, salami, räkor, skinka
