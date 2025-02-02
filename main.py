@@ -158,7 +158,7 @@ class CountIngredientCommonPizzagami:
 
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
-    for _, _, pizza in inp.iter_pizzas():
+    for _, pizza, _ in inp.iter_pizzas():
         all_ingr |= set(pizza)
     return all_ingr
 
@@ -177,11 +177,11 @@ def main():
     ingr_common_count = CountIngredientCommonPizzagami(pizzagami)
     pizzagami.report()
 
-    # print("all ingredients:")
-    # for ingr in sorted(all_ingr):
-    #     print("  ", ingr)
     num_ingr = len(all_ingredients(inp))
     num_pizzas = len(all_pizzas(inp))
+    # print("all ingredients:")
+    # for ingr in sorted(all_ingredients(inp)):
+    #     print("  ", ingr)
     print("number of ingredients: ", num_ingr)
     print("number of possible pizzas: 2**{} = {}".format(num_ingr, 2**num_ingr))
     print(
