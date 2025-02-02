@@ -1,0 +1,54 @@
+Vesuvio: skinka
+Calzone: skinka
+Margherita:
+Capricciosa: skinka, champinjoner
+Elisabeth: lök, bacon, paprika
+Bolognese: köttfärs
+Tonfiskpizza: tonfisk
+Afrikana: banan, ananas, curry
+Salami: salami, pepperoni (korv)
+Capri: skinka, räkor
+Hawaii: skinka, ananas
+Mexicana: champinjoner, lök, jalapeno, tacosås
+Jamaica: skinka, champinjoner, räkor
+Vegetariana: lök, ananas, champinjoner, paprika, sparris, kronärtskocka
+Kebabpizza: gyroskött, kebab, kebabsås, fefferoni
+Calzone: skinka, champinjoner
+Kycklingpizza: kyckling, champinjoner, curry
+Gudfadern: tonfisk, musslor, paprika, stark krydda
+Disco: skinka, köttfärs, räkor
+Marina: tonfisk, räkor, musslor
+Ciao Ciao: fläskfilé, lök, champinjoner, vitlök
+Katrin: skinka, champinjoner, lök, bacon, ägg
+Kycklingkebabpizza: kyckling, kebabsås
+Al Pacino: skinka, ananas, banan, curry
+Quattro: skinka, champinjoner, räkor, musslor
+Maestro: champinjoner, lök, jalapeno, köttfärs
+Acapulco: oxfilé, champinjoner, tacosås, lök, vitlök, jalapeno
+Sonja: skinka, kebabsås, fefferoni, gyroskött
+Gourmet: oxfilé, champinjoner, bea, lök
+Gorgonzola: gorgonzola, paprika, oxfilé
+Davronoye: skinka, fläskfilé, champinjoner, bea, lök
+Azteka: skinka, fläskfilé, tacosås, lök, jalapeno
+Black & White: oxfilé, fläskfilé, bea
+Viking Inbakad: kebabsås, lök, fefferoni, isbergssallad, gurka, tomater, gyroskött
+Inbakad Kebabpizza: champinjoner, kebabsås, lök, gyroskött
+Jack's special: skinka, oxfilé, champinjoner, gorgonzola
+Båt: fläskfilé, räkor, ananas, champinjoner, bea
+Charlie: champinjoner, kebabsås, lök, fefferoni, isbergssallad, gyroskött
+Emelie: tonfisk, champinjoner, vitlök, aubergine
+Mexicana Special: champinjoner, kebabsås, tacosås, lök, jalapeno, gyroskött
+Linköpings Special: champinjoner, kebabsås, lök, fefferoni, tomater, gyroskött, vitlöksost
+Olofström: kebab, skinka, champinjoner, ananas, fefferoni, räkor, kebabsås
+Björn Special: oxfilé, fläskfilé, skinka, bacon, köttfärs, champinjoner
+Rolf Special: kebab, pommes, lök, isbergssallad, fefferoni, kebabsås
+LHC: champinjoner, oxfilé, vitlöksost, zucchini, bea
+LVC: skinka, champinjoner, banan, ananas, oxfilé, bea
+Antipasto: soltorkade tomater, salami, pepperoni (korv), skinka
+Pizza vegetale: soltorkade tomater, champinjoner, lök, oliver, ruccola
+Daniella: champinjoner, feta, soltorkade tomater, paprika, ruccola
+Justina: champinjoner, paprika, oxfilé, bea
+Ruccola: mozzarella, ruccola, olivolja
+Milano: mozzarella, champinjoner, räkor
+Torino: mozzarella, tonfisk, räkor
+Domino: mozzarella, salami, räkor, vitlöksost, ruccola
