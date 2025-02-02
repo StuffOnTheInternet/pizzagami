@@ -2,7 +2,7 @@ Bestia: tomater, mozzarella, olivolja, basilika
 Pesto Pizza: pesto, mozzarella, prosciutto, kvisttomater, basilika
 Friariella: riccota, mozzarella, friarielli, salsiccia, chiliolja, ruccola, pecorino
 La Croccante: mozzarella, salsiccia, basilika, olivolja, pommes
-Diavola: tomater, mozzarella, nduja, stark salami
+Diavola: tomater, mozzarella, nduja, salami
 Svamp: mozzarella, champinjoner, pecorino, vitlök, persilja, olivolja
 Verde: tomater, ost (v), aubergine, friarielli, soltorkade tomater, kronärtskocka, oliver, bea (v)
 Tonno di Napoli: tomater, mozzarella, oliver, kronärtskocka, tonfisk, oregano, rödlök, olivolja

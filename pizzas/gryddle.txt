@@ -1,0 +1,28 @@
+Margarita: 
+Funghi: champinjoner
+Vesuvio: skinka
+Capricciosa: skinka, champinjoner
+Gryddle's Kyckling: kyckling, majs, paprika
+Pepperoni Feast: pepperoni, oxfilé
+Bolognese: köttfärs
+Bolognese Plus: köttfärs, kyckling
+Nachokyckling: starksås, nachochips, kyckling, chili
+Mexicano: kyckling, oxfilé, nachochips
+Pizza Lyx: oxfilé, vitlök
+Pizza Deluxe: oxfilé, rödlök, paprika
+Hawaii Deluxe: oxfilé, ananas
+Mix Kebab: kebab, kyckling, rödlök, kebabkrydda
+Kebab Pizza: kebab, rödlök, svartpeppar, kebabkrydda
+Kycklingkebab: kyckling, rödlök, svartpeppar, kebabkrydda
+Hawaiian: köttfärs, ananas
+Hot Hawaiian: kyckling, ananas
+Pepperoni: pepperoni
+Salami: salami
+Salami Feast: salami, oxfilé
+Chorizo: chorizo
+Chorizo Feast: chorizo, oxfilé
+Meat -o- Meat: pepperoni, kyckling, oxfilé
+Veggie Delight: lök, paprika, champinjoner, oliver, majs
+Veggie Sizzler: paprika, champinjoner, majs, chili, jalapeno, paprika
+Greek Pizza: oliver, paprika, fefferoni, feta
+Tuna Special: lök, tonfisk

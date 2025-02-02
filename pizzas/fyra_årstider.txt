@@ -50,6 +50,6 @@ Roma: sparris, tomater, vitlök, olivolja, ruccola
 Italia: aubergine, zucchini, paprika, soltorkade tomater, ruccola
 Parmesana: oxfilé, salami, parmesan, ruccola
 La Kantarell: oxfilé, kantareller, ruccola
-Chevré Pizza: parmaskinka, ruccola, chevré, honung, valnötter
+Chevré Pizza: parma, ruccola, chevré, honung, valnötter
 Havets: scampi, musslor, cocktailtomater, basilika, vitlök
 Husets: ruccola, salami, pepperoni (korv), salami, vitlök, cocktailtomater
