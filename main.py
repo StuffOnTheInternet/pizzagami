@@ -1,4 +1,4 @@
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Optional
 
@@ -9,8 +9,11 @@ type Ingredients = tuple[Ingredient, ...]
 
 ingr_common_limit = 10
 
+
 def main():
     stores: dict[Store, dict[Ingredients, Name]] = {}
+    ingr_seen_once: dict[Ingredient, Store] = {}
+    ingr_seen_more: set[Ingredient] = set()
     ingr_counter = Counter()
     for p in Path("pizzas").iterdir():
         store = p.name
@@ -27,6 +30,18 @@ def main():
                 stores[store][ingr] = name
                 for i in ingr:
                     ingr_counter[i] += 1
+                    if i in ingr_seen_more:
+                        pass
+                    elif i in ingr_seen_once:
+                        ingr_seen_more.add(i)
+                        del ingr_seen_once[i]
+                    else:
+                        ingr_seen_once[i] = store
+
+    ingr_seen_once_per_store: dict[Store, set[Ingredient]] = defaultdict(set)
+    for ingr, store in ingr_seen_once.items():
+        ingr_seen_once_per_store[store].add(ingr)
+
     all_ingr: set[Ingredient] = set()
     all_pizzas: set[Ingredients] = set()
     for pizzas in stores.values():
@@ -42,10 +57,10 @@ def main():
             else:
                 name_by_ingr[ingr] = [(store, name)]
 
-    top_ten_ingr = [ingr for ingr, _ in ingr_counter.most_common(ingr_common_limit)]
+    top_common_ingr = [ingr for ingr, _ in ingr_counter.most_common(ingr_common_limit)]
 
     # report unique pizzas for each store
-    ingr_common_pizzagami_per_n = {i: 0 for i in range(1, ingr_common_limit+1)}
+    ingr_common_pizzagami_per_n = {i: 0 for i in range(1, ingr_common_limit + 1)}
     for store, pizzas in stores.items():
         print("")
         pizzagami: list[tuple[Name, Ingredients, Optional[int]]] = []
@@ -54,23 +69,35 @@ def main():
             is_pizzagami = len(name_by_ingr[ingr]) == 1
 
             if is_pizzagami:
-                is_ingr_common = all(i in top_ten_ingr for i in ingr)
+                is_ingr_common = all(i in top_common_ingr for i in ingr)
                 ingr_common_level = None
                 if is_ingr_common:
-                    ingr_common_level = max(top_ten_ingr.index(i) for i in ingr)
+                    ingr_common_level = max(top_common_ingr.index(i) for i in ingr)
                     ingr_common_pizzagami_per_n[ingr_common_level] += 1
                 pizzagami.append((name, ingr, ingr_common_level))
 
         if pizzagami:
-            num_ingr_common_pizzagami = sum(1 for gami in pizzagami if gami[2] is not None)
-            print("{}: {} pizzagami!".format(store, len(pizzagami)) + " (out of {}".format(len(pizzas)) + " total)")
+            num_ingr_common_pizzagami = sum(
+                1 for gami in pizzagami if gami[2] is not None
+            )
+            print(
+                "{}: {} pizzagami!".format(store, len(pizzagami))
+                + " (out of {}".format(len(pizzas))
+                + " total)"
+            )
             if num_ingr_common_pizzagami:
-                print("...{} ingredient-common pizzagami".format(num_ingr_common_pizzagami))
+                print(
+                    "...{} ingredient-common pizzagami".format(
+                        num_ingr_common_pizzagami
+                    )
+                )
 
             for name, ingr, common_ingr_level in pizzagami:
                 print("  {} ({})".format(name, ", ".join(ingr)))
                 if common_ingr_level is not None:
-                    print("    {}-ingredient-common pizzagami".format(common_ingr_level))
+                    print(
+                        "    {}-ingredient-common pizzagami".format(common_ingr_level)
+                    )
         else:
             print("{}: no pizzagami :(".format(store))
 
@@ -78,14 +105,36 @@ def main():
     # for ingr in sorted(all_ingr):
     #     print("  ", ingr)
     print("number of ingredients: ", len(all_ingr))
-    print("number of possible pizzas: 2**{} = {}".format(len(all_ingr), 2**len(all_ingr)))
-    print("number of seen pizzas: {} ({:.0E} %)".format(len(all_pizzas), 100 * len(all_pizzas) / (2**len(all_ingr))))
-    print("{} most common ingredients:".format(ingr_common_limit, ingr_counter.most_common(ingr_common_limit)))
+    print(
+        "number of possible pizzas: 2**{} = {}".format(
+            len(all_ingr), 2 ** len(all_ingr)
+        )
+    )
+    print(
+        "number of seen pizzas: {} ({:.0E} %)".format(
+            len(all_pizzas), 100 * len(all_pizzas) / (2 ** len(all_ingr))
+        )
+    )
+    print(
+        "{} most common ingredients:".format(
+            ingr_common_limit, ingr_counter.most_common(ingr_common_limit)
+        )
+    )
     for i, (ingr, amount) in enumerate(ingr_counter.most_common(ingr_common_limit)):
         print("  {:>2}. ({:>3}) {}".format(i, amount, ingr))
-    print("{} ingredient-common pizzagami".format(sum(ingr_common_pizzagami_per_n.values())))
+    print(
+        "{} ingredient-common pizzagami".format(
+            sum(ingr_common_pizzagami_per_n.values())
+        )
+    )
     for level in ingr_common_pizzagami_per_n:
-        amount = sum(v for k,v in ingr_common_pizzagami_per_n.items() if k <= level)
+        amount = sum(v for k, v in ingr_common_pizzagami_per_n.items() if k <= level)
         print("  {:>2}-ingredient-common pizzagami: {}".format(level, amount))
+
+    if ingr_seen_once_per_store:
+        print("ingredients only used at one store:")
+        for store, ingrs in ingr_seen_once_per_store.items():
+            print("  {}: {}".format(store, ", ".join(sorted(ingrs))))
+
 
 main()
