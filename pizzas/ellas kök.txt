@@ -24,17 +24,17 @@ Vegetarisk 2: champinjoner, paprika, lök, oliver
 Bolognese: lök, köttfärs, paprika
 Black & white: oxfilé, fläskfilé, tomater, bea
 Ikea special; fläskfilé, räkor, champinjoner, bea
-Autopartner: gyroskött, skinka, pepperoni, bea
+Autopartner: gyroskött, skinka, fefferoni, bea
 Ljusexperten: fläskfilé, oxfilé, champinjoner, banan, bea
 Tropicana: fläskfilé, skinka, räkor, banan
-Husets: gyroskött, pepperoni, lök, champinjoner, bea
-Gyrosbåt: gyroskött, rå lök, isbergssallad, kebabsås, lök, pepperoni
-Kebab: kebab, lök, kebabsås, pepperoni
+Husets: gyroskött, fefferoni, lök, champinjoner, bea
+Gyrosbåt: gyroskött, rå lök, isbergssallad, kebabsås, lök, fefferoni
+Kebab: kebab, lök, kebabsås, fefferoni
 Kyckling: kyckling, kebabsås
 Tornby: oxfilé, purjolök, tomater, bea
 Curry: kyckling, banan, ananas, curry, vitlökssås
 Capricciosa super: oxfilé, fläskfilé, skinka, champinjoner, räkor, banan
-Pomodoro: gyroskött, kebabsås, pepperoni, salladsost, isbergssallad, rå lök
+Pomodoro: gyroskött, kebabsås, fefferoni, feta, isbergssallad, rå lök
 Marcus: oxfilé, fläskfilé, champinjoner, lök, tomater, bea
 Mexicana: köttfärs, paprika, lök, jalapeno, tacokrydda
 Acapulco: oxfilé, champinjoner, lök, vitlök, jalapeno, tacokrydda
