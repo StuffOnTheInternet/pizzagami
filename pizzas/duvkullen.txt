@@ -44,3 +44,5 @@ Lamaffia: salami, feta, ädelost, mozzarella, ruccola
 California: köttfärs, champinjoner, lök, majs, paprika, tomater
 Dallas: skinka, bacon, champinjoner, tomater
 Pan Chicken: kyckling, ananas, champinjoner, curry
+Kebabpizza: kebab, lök, fefferoni, kebabsås, starksås
+Gyrospizza: gyroskött, lök, fefferoni, kebabsås, starksås

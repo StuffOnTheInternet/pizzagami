@@ -1,0 +1,13 @@
+Margherita: parmesan
+Vesuvio: prosciutto
+Hawaii: prosciutto, ananas
+Funghi: champinjoner, ruccola
+Capricciosa: prosciutto, champinjoner
+Salami: salami, oliver, parmesan, ruccola
+Prosciutto: prosciutto, cocktailtomater, ruccola
+Chèvre: chevré, pinjenötter, päronmamelad, ruccola
+Merguez: lammkorv, paprika, vitlökscreme, ruccola
+Scampi: räkor, aioli, persilja
+Foccacia Pesto: kyckling, pesto, ruccola
+Foccacia Caprese: prosciutto, tomater, basilika, ruccola
+Foccacia Salami: mozzarella, salami, basilika, ruccola
