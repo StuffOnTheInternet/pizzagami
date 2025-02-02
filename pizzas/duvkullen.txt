@@ -1,0 +1,46 @@
+Calzone: skinka
+Vesuvio: skinka
+Funghi: champinjoner
+Margherita: 
+Hawaii: skinka, ananas
+Capricciosa: skinka, champinjoner
+Bolognese: köttfärs
+Tutti Frutti: ananas, banan
+Honolulu: skinka, ananas, banan
+Sorento: skinka, räkor
+Tonno: tonfisk
+Paradiso: räkor, champinjoner
+Paesana: bacon, lök
+Cacciatora: salami, lök
+Marinara: räkor, musslor
+Vegetarian: champinjoner, kronärtskocka, lök, oliver, paprika
+Pescatore: tonfisk, räkor
+Långjohn: skinka, tonfisk, räkor
+Ciao Ciao: tonfisk, räkor, champinjoner
+Olympia: crabfish, räkor, champinjoner
+BK Kenty: skinka, fefferoni, kebabsås
+Quattro Stagioni: skinka, räkor, champinjoner, musslor, kronärtskocka
+Messina: feta, lök, oliver, fefferoni, tomater
+Gyrospizza M.P.: kebab, pommes, lök, kebabsås, starksås
+Kebabpizza M.P.: gyroskött, pommes, lök, fefferoni, kebabsås, starksås
+Istanbul Kebab: kebab, lök, fefferoni, tomater, gurka, isbergssallad, kebabsås, starksås
+Opera: bacon, salami, champinjoner, lök
+Kycklingpizza: kyckling, ananas, kebabsås, curry, banan
+Napoli: bacon, champinjoner, lök, ägg
+Mix Hot: köttfärs, jalapeno, fefferoni, paprika, lök
+Palermo: skinka, räkor, ananas, curry, banan
+Husets Special: oxfilé, fläskfilé, bacon, ananas, champinjoner, bea, banan
+Duvans Special: oxfilé, champinjoner, bea, lök
+Gorgonzola: oxfilé, champinjoner, lök, gorgonzola
+Provencale: oxfilé, champinjoner, paprika, vitlök, bea
+Poker: oxfilé, fläskfilé, champinjoner, bea
+Serkan: oxfilé, champinjoner, bea, vitlök, soltorkade tomater, aubergine
+Royal: skinka, oxfilé, fläskfilé, räkor, champinjoner, banan
+Ancona: oxfilé, bea, mozzarella, vitlök, tomater
+Milano: oxfilé, champinjoner, vitlök, ruccola
+Parma: parma, soltorkade tomater, mozzarella, ruccola
+Frutti Di Mare: räkor, crabfish, musslor, vitlök, mozzarella, ruccola
+Lamaffia: salami, feta, ädelost, mozzarella, ruccola
+California: köttfärs, champinjoner, lök, majs, paprika, tomater
+Dallas: skinka, bacon, champinjoner, tomater
+Pan Chicken: kyckling, ananas, champinjoner, curry
