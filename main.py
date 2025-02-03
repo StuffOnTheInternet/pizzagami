@@ -103,8 +103,11 @@ class Pizzagami:
                     )
                     self.result[store].append((name, pizza, ingr_common_level))
 
+    def count(self, pizza):
+        return len(self._names_of_pizza[pizza])
+
     def is_pizzagami(self, pizza: Pizza):
-        return len(self._names_of_pizza[pizza]) == 1
+        return self.count(pizza) == 1
 
     def report(self):
         for store, pizzagami in self.result.items():
@@ -204,4 +207,11 @@ def main():
         print(i, ", ".join(p))
 
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
+
+    non_pizzagami_counts = sorted((pizzagami.count(p), p) for p in all_pizzas(inp) if not pizzagami.is_pizzagami(p))
+    max_count = max((a for a,b in non_pizzagami_counts))
+    for c, p in non_pizzagami_counts:
+        print("." * c, " " * (max_count - c), ", ".join(p))
+
+
 main()
