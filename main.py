@@ -20,7 +20,7 @@ class Input:
             self.result[store] = {}
             with open(p) as f:
                 for pizza in f.read().splitlines():
-                    if ":" in pizza:
+                    if ":" in pizza and not pizza.strip().endswith(":"):
                         name, ingr = pizza.split(":")
                         name = name.strip()
                         ingr = tuple(
