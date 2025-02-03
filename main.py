@@ -201,15 +201,23 @@ def main():
     ingr_common_count.report()
     ingr_at_one_store.report()
 
-    is_pizzagami = [sorted(pizza) for pizza in all_pizzas(inp) if pizzagami.is_pizzagami(pizza)]
-    non_pizzagami = [sorted(pizza) for pizza in all_pizzas(inp) if not pizzagami.is_pizzagami(pizza)]
+    is_pizzagami = [
+        sorted(pizza) for pizza in all_pizzas(inp) if pizzagami.is_pizzagami(pizza)
+    ]
+    non_pizzagami = [
+        sorted(pizza) for pizza in all_pizzas(inp) if not pizzagami.is_pizzagami(pizza)
+    ]
     for i, p in enumerate(sorted(non_pizzagami)):
         print(i, ", ".join(p))
 
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
-    non_pizzagami_counts = sorted((pizzagami.count(p), p) for p in all_pizzas(inp) if not pizzagami.is_pizzagami(p))
-    max_count = max((a for a,b in non_pizzagami_counts))
+    non_pizzagami_counts = sorted(
+        (pizzagami.count(p), p)
+        for p in all_pizzas(inp)
+        if not pizzagami.is_pizzagami(p)
+    )
+    max_count = max((a for a, b in non_pizzagami_counts))
     for c, p in non_pizzagami_counts:
         print("." * c, " " * (max_count - c), ", ".join(p))
 
