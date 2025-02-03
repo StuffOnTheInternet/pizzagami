@@ -1,7 +1,7 @@
 Calzone: skinka
 Vesuvio: skinka
 Funghi: champinjoner
-Margherita: 
+Margherita:
 Hawaii: skinka, ananas
 Capricciosa: skinka, champinjoner
 Bolognese: köttfärs
