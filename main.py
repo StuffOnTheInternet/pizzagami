@@ -7,7 +7,7 @@ type Name = str
 type Ingredient = str
 type Pizza = tuple[Ingredient, ...]
 
-ingr_common_limit = 10
+ingr_common_limit = 127
 
 
 class Input:
@@ -164,7 +164,7 @@ def all_ingredients(inp: Input) -> set[Ingredient]:
 
 
 def all_pizzas(inp: Input) -> set[Pizza]:
-    return set(pizza for _, _, pizza in inp.iter_pizzas())
+    return set(pizza for _, pizza, _ in inp.iter_pizzas())
 
 
 def main():
@@ -197,6 +197,16 @@ def main():
 
     ingr_common_count.report()
     ingr_at_one_store.report()
+
+    is_pizzagami = [sorted(pizza) for pizza in all_pizzas(inp) if pizzagami.is_pizzagami(pizza)]
+    non_pizzagami = [sorted(pizza) for pizza in all_pizzas(inp) if not pizzagami.is_pizzagami(pizza)]
+    for i, p in enumerate(sorted(non_pizzagami)):
+        print(i, ", ".join(p))
+
+    print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
+
+    for non_p in non_pizzagami:
+        print(non_p)
 
 
 main()
