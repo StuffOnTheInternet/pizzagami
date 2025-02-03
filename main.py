@@ -7,7 +7,7 @@ type Name = str
 type Ingredient = str
 type Pizza = tuple[Ingredient, ...]
 
-ingr_common_limit = 127
+ingr_common_limit = 10
 
 
 class Input:
@@ -204,9 +204,4 @@ def main():
         print(i, ", ".join(p))
 
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
-
-    for non_p in non_pizzagami:
-        print(non_p)
-
-
 main()
