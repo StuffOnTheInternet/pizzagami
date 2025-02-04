@@ -22,12 +22,12 @@ class Input:
                 for pizza in f.read().splitlines():
                     if ":" in pizza and not pizza.strip().endswith(":"):
                         name, ingr = pizza.split(":")
-                        name = name.strip()
+                        name = name.strip().lower()
                         ingr = tuple(
-                            sorted([i.strip() for i in ingr.strip().split(",")])
+                            sorted([i.strip().lower() for i in ingr.strip().split(",")])
                         )
                     else:
-                        name = pizza.strip()
+                        name = pizza.strip().lower()
                         ingr = tuple()
                     self.result[store][ingr] = name
 
@@ -108,7 +108,7 @@ class Pizzagami:
 
     def is_pizzagami(self, pizza: Pizza):
         return self.count(pizza) == 1
-    
+
     def short_report(self):
         for store, pizzagami in self.result.items():
             if pizzagami:
@@ -118,7 +118,12 @@ class Pizzagami:
                 print(
                     "{}: {} pizzagami!".format(store, len(pizzagami))
                     + " (out of {}".format(self._pizza_per_store[store])
-                    + " total)" + " {}%".format(round(len(pizzagami) * 100 / self._pizza_per_store[store], ))
+                    + " total)"
+                    + " {}%".format(
+                        round(
+                            len(pizzagami) * 100 / self._pizza_per_store[store],
+                        )
+                    )
                 )
                 if num_ingr_common_pizzagami:
                     print(
@@ -180,6 +185,40 @@ class CountIngredientCommonPizzagami:
             print("  {:>2}-ingredient-common pizzagami: {}".format(level, amount))
 
 
+class SameThings:
+    same_name: dict[Name, set[Pizza]]
+    same_ingredients: dict[Pizza, set[Name]]
+
+    def __init__(self, inp: Input):
+        self.same_name = defaultdict(set)
+        self.same_ingredients = defaultdict(set)
+        for _, pizza, name in inp.iter_pizzas():
+            self.same_name[name].add(pizza)
+            self.same_ingredients[pizza].add(name)
+        self.same_name = {
+            name: pizzas for name, pizzas in self.same_name.items() if len(pizzas) > 1
+        }
+        self.same_ingredients = {
+            pizza: names
+            for pizza, names in self.same_ingredients.items()
+            if len(names) > 1
+        }
+
+    def report(self):
+        if self.same_name:
+            print("same name, different ingredients:")
+            for name, pizzas in sorted(self.same_name.items()):
+                print(f"  {name}:")
+                for pizza in pizzas:
+                    print("    {}".format(", ".join(sorted(pizza))))
+        if self.same_ingredients:
+            print("same pizza, different names:")
+            for pizza, names in self.same_ingredients.items():
+                print("  {}:".format(", ".join(pizza)))
+                for name in sorted(names):
+                    print(f"    {name}")
+
+
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
     for _, pizza, _ in inp.iter_pizzas():
@@ -196,6 +235,7 @@ def main():
     ingr_at_one_store = IngredientsAtOneStore(inp)
     ingr_count = IngredientCount(inp)
     common_ingr = ingr_count.common_ingr(ingr_common_limit)
+    same_things = SameThings(inp)
 
     pizzagami = Pizzagami(inp, common_ingr)
     ingr_common_count = CountIngredientCommonPizzagami(pizzagami)
@@ -230,7 +270,7 @@ def main():
     ]
     for i, p in enumerate(sorted(non_pizzagami)):
         pass
-        #print(i, ", ".join(p))
+        # print(i, ", ".join(p))
 
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
@@ -242,6 +282,8 @@ def main():
     max_count = max((a for a, b in non_pizzagami_counts))
     for c, p in non_pizzagami_counts:
         print("." * c, " " * (max_count - c), ", ".join(p))
+
+    same_things.report()
 
 
 main()
