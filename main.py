@@ -108,6 +108,27 @@ class Pizzagami:
 
     def is_pizzagami(self, pizza: Pizza):
         return self.count(pizza) == 1
+    
+    def short_report(self):
+        for store, pizzagami in self.result.items():
+            if pizzagami:
+                num_ingr_common_pizzagami = sum(
+                    1 for gami in pizzagami if gami[2] is not None
+                )
+                print(
+                    "{}: {} pizzagami!".format(store, len(pizzagami))
+                    + " (out of {}".format(self._pizza_per_store[store])
+                    + " total)"
+                )
+                if num_ingr_common_pizzagami:
+                    print(
+                        "...{} ingredient-common pizzagami".format(
+                            num_ingr_common_pizzagami
+                        )
+                    )
+            else:
+                print("{}: no pizzagami :(".format(store))
+            print()
 
     def report(self):
         for store, pizzagami in self.result.items():
@@ -178,7 +199,7 @@ def main():
 
     pizzagami = Pizzagami(inp, common_ingr)
     ingr_common_count = CountIngredientCommonPizzagami(pizzagami)
-    pizzagami.report()
+    pizzagami.short_report()
 
     num_ingr = len(all_ingredients(inp))
     num_pizzas = len(all_pizzas(inp))
@@ -208,7 +229,8 @@ def main():
         sorted(pizza) for pizza in all_pizzas(inp) if not pizzagami.is_pizzagami(pizza)
     ]
     for i, p in enumerate(sorted(non_pizzagami)):
-        print(i, ", ".join(p))
+        pass
+        #print(i, ", ".join(p))
 
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
