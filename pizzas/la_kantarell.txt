@@ -1,0 +1,46 @@
+Vesuvio: skinka
+Calzone: skinka
+Al Funghi: champinjoner
+Margherita:
+Capricciosa: skinka, champinjoner
+Francescana: skinka, räkor
+Hawaii: skinka, ananas
+Long John: skinka, räkor, tonfisk
+Paesana: bacon, lök
+Paradiso: champinjoner, räkor
+Marinara: musslor, räkor
+Quattro Stagioni: musslor, räkor, kronärtskocka, skinka, champinjoner
+Bologna: köttfärs
+Tonno: tonfisk, lök
+Cacciatora: salami, lök
+Parma: bacon, skinka
+Tutti Frutti: banan, ananas
+Vegetariana: paprika, lök, sparris, champinjoner, oliver
+Opera: räkor, tonfisk, skinka, champinjoner
+Biblos: fläskfilé, champinjoner, oxfilé
+Valentino: räkor, champinjoner, skinka
+Frutti Di Mare: räkor, tonfisk, skinka, crabfish
+Honolulu: ananas, banan, skinka
+Milano: bacon, lök, fefferoni
+Tropicana: fläskfilé, banan, curry, oxfilé
+Mexicana: köttfärs, paprika, purjolök
+Oriental: fläskfilé, paprika, purjolök, tomater
+Camembert: skinka, champinjoner, camembert
+Ciao Ciao: fläskfilé, lök, vitlök, champinjoner
+Hot Pizza: kebabsås, skinka, pepperoni (korv), kebab
+Kyckling Pizza: ananas, banan, curry, kebabsås, kyckling, räkor
+Fyra Ostar: mozzarella, camembert, ädelost
+Venedig: fläskfilé, oxfilé, skinka, champinjoner
+Monalisa: ananas, musslor, paprika, räkor, skinka, sparris, champinjoner
+La Kantarell: fläskfilé, oxfilé, skinka, kantareller
+Dona Gracia: fläskfilé, oxfilé, kantareller
+De Chef: fläskfilé, bea, champinjoner
+Capri Super: fläskfilé, banan, räkor, skinka, champinjoner
+LHC: fläskfilé, bea, oxfilé, skinka
+Provencale: köttfärs, oxfilé, paprika, purjolök, champinjoner
+Kebab Pizza: gurka, tomater, isbergssallad, kebabsås, fefferoni, kebab
+Gyros Pizza: champinjoner, lök, kebabsås, fefferoni, gyroskött
+Stångå Special: mozzarella, ruccola, soltorkade tomater, lufttorkad skinka
+Santa Maria: fläskfilé, jalapeno, mozzarella, oxfilé, paprika, purjolök
+Tre Kronor: mozzarella, ruccola, soltorkade tomater, lufttorkad skinka
+Special Kebabpizza: kebabsås, lök, mozzarella, pommes, fefferoni, kebab
