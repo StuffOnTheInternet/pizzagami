@@ -1,0 +1,50 @@
+Vesuvio: skinka
+Calzone: skinka
+Funghi: champinjoner
+Pescatore: tonfisk, räkor
+Margherita:
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Paradiso: räkor, champinjoner
+Sorrento: skinka, räkor
+Bacona: bacon, lök
+Tonno: tonfisk, lök
+Bolognes: köttfärs, lök
+Milano: salami, lök
+Marinara: räkor, musslor
+Oskar: skinka, räkor, champinjoner
+Tropicana: skinka, ananas, banan, curry
+Ancona: köttfärs, lök, tomater
+Roma: köttfärs, paprika, vitlök
+Long John: skinka, tonfisk, räkor
+Skaldjur: crabfish, räkor, musslor
+Quattro Stagioni: skinka, räkor, champinjoner, musslor, kronärtskocka
+Vegetaria: champinjoner, kronärtskocka, lök, oliver, paprika
+Disco: skinka, köttfärs, räkor
+Kycklingpizza: kyckling, ananas, champinjoner, curry
+Kebabpizza: kebabsås, lök, fefferoni, kebab
+Acapulco: oxfilé, tacosås, tacokrydda, jalapeno
+Azteka: skinka, gräddfil, tacosås, tacokrydda, jalapeno
+Jägerpizza: salami, jägerkorv, fefferoni, vitlök
+Gorgonzola: skinka, fläskfilé, gorgonzola
+Mexicana: köttfärs, champinjoner, tacosås, vitlök
+Poker: fläskfilé, champinjoner, lök
+Happy: skinka, oxfilé, bea
+Black & White: oxfilé, fläskfilé, champinjoner, bea
+Huset Nobel: oxfilé, kantareller, bea, lök
+Kebabbåt: kebabsås, lök, fefferoni, kebab
+Pan American: skinka, räkor, champinjoner, mozzarella
+Tutti Frutti: skinka, ananas, curry, banan, mozzarella
+California: tonfisk, räkor, champinjoner, mozzarella, oliver
+Texas: salami, jägerkorv, mozzarella, oliver, vitlök
+Dakota: salami, bacon, mozzarella, oliver, paprika
+Vegetaria Pan: champinjoner, kronärtskocka, lök, mozzarella, oliver, paprika
+Indiana: skinka, bacon, mozzarella, paprika, fefferoni
+Kactus: köttfärs, lök, mozzarella, paprika, vitlök, tomater
+Hot Chili: salami, köttfärs, chili, lök, mozzarella, paprika, fefferoni
+Mexicana Pan: köttfärs, champinjoner, tacosås, chili, lök, mozzarella
+Acapulco Pan: oxfilé, champinjoner, tacosås, lök, mozzarella, vitlök, jalapeno
+American Express: oxfilé, kantareller, bea, lök, mozzarella
+Oktett: nötfärskorv, champinjoner, mozzarella, oliver, paprika, vitlök, vitost
+Pan Kebab: kebabsås, lök, mozzarella, fefferoni, kebab
+Chicken Curry: kyckling, ananas, champinjoner, curry, mozzarella
