@@ -1,0 +1,43 @@
+Vesuvio: skinka
+Calzone: skinka
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Primavera: skinka, räkor, champinjoner, paprika
+Margherita:
+Fungi: champinjoner
+Tonno: tonfisk, lök
+Marinara: räkor, musslor
+Tutti Frutti Pizza: ananas, banan, curry
+Paesana: bacon, lök, ägg
+Sorrento: skinka, räkor
+Bolognese: köttfärs, champinjoner, lök
+Pescatora: tonfisk, räkor
+Honolulu: skinka, ananas, banan, curry
+Vegetarian: champinjoner, kronärtskocka, lök, oliver, paprika, sparris
+Long John: skinka, tonfisk, räkor
+Venezia: skinka, räkor, champinjoner
+Cacciatora: salami, lök, paprika
+Cannibale: köttfärs, svartpeppar, vitlök
+Paradiso: räkor, champinjoner
+Acapulco: oxfilé, champinjoner, tacosås, lök, tacokrydda, jalapeno
+Opera: salami, bacon, champinjoner, lök
+Kycklingpizza: kyckling, räkor, ananas, curry, banan
+Quattro Stagioni: räkor, champinjoner, musslor, kronärtskocka, skinka
+Ciao Ciao: oxfilé, vitlök, champinjoner, bea
+Kebabpizza 1: kebab, kebabsås, fefferoni, lök, paprika
+Kebabpizza 2: gyroskött, kebabsås, fefferoni, lök, paprika
+Mexicana: köttfärs, tacosås, lök, paprika, tacokrydda, jalapeno
+Studente: oxfilé, ädelost, purjolök, paprika
+Gorgonzola: champinjoner, fläskfilé, oxfilé, gorgonzola
+Fyra Ostar: ädelost, camembert, gorgonzola, mozzarella
+Babylon: oxfilé, fläskfilé, champinjoner, bea, banan
+Tropicana: skinka, fläskfilé, räkor, banan
+Tefat: skinka, köttfärs, paprika, lök
+Provencale: oxfilé, fläskfilé, champinjoner, bea
+Capri Super: skinka, oxfilé, fläskfilé, räkor, champinjoner, banan
+Hejde Special: skinka, oxfilé, fläskfilé, räkor, bea, tomater, kebab
+Batman: skinka, champinjoner, kebabsås, kebab
+Parma: parma, mozzarella, soltorkade tomater, ruccola
+Frutti Di Mare: räkor, crabfish, musslor, mozzarella, ruccola
+Al Capone: paprika, oxfilé, ädelost, purjolök, mozzarella, ruccola
+Quattro Frutti: paprika, champinjoner, mozzarella, tomater, ruccola
