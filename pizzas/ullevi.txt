@@ -1,0 +1,22 @@
+Margherita:
+Fungi: champinjoner
+Hawaii: kalkon, ananas
+Marinara: räkor, musslor
+Bolognese: köttfärs
+Long John: kalkon, tonfisk, räkor
+Calzone: kalkon
+Vesuvio: kalkon
+Salami: salami
+Capricciosa: kalkon, champinjoner
+Al Tonno: tonfisk
+La Bussola: kalkon, räkor
+Kycklingpizza: champinjoner, banan, curry, kyckling, bea
+Special Kebabpizza: lök, tomater, kebab, fefferoni, kebabsås
+Falafelpizza Special: paprika, lök, falafel, tomater, pommes, kebabsås
+Quattro Stagioni: kalkon, musslor, räkor, champinjoner, kronärtskocka
+Capri Super: kalkon, champinjoner, räkor, oxfilé, banan
+Ullevi Special Lyxpizzor: champinjoner, oxfilé, bea, mozzarella, ruccola, soltorkade tomater
+Vegetarisk Special Lyxpizzor: champinjoner, paprika, lök, ruccola, soltorkade tomater, sparris
+Tacopizza Lyxpizzor: köttfärs, lök, tomater, jalapeno, tacosås, isbergssallad, gurka, majs, tacokrydda, nachochips
+Kebabpizza Special Lyxpizzor: oliver, lök, tomater, kebabsås, jalapeno, kebab, isbergssallad, gurka
+Studenten Lyxpizzor: lök, tomater, kebabsås, pommes, kebab, fefferoni
