@@ -23,11 +23,11 @@ Al Capone: mozzarella, vitlök, tomater, oxfilé, bea
 Merame: mozzarella, lufttorkad skinka, vitlök, champinjoner, ruccola, tomater, bea
 Dolce vita: mozzarella, tärnad ost, oliver, sparris, vitlök, tomater, champinjoner, ruccola
 Napolitana: tomater, buffelmozzarella, oliver, vitlök, basilika
-DI terra: tomater, buffelmozzarella, zucchini, paprika, vitlök, kronärtskocka, parmesan, körsbärstomater, olivolja, ruccola, aubergine
+DI terra: tomater, buffelmozzarella, zucchini, paprika, vitlök, kronärtskocka, parmesan, körsbärstomater, olja, ruccola, aubergine
 Il contadino: tomater, buffelmozzarella, nduja, lök, oliver, ruccola, körsbärstomater
-Bresaola: tomater, buffelmozzarella, vitlök, bresaola (lufttorkat nötkött), parmesan, olivolja, salt, ruccola
+Bresaola: tomater, buffelmozzarella, vitlök, bresaola (lufttorkat nötkött), parmesan, olja, salt, ruccola
 Della casa: tomater, buffelmozzarella, chili, vitlök, persilja, musslor, scampi, körsbärstomater
 Formaggi: tomater, buffelmozzarella, parmesan, vitlöksost, gorgonzola, basilika
 Il presidente: buffelmozzarella, körsbärstomater, lufttorkad skinka, ruccola, parmesan
-Meno Mala: buffelmozzarella, philadelphiaost, bacon, champinjoner, rödlök, ruccola, olivolja
-Ponte Rialto: buffelmozzarella, gorgonzola, nduja, champinjoner, ruccola, olivolja
+Meno Mala: buffelmozzarella, philadelphiaost, bacon, champinjoner, rödlök, ruccola, olja
+Ponte Rialto: buffelmozzarella, gorgonzola, nduja, champinjoner, ruccola, olja

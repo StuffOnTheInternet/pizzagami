@@ -1,0 +1,18 @@
+Capri: mozzarella, prosciutto, champinjoner
+Giovani: mozzarella, prosciutto, ananas
+Albero (Veg): kronärtskocka, mozzarella, lök, champinjoner, oliver, paprika, pesto
+Mazza: salami, honung, buffelmozzarella, provolone
+Pazzo: lax, marscapone, olja, prästost, soltorkade tomater, ruccola, kapris
+Olearia: pancetta, avokado, mascarpone, soltorkade tomater, mozzarella
+Fratelli: mozzarella
+Salami: salami, salami, basilika, lök, mozzarella
+Gambaretto: räkor, mozzarella, räkor, olja, citron, persilja
+Don Luigi: chevré, mozzarella, kantareller, pancetta, honung, lök
+Vegano (Vegansk): kronärtskocka, lök, champinjoner, oliver, paprika, basilikaolja
+Formaggi (Bianco): mozzarella, lufttorkad skinka, taleggio, gorgonzola, olja
+Piaggo: mozzarella, prosciutto, balsamico, basilika, champinjoner, ruccola, parmesan
+Foresta (Bianco)(Veg): chevré, mozzarella, ruccola, honung, päron, valnötter
+Bambini: mozzarella, prosciutto, salami
+Forte: nduja, salami, olja, persilja, paprika, provolone
+Lukas: pepperoni (korv), mozzarella, provolone
+Pollo: kyckling, mozzarella, pesto, paprika, lök, ruccola

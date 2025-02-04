@@ -35,9 +35,9 @@ Sandra special: bea, champinjoner, oxfilé, purjolök, sparris
 De chef: bea, champinjoner, oxfilé
 Vegansk kebabpizza: lök, pepperoni, tomater, kebab (v), ost (v)
 Vegansk salami: lök, ost (v), salami (v)
-Vegansk special: champinjoner, olivolja, spenat, feta (v), ost (v), vitlök
+Vegansk special: champinjoner, olja, spenat, feta (v), ost (v), vitlök
 Parma: basilika, körsbärstomater, mozzarella, parma
-Spenatpizza: champinjoner, feta, mozzarella, olivolja, spenat, vitlök
+Spenatpizza: champinjoner, feta, mozzarella, olja, spenat, vitlök
 Fyra ostar: camembert, gorgonzola, mozzarella, paprika, ruccola, ädelost
 Donna grazia: basilika, champinjoner, körsbärstomater, mozzarella, oxfilé
 Di avolo: basilika, lök, mozzarella, oliver, piri piri, salami, vitlök

@@ -48,7 +48,7 @@ Antipasto: soltorkade tomater, salami, pepperoni (korv), skinka
 Pizza vegetale: soltorkade tomater, champinjoner, lök, oliver, ruccola
 Daniella: champinjoner, feta, soltorkade tomater, paprika, ruccola
 Justina: champinjoner, paprika, oxfilé, bea
-Ruccola: mozzarella, ruccola, olivolja
+Ruccola: mozzarella, ruccola, olja
 Milano: mozzarella, champinjoner, räkor
 Torino: mozzarella, tonfisk, räkor
 Domino: mozzarella, salami, räkor, vitlöksost, ruccola

@@ -30,9 +30,9 @@ Sandra: purjolök, sparris, tomater, oxfilé, bea
 El komidante: fläskfilé, bacon, champinjoner, skinka, bea
 Capri Super: skinka, oxfilé, fläskfilé, räkor, champinjoner, banan, bea
 Gorgonzola: gorgonzola, oxfilé, ananas, champinjoner
-Pizza parma: parma, olivolja, mozzarella, ruccola, vitlök, soltorkade tomater
-Pizza spenat: spenat, olivolja, champinjoner, vitlök, feta
-Mozzarella: champinjoner, olivolja, mozzarella, spenat, körsbärstomater, vitlök
+Pizza parma: parma, olja, mozzarella, ruccola, vitlök, soltorkade tomater
+Pizza spenat: spenat, olja, champinjoner, vitlök, feta
+Mozzarella: champinjoner, olja, mozzarella, spenat, körsbärstomater, vitlök
 Daniella: gorgonzola, körsbärstomater, ädelost, mozzarella, feta
 Al Capone: mozzarella, tomater, vitlök, oxfilé, ruccola, bea
 Elissa: mozzarella, ädelost, soltorkade tomater, italiansksalami(stark), sparris, kronärtskocka

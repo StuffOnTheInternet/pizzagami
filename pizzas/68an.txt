@@ -41,11 +41,11 @@ Maif: kebab, skinka, kebabsås
 Kycklingpizza special: kyckling, lök, isbergssallad, tomater, gurka, fefferoni, kebabsås
 Kyckling Studenten: kyckling, fefferoni, pommes, kebabsås
 Capri super: skinka, champinjoner, oxfilé, fläskfilé, bea
-Parma: lufttorkad skinka, ruccola, riven ost
+Parma: lufttorkad skinka, ruccola, parmesan
 Italiana: lufttorkad skinka, soltorkade tomater, vitlök, ruccola
-Grigliata: aubergine, zucchini, paprika, soltorkade tomater, lufttorkad skinka, ruccola, riven ost
-Vegetaria Special: champinjoner, paprika, aubergine, zucchini, soltorkade tomater, ruccola, riven ost
-Quattro formaggio: camembert, gorgonzola, mozzarella, riven ost
+Grigliata: aubergine, zucchini, paprika, soltorkade tomater, lufttorkad skinka, ruccola, parmesan
+Vegetaria Special: champinjoner, paprika, aubergine, zucchini, soltorkade tomater, ruccola, parmesan
+Quattro formaggio: camembert, gorgonzola, mozzarella, parmesan
 Jalapeno: oxfilé, fläskfilé, jalapeno, bea
 La camembert: champinjoner, tomater, camembert, lufttorkad skinka
-Bella Roma: lufttorkad skinka, salami, mortadella, riven ost, ruccola
+Bella Roma: lufttorkad skinka, salami, mortadella, parmesan, ruccola
