@@ -118,7 +118,7 @@ class Pizzagami:
                 print(
                     "{}: {} pizzagami!".format(store, len(pizzagami))
                     + " (out of {}".format(self._pizza_per_store[store])
-                    + " total)"
+                    + " total)" + " {}%".format(round(len(pizzagami) * 100 / self._pizza_per_store[store], ))
                 )
                 if num_ingr_common_pizzagami:
                     print(

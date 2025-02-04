@@ -1,0 +1,54 @@
+Margherita:
+Vesuvio: skinka
+Al Funghi: champinjoner
+Bolognese: köttfärs
+Calzone: skinka
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Tonno: tonfisk
+Paesana: bacon, lök
+Sorrento: skinka, räkor
+Paradiso: räkor, champinjoner
+Salami: salami
+Honolulu: skinka, ananas, banan
+Pepperonipizza: pepperoni (korv), fefferoni
+Roma: räkor, skinka, champinjoner
+Long John: räkor, skinka, tonfisk
+Quattro Stagioni: räkor, skinka, musslor, kronärtskocka, champinjoner
+Vegetaria: paprika, lök, oliver, kronärtskocka, champinjoner
+Italia: skinka, lök, salami
+Du Chef: champinjoner, köttfärs, lök, tabasco
+Titanic: fläskfilé, tomater, bea
+Parmapizza: parma, soltorkade tomater, ruccola
+Milano: salami, vitlök, soltorkade tomater, ruccola
+Palermo: fläskfilé, räkor, bea, champinjoner, ruccola
+Dedoo: paprika, oxfilé, bea, champinjoner, ruccola
+Chania: oxfilé, fläskfilé, vitlök, tomater, ruccola, bea
+Fyra Ostar: gorgonzola, ädelost, camembert, ruccola
+Mexiko Special: köttfärs, pepperoni (korv), champinjoner, jalapeno, tacokrydda
+Azteka: skinka, purjolök, jalapeno, tacosås, gräddfil, tacokrydda
+Tabasco: köttfärs, bacon, lök, vitlök, jalapeno, tacokrydda
+Kycklingpizza: kyckling, ananas, curry, banan
+Kebabpizza: kyckling, tomater, kebab, fefferoni, lök, isbergssallad, gurka, kebabsås
+Kebabpizza Special: kyckling, skinka, tomater, kebab, fefferoni, lök, kebabsås
+Opera: salami, bacon, champinjoner, lök
+Victoria: oxfilé, champinjoner, räkor, vitlök, bea
+Capri Super: fläskfilé, skinka, champinjoner, räkor, banan
+Kycklingpizza Special: kyckling, champinjoner, paprika, purjolök, vitlökssås
+Viking: kyckling, tomater, kebab, fefferoni, lök, isbergssallad, gurka, kebabsås
+Gyrospizza: champinjoner, gyroskött, fefferoni, lök, kebabsås
+Falafelpizza: tomater, falafel, fefferoni, lök, kebabsås
+Black & White: oxfilé, fläskfilé, champinjoner, bea
+Kajsa Varg: oxfilé, champinjoner, banan, bea
+Biblos: oxfilé, skinka, tomater, vitlök, kebabsås
+Chévrepizza: chevré, ruccola
+Linköpings Pizza:kebab, tomater, isbergssallad, gurka, lök, kebabsås
+All In: kebab, pommes, fefferoni, kebabsås
+Deluxe: kebab, gyroskött, skinka, kebabsås
+Smögen: räkor, musslor, crabfish, vitlök
+Acapulco: oxfilé, kantareller, vitlök, lök, tacosås, jalapeno
+Vegetarian Pan: champinjoner, paprika, lök, oliver
+Miami: bacon, räkor, ananas, curry
+Arkansas: skinka, champinjoner, salami, tomater
+Dallas: pepperoni (korv), vitlök, tacosås, jalapeno
+Amerikan Kebab: kebab, fefferoni, rödlök
