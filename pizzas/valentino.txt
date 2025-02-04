@@ -1,0 +1,68 @@
+Vesuvio: skinka
+Calzone: skinka
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Pepperoni: pepperoni (korv)
+Margherita:
+Al Fungi: champinjoner
+Tono: tonfisk
+Salami: salami
+Bolognese: köttfärs, lök
+Sorrento: räkor, skinka
+Paradiso: champinjoner, räkor
+Paesana: bacon, lök
+Pescatora: tonfisk, räkor
+Marinara: räkor, musslor
+Oriental: skinka, tonfisk
+Tutti Frutti: ananas, banan
+Vegetariana: champinjoner, paprika, lök, kronärtskocka
+Jamaica: skinka, champinjoner, räkor
+Long John: skinka, tonfisk, räkor
+Venezia: skinka, bacon, lök
+Honolulu: skinka, ananas, banan
+Napoli: jordnötter, ananas, banan, curry
+Disco: skinka, köttfärs, räkor
+Romana: bacon, lök, champinjoner
+Alanya: räkor, tonfisk, champinjoner
+Opera: champinjoner, lök, bacon, salami
+Kebabpizza: kebab, kebabsås, fefferoni
+Acapulco: mozzarella, tomater, salami, ädelost, vitlök
+Valentino Special: champinjoner, oxfilé, paprika, tomater, vitlök
+Tropicana: skinka, räkor, fläskfilé, banan
+Rustika: champinjoner, lök, bacon, köttfärs
+Provencale: oxfilé, champinjoner, paprika
+Jackpot: skinka, oxfilé, lök, bea
+Poker: champinjoner, oxfilé, fläskfilé, bea
+Ciao Ciao: champinjoner, vitlök, räkor, fläskfilé, lök, curry
+Chatzam: champinjoner, räkor, brie
+Mozzarella: mozzarella, tomater, lufttorkad skinka, ruccola
+Philadelphia: salami, bacon, ägg, lök
+Milano: skinka, fläskfilé, bea
+Frutti Di Mare: tonfisk, räkor, musslor, crabfish
+Tefat: skinka
+Mexicana Het: paprika, lök, köttfärs, jalapeno, chili
+Tre Kronor: räkor, musslor, crabfish, vitlök
+Levande Livet: skinka, kyckling, ananas, jordnötter, banan, curry
+Falafelpizza: falafel, lök, tomater, fefferoni, kebabsås
+Quattro Stagioni: skinka, champinjoner, musslor, räkor, kronärtskocka
+Gondolino: champinjoner, purjolök, oxfilé, ädelost
+Babylon: champinjoner, banan, oxfilé, fläskfilé, bea
+Indiana: kyckling, paprika, lök, räkor, majs, curry
+Gratängpizza: kyckling, räkor, jordnötter, banan
+Las Vegas: köttfärs, champinjoner, lök, ägg, vitlök
+Picasso: kantareller, oxfilé, bea
+Vantèmella: kantareller, kyckling, jordnötter, curry
+Venus: mozzarella, salami, oliver, tomater, ädelost
+Dallas: champinjoner, kebab, kebabsås
+Husets Pizza: kyckling, purjolök, champinjoner, kebabsås
+Batman: skinka, kebab, kebabsås
+Kebabpizza Special: skinka, champinjoner, kebab, ananas, räkor, kebabsås
+LHC: lök, tomater, kebab, bea, fefferoni, pommes
+Vegetaria Special: champinjoner, oliver, tomater, paprika, vitlök, tärnad ost
+Capri Super: skinka, champinjoner, räkor, fläskfilé, oxfilé, bea, banan
+American: bacon, lök, ägg, vitlök
+Vikingpizza: kebab, tomater, isbergssallad, gurka, lök, kebabsås, fefferoni
+Titanic: kebab, tomater, gurka, isbergssallad, pommes, fefferoni, kebabsås
+Da Vinci: lufttorkad skinka, salami, bacon, ruccola, mozzarella
+Salut: mozzarella, soltorkade tomater, fläskfilé, bea
+Mamma Mia: skinka, champinjoner, ananas, räkor, kyckling, kebabsås
