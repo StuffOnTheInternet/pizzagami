@@ -219,6 +219,31 @@ class SameThings:
                     print(f"    {name}")
 
 
+class ConditionalProbabilityOfIngredients:
+    # sorted list of P(first ingredient -> second ingredient)
+    result: list[float, Ingredient, Ingredient]
+
+    def __init__(self, inp: Input):
+        self.result = []
+        pizzas_with: dict[Ingredient, list[Pizza]] = defaultdict(list)
+        for pizza in set(pizza for _, pizza, _ in inp.iter_pizzas()):
+            for ingr in pizza:
+                pizzas_with[ingr].append(pizza)
+        for ingr, pizzas in sorted(pizzas_with.items()):
+            other_ingr = set()
+            for p in pizzas:
+                other_ingr |= set(p)
+            other_ingr.remove(ingr)
+            for ingr2 in other_ingr:
+                prob = sum(1 for p in pizzas if ingr2 in p) / len(pizzas)
+                self.result.append((prob, ingr, ingr2))
+        self.result.sort(reverse=True)
+
+    def report(self, limit=200):
+        for i, (p, i1, i2) in enumerate(self.result[:limit]):
+            print(f"{i+1:>3} {p:.2} {i1} {i2}")
+
+
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
     for _, pizza, _ in inp.iter_pizzas():
@@ -232,19 +257,16 @@ def all_pizzas(inp: Input) -> set[Pizza]:
 
 def main():
     inp = Input("pizzas")
-    ingr_at_one_store = IngredientsAtOneStore(inp)
     ingr_count = IngredientCount(inp)
     common_ingr = ingr_count.common_ingr(ingr_common_limit)
-    same_things = SameThings(inp)
 
     pizzagami = Pizzagami(inp, common_ingr)
-    ingr_common_count = CountIngredientCommonPizzagami(pizzagami)
     pizzagami.short_report()
 
     num_ingr = len(all_ingredients(inp))
     num_pizzas = len(all_pizzas(inp))
-    #print("all ingredients:")
-    #for ingr in sorted(all_ingredients(inp)):
+    # print("all ingredients:")
+    # for ingr in sorted(all_ingredients(inp)):
     #    print("  ", ingr)
     print("number of ingredients: ", num_ingr)
     print("number of possible pizzas: 2**{} = {}".format(num_ingr, 2**num_ingr))
@@ -259,19 +281,12 @@ def main():
     ):
         print("  {:>2}. ({:>3}) {}".format(i, amount, pizza))
 
-    ingr_common_count.report()
-    ingr_at_one_store.report()
-
     is_pizzagami = [
         sorted(pizza) for pizza in all_pizzas(inp) if pizzagami.is_pizzagami(pizza)
     ]
     non_pizzagami = [
         sorted(pizza) for pizza in all_pizzas(inp) if not pizzagami.is_pizzagami(pizza)
     ]
-    for i, p in enumerate(sorted(non_pizzagami)):
-        pass
-        # print(i, ", ".join(p))
-
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
     non_pizzagami_counts = sorted(
@@ -283,7 +298,10 @@ def main():
     for c, p in non_pizzagami_counts:
         print("." * c, " " * (max_count - c), ", ".join(p))
 
-    #same_things.report()
+    # CountIngredientCommonPizzagami(pizzagami).report()
+    # IngredientsAtOneStore(inp).report()
+    # SameThings(inp).report()
+    # ConditionalProbabilityOfIngredients(inp).report()
 
 
 main()
