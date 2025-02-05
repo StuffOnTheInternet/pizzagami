@@ -221,27 +221,30 @@ class SameThings:
 
 class ConditionalProbabilityOfIngredients:
     # sorted list of P(first ingredient -> second ingredient)
-    result: list[float, Ingredient, Ingredient]
+    result: list[float, tuple[Ingredient, int], tuple[Ingredient, int]]
 
-    def __init__(self, inp: Input):
+    def __init__(self, inp: Input, min_pizzas_to_report: int):
         self.result = []
         pizzas_with: dict[Ingredient, list[Pizza]] = defaultdict(list)
         for pizza in set(pizza for _, pizza, _ in inp.iter_pizzas()):
             for ingr in pizza:
                 pizzas_with[ingr].append(pizza)
         for ingr, pizzas in sorted(pizzas_with.items()):
+            if len(pizzas) < min_pizzas_to_report:
+                continue
             other_ingr = set()
             for p in pizzas:
                 other_ingr |= set(p)
             other_ingr.remove(ingr)
             for ingr2 in other_ingr:
-                prob = sum(1 for p in pizzas if ingr2 in p) / len(pizzas)
-                self.result.append((prob, ingr, ingr2))
+                n = sum(1 for p in pizzas if ingr2 in p)
+                prob = n / len(pizzas)
+                self.result.append((prob, (ingr, len(pizzas)), (ingr2, n)))
         self.result.sort(reverse=True)
 
-    def report(self, limit=200):
-        for i, (p, i1, i2) in enumerate(self.result[:limit]):
-            print(f"{i+1:>3} {p:.2} {i1} {i2}")
+    def report(self, limit=30):
+        for i, (p, (i1, n1), (i2, n2)) in enumerate(self.result[:limit]):
+            print(f"{i+1:>3} {p:.2} {i1} ({n1}) -> {i2} ({n2})")
 
 
 def all_ingredients(inp: Input) -> set[Ingredient]:
@@ -301,7 +304,7 @@ def main():
     # CountIngredientCommonPizzagami(pizzagami).report()
     # IngredientsAtOneStore(inp).report()
     # SameThings(inp).report()
-    # ConditionalProbabilityOfIngredients(inp).report()
+    ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
 
 
 main()
