@@ -1,0 +1,45 @@
+Margherita: basilika
+Vesuvio: skinka
+Al Funghi: champinjoner
+Hawaii: skinka, ananas
+Venezia: skinka, räkor
+Paradiso: räkor, champinjoner
+Marinara: räkor, musslor
+Tonno: tonfisk
+Long John: räkor, skinka, tonfisk
+Capricciosa: skinka, champinjoner
+Paesana: bacon, lök
+Vegetaria: paprika, champinjoner, oliver, lök
+Calzone: skinka
+Bologna: köttfärs
+Honolulu: skinka, banan, ananas, curry
+Salami: salami
+Elba: skinka, champinjoner, tonfisk, räkor
+Mexicana: köttfärs, paprika, lök
+Quattro Stagioni: skinka, champinjoner, paprika, tonfisk
+Kebabpizza: kebab, lök, paprika, kebabsås, fefferoni
+Mozarella Pizza: mozzarella
+Milano: blandning av italienska delikatesskorvar, ruccola
+Parma: prosciutto, ruccola, parmesan
+Napoletana: ansjovis, kapris, vitlök, oliver
+Gorgonzola: gorgonzola, parma
+Italiana: prosciutto, soltorkade tomater, vitlök, ruccola
+La Kantarell: prosciutto, kantareller
+Bella Roma: prosciutto, salami, ruccola, parmesan
+Grigliata: aubergine, zucchini, paprika, soltorkade tomater, prosciutto, ruccola, parmesan
+La Camembert: prosciutto, camembert
+Di Pollo: kyckling, ananas, lök, tomater, curry
+Buffala: tomater, basilika, ruccola, buffelmozzarella
+Vegitaria Speciale: aubergine, paprika, zucchini, soltorkade tomater, champinjoner, ruccola, parmesan
+Chevré: chevré, valnötter, ruccola, honung
+Pepperoni: pepperoni
+Bella Donna: oxfilé, kantareller
+Provencale: oxfilé, paprika, lök
+Tropicana: oxfilé, banan, curry
+De Chef: oxfilé, champinjoner, bea
+La Scampi: scampi, tomater, ruccola
+Carpaccio: oxfilé, olja, ruccola, parmesan
+Caprese: mozzarella, tomater, pesto, soltorkade tomater, ruccola
+Breasola: bresaola, ruccola, parmesan, olja
+Naf Naf Fläskfilé: champinjoner, fläskfilé, bea
+Carne: prosciutto, salami, bresaola, pepperoni (korv)

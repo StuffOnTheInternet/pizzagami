@@ -7,7 +7,7 @@ type Name = str
 type Ingredient = str
 type Pizza = tuple[Ingredient, ...]
 
-ingr_common_limit = 10
+ingr_common_limit = 140
 
 
 class Input:
@@ -239,13 +239,13 @@ def main():
 
     pizzagami = Pizzagami(inp, common_ingr)
     ingr_common_count = CountIngredientCommonPizzagami(pizzagami)
-    pizzagami.report()
+    pizzagami.short_report()
 
     num_ingr = len(all_ingredients(inp))
     num_pizzas = len(all_pizzas(inp))
-    # print("all ingredients:")
-    # for ingr in sorted(all_ingredients(inp)):
-    #     print("  ", ingr)
+    #print("all ingredients:")
+    #for ingr in sorted(all_ingredients(inp)):
+    #    print("  ", ingr)
     print("number of ingredients: ", num_ingr)
     print("number of possible pizzas: 2**{} = {}".format(num_ingr, 2**num_ingr))
     print(
