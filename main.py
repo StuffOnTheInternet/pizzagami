@@ -239,7 +239,7 @@ def main():
 
     pizzagami = Pizzagami(inp, common_ingr)
     ingr_common_count = CountIngredientCommonPizzagami(pizzagami)
-    pizzagami.short_report()
+    pizzagami.report()
 
     num_ingr = len(all_ingredients(inp))
     num_pizzas = len(all_pizzas(inp))
