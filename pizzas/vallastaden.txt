@@ -35,7 +35,7 @@ Pizza spenat: spenat, olja, champinjoner, vitlök, feta
 Mozzarella: champinjoner, olja, mozzarella, spenat, körsbärstomater, vitlök
 Daniella: gorgonzola, körsbärstomater, ädelost, mozzarella, feta
 Al Capone: mozzarella, tomater, vitlök, oxfilé, ruccola, bea
-Elissa: mozzarella, ädelost, soltorkade tomater, italiansksalami(stark), sparris, kronärtskocka
+Elissa: mozzarella, ädelost, soltorkade tomater, salami, sparris, kronärtskocka
 Celine: zucchini, aubergine, soltorkade tomater, mozzarella, paprika, ruccola
 Vegan Vesuvio: mozzarella (v), skinka (v)
 Vegan Bolognese: mozzarella (v), köttfärs (v)

@@ -283,7 +283,7 @@ def main():
     for c, p in non_pizzagami_counts:
         print("." * c, " " * (max_count - c), ", ".join(p))
 
-    same_things.report()
+    #same_things.report()
 
 
 main()

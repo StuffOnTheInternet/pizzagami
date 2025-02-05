@@ -25,7 +25,7 @@ Kycklingpizza: curry, kyckling, banan, ananas
 Opera: champinjoner, lök, bacon, salami
 Kebabpizza special: kebab, kebabsås, fefferoni, lök, skinka
 Gyrospizza: gyroskött, kebabsås, champinjoner, fefferoni, lök
-Tropicana: fläskfilé, banan, räkor, skinka, 
+Tropicana: fläskfilé, banan, räkor, skinka
 Pizza Smögen: vitlök, crabfish, musslor, räkor
 Mexicana: tacokrydda, paprika, fefferoni, lök, köttfärs
 Capri Super: champinjoner, fläskfilé, banan, skinka
@@ -58,7 +58,7 @@ Mozarella: parma, ruccola, mozzarella, purjolök
 Fyra Ostar: ädelost, mozzarella, gorgonzola, ruccola
 Valla Special: ruccola, tomater, mozzarella, champinjoner, feta, oliver
 Florida: curry, bacon, ananas, skinka
-Hot Chili: paprika, grön chili, lök, salami, köttfärs
+Hot Chili: paprika, chili, lök, salami, köttfärs
 Las Vegas: tomater, paprika, fefferoni, bacon, skinka
 San Fransisco: paprika, lök, bacon, köttfärs
 Kansas: tomater, champinjoner, salami, räkor, skinka

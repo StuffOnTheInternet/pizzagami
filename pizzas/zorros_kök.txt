@@ -55,7 +55,7 @@ New York: salami, skinka, bacon, champinjoner, lök, vitlök
 San Fransisco: skinka, champinjoner, räkor, tomater, lök
 Roma: lufttorkad skinka, soltorkade tomater, champinjoner, salami
 Parma: champinjoner, lufttorkad skinka, tomater, feta, ruccola
-Greco: feta, tomater, oliver, salami, rålök
+Greco: feta, tomater, oliver, salami, rödlök
 Ci Fini: gorgonzola, soltorkade tomater, salami, champinjoner, ruccola
 Toscana: oxfilé, ruccola, vitlök, olja, salt
 Milano: gyroskött, pommes, rå lök, kebabsås

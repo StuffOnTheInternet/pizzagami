@@ -41,7 +41,7 @@ Acapulco: champinjoner, lök, oxfilé, vitlök, tacokrydda, jalapeno, tacosås
 Azteka: skinka, tacokrydda, jalapeno, tacosås
 Mardin: salami, champinjoner, oliver, paprika, vitlök
 Mexicana Special: stark krydda, skinka, fläskfilé, champinjoner, paprika
-Tängsta Special: ungersk salami, bacon, gorgonzola, lök
+Tängsta Special: salami, bacon, gorgonzola, lök
 Eufrat: fläskfilé, räkor, banan, ananas, skinka
 Tigris: oxfilé, fläskfilé, champinjoner, banan, bea
 Mammamia: fläskfilé, vitlök, lök, champinjoner

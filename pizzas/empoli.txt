@@ -1,0 +1,36 @@
+Margherita:
+Bolognese: lök, köttfärs
+Capricciosa: skinka, champinjoner
+Vesuvio: skinka
+Hawaii: ananas, skinka
+Romana: köttfärs
+Marinara: musslor, räkor
+Pescatore: tonfisk, räkor
+Funghi: champinjoner
+Calzone: skinka
+Cacciatora: salami
+Quattro Stagioni: skinka, räkor, kronärtskocka, musslor, champinjoner
+Sorrento: skinka, räkor
+Tonno: tonfisk
+Paradiso: champinjoner, räkor
+Honolulu: ananas, banan, skinka
+Ciao Ciao: lök, tonfisk, champinjoner, räkor
+Lång John: skinka, räkor, tonfisk
+Tutti Frutti: ananas, banan
+Venezia: skinka, räkor, champinjoner
+Vegetaria: lök, paprika, oliver, champinjoner, kronärtskocka
+Opera: champinjoner, bacon, salami, lök
+Babylon: fläskfilé, oxfilé, champinjoner, banan, bea
+Capricciosa Super: skinka, räkor, oxfilé, fläskfilé, banan, champinjoner
+Mexican: lök, paprika, köttfärs, jalapeno
+Provencale: champinjoner, oxfilé, paprika
+Rimini Super: tomater, fläskfilé, sparris, bea
+Tropicana: fläskfilé, skinka, räkor, banan
+Al Capone: mozzarella, tomater, vitlök, oxfilé, ruccola, bea
+Da Vinci: mozzarella, ädelost, soltorkade tomater, salami, sparris, ruccola, kronärtskocka
+Dolce Vita: mozzarella, oliver, sparris, tomater, vitlök, champinjoner, tärnad ost, ruccola, kronärtskocka
+Merame: mozzarella, lufttorkad skinka, champinjoner, ruccola, bea, vitlök
+Parma: mozzarella, lufttorkad, soltorkade tomater, ruccola, champinjoner
+Venedig: mozzarella, sparris, oxfilé, vitlök, ruccola, bea
+Gyrospizza: gyroskött
+Kycklingpizza: kyckling

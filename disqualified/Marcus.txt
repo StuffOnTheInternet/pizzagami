@@ -53,7 +53,7 @@ Parma: ruccola, lufttorkad skinka, mozzarella, tomater, feta, champinjoner
 Greco: mozzarella, tomater, salami, oliver, lök, feta
 Ci Fini: zucchini, gorgonzola, ruccola, soltorkade tomater, mozzarella, salami
 Toscana: olja, vitlök, ruccola, mozzarella, oxfilé
-Milano: mozzarella, gyroskött, pommes, rålök, kebabsås
+Milano: mozzarella, gyroskött, pommes, rödlök, kebabsås
 6 ostar: salami, camembert, feta, ädelost, tomater, mozzarella, ruccola, gorgonzola
 El Taco: köttfärs, vitlök, tomater, fläskfilé
 Gringo: tacosås, jalapeno, tacokrydda, lök, champinjoner, kebab
