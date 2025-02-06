@@ -1,11 +1,12 @@
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Iterator, Optional
+import functools
 
 type Store = str
 type Name = str
 type Ingredient = str
-type Pizza = tuple[Ingredient, ...]
+type Pizza = frozenset[Ingredient]
 
 ingr_common_limit = 10
 
@@ -23,12 +24,12 @@ class Input:
                     if ":" in pizza and not pizza.strip().endswith(":"):
                         name, ingr = pizza.split(":")
                         name = name.strip().lower()
-                        ingr = tuple(
-                            sorted([i.strip().lower() for i in ingr.strip().split(",")])
+                        ingr = frozenset(
+                            [i.strip().lower() for i in ingr.strip().split(",")]
                         )
                     else:
                         name = pizza.strip().lower()
-                        ingr = tuple()
+                        ingr = frozenset()
                     self.result[store][ingr] = name
 
     def iter_pizzas(self) -> Iterator[tuple[Store, Pizza, Name]]:
@@ -83,7 +84,7 @@ class IngredientCount:
 class Pizzagami:
     result: dict[Store, list[tuple[Name, Pizza, Optional[int]]]]
 
-    def __init__(self, inp: Input, common_ingr=list[Ingredient]):
+    def __init__(self, inp: Input, common_ingr: list[Ingredient]):
         self._names_of_pizza = defaultdict(list)
         for store, pizza, name in inp.iter_pizzas():
             self._names_of_pizza[pizza].append((store, name))
@@ -154,7 +155,7 @@ class Pizzagami:
                     )
 
                 for name, pizza, common_ingr_level in pizzagami:
-                    print("  {} ({})".format(name, ", ".join(pizza)))
+                    print("  {} ({})".format(name, ", ".join(sorted(pizza))))
                     if common_ingr_level is not None:
                         print(
                             "    {}-ingredient-common pizzagami".format(
@@ -194,7 +195,7 @@ class SameThings:
         self.same_ingredients = defaultdict(set)
         for _, pizza, name in inp.iter_pizzas():
             self.same_name[name].add(pizza)
-            self.same_ingredients[pizza].add(name)
+            self.same_ingredients[frozenset(pizza)].add(name)
         self.same_name = {
             name: pizzas for name, pizzas in self.same_name.items() if len(pizzas) > 1
         }
@@ -214,14 +215,14 @@ class SameThings:
         if self.same_ingredients:
             print("same pizza, different names:")
             for pizza, names in self.same_ingredients.items():
-                print("  {}:".format(", ".join(pizza)))
+                print("  {}:".format(", ".join(sorted(pizza))))
                 for name in sorted(names):
                     print(f"    {name}")
 
 
 class ConditionalProbabilityOfIngredients:
     # sorted list of P(first ingredient -> second ingredient)
-    result: list[float, tuple[Ingredient, int], tuple[Ingredient, int]]
+    result: list[tuple[float, tuple[Ingredient, int], tuple[Ingredient, int]]]
 
     def __init__(self, inp: Input, min_pizzas_to_report: int):
         self.result = []
@@ -245,6 +246,34 @@ class ConditionalProbabilityOfIngredients:
     def report(self, limit=30):
         for i, (p, (i1, n1), (i2, n2)) in enumerate(self.result[:limit]):
             print(f"{i+1:>3} {p:.2} {i1} ({n1}) -> {i2} ({n2})")
+
+
+class FeasiblePizzas:
+    # a pizza is feasible if it exists or its ingredients are a subset of a reasonable pizza
+    all_feasible: set[Pizza]
+    not_seen: set[Pizza]
+
+    @functools.cache
+    @staticmethod
+    def _all_below(pizza: Pizza) -> set[Pizza]:
+        if not pizza:
+            return set()
+        below = {pizza}
+        for i in pizza:
+            below |= FeasiblePizzas._all_below(pizza - {i})
+        return below
+
+    def __init__(self, inp: Input):
+        self.all_feasible = set()
+        all_pizzas = set()
+        for _, pizza, _ in inp.iter_pizzas():
+            self.all_feasible |= FeasiblePizzas._all_below(pizza)
+            all_pizzas.add(pizza)
+        self.not_seen = self.all_feasible - all_pizzas
+
+    def report(self):
+        p = 100 * (1.0 - (len(self.not_seen) / len(self.all_feasible)))
+        print(f"{len(self.all_feasible)} feasible pizzas ({p:.1f}% seen)")
 
 
 def all_ingredients(inp: Input) -> set[Ingredient]:
@@ -297,14 +326,15 @@ def main():
         for p in all_pizzas(inp)
         if not pizzagami.is_pizzagami(p)
     )
-    max_count = max((a for a, b in non_pizzagami_counts))
+    max_count = max((a for a, _ in non_pizzagami_counts))
     for c, p in non_pizzagami_counts:
         print("." * c, " " * (max_count - c), ", ".join(p))
 
     # CountIngredientCommonPizzagami(pizzagami).report()
     # IngredientsAtOneStore(inp).report()
-    #SameThings(inp).report()
-    #ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
+    # SameThings(inp).report()
+    # ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
+    FeasiblePizzas(inp).report()
 
 
 main()
