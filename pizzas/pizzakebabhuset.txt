@@ -1,0 +1,39 @@
+Margarita:
+Calzone: skinka
+Pescatore: tonfisk, räkor
+Hawaii: skinka, ananas
+Capricciosa: skinka, champinjoner
+Vesuvio: skinka
+Cacciatora: salami
+Tonno: tonfisk
+Funghi: champinjoner
+Paesana: bacon, lök
+Bolognese: köttfärs, lök
+Marinara: räkor, musslor
+Lång John: skinka, tonfisk, räkor
+Venetzia: skinka, räkor, champinjoner
+Vegetaria: kronärtskocka, paprika, oliver, champinjoner, lök
+Opera: salami, bacon, champinjoner, lök
+Kebabpizza: kebab, paprika, fefferoni, lök, vitlökssås
+Tropicana: fläskfilé, skinka, räkor, banan
+Mexican: köttfärs, paprika, jalapeno, lök
+Rotunda: oxfilé, bacon, ägg, purjolök, lök
+Studente: oxfilé, ädelost, purjolök, paprika, lök
+Viking Special: skinka, kebab, bacon, kebabsås, lök
+Babylon: oxfilé, fläskfilé, champinjoner, banan, bea
+Quattro Stagioni: skinka, räkor, kronärtskocka, musslor, champinjoner
+Linköping Special: kebab, jalapeno, feta, isbergssallad, kebabsås
+Capricciosa Super: skinka, oxfilé, fläskfilé, räkor, champinjoner, banan
+Al Capone: mozzarella, oxfilé, tomater, pesto, vitlök
+Toscana: mozzarella, oxfilé, paprika, champinjoner
+Italiano: mozzarella, pepperoni (korv), soltorkade tomater, feta, pesto
+Parma: mozzarella, lufttorkad skinka, soltorkade tomater, ruccola, oliver
+Inter: mozzarella, lufttorkad skinka, paprika, soltorkade tomater, pesto
+5 Ostar: mozzarella, gorgonzola, camembert, ädelost, paprika
+LHC-pizza: mozzarella, kebab, isbergssallad, gurka, tomater, pommes, fefferoni, rödlök, vitlökssås
+Vegetarisk Special: mozzarella, kronärtskocka, sparris, tomater, paprika, feta, ruccola, champinjoner
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Vesuvio: skinka
+Funghi: champinjoner
+Tonno: tonfisk
