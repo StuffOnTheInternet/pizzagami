@@ -265,11 +265,9 @@ class FeasiblePizzas:
 
     def __init__(self, inp: Input):
         self.all_feasible = set()
-        all_pizzas = set()
         for _, pizza, _ in inp.iter_pizzas():
             self.all_feasible |= FeasiblePizzas._all_below(pizza)
-            all_pizzas.add(pizza)
-        self.not_seen = self.all_feasible - all_pizzas
+        self.not_seen = self.all_feasible - all_pizzas(inp)
 
     def report(self):
         p = 100 * (1.0 - (len(self.not_seen) / len(self.all_feasible)))
