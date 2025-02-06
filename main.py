@@ -249,7 +249,7 @@ class ConditionalProbabilityOfIngredients:
 
 
 class FeasiblePizzas:
-    # a pizza is feasible if it exists or its ingredients are a subset of a reasonable pizza
+    # a pizza is feasible if it exists or its ingredients are a subset of a feasible pizza
     all_feasible: set[Pizza]
     not_seen: set[Pizza]
 
