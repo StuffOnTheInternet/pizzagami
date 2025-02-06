@@ -1,0 +1,44 @@
+Al Funghi: champinjoner
+Cacciatora: salami
+Calzone: skinka
+Vesuvio: skinka
+Paradiso: räkor, champinjoner
+Capricciosa: skinka, champinjoner
+Sorrento: skinka, räkor
+Hawii: skinka, ananas
+Disco: ananas, banan
+Marinara: räkor, musslor
+Pescatora: tonfisk, räkor
+Tonno: tonfisk, oliver
+Paesana: bacon, lök
+Quattro Stagioni: skinka, räkor, champinjoner, musslor, kronärtskocka
+Jamaica: skinka, banan
+Abisko: skinka, räkor, champinjoner, paprika
+Lång John: skinka, tonfisk, räkor
+Vegetaria: champinjoner, lök, oliver, paprika, sparris, kronärtskocka
+Bolognese: köttfärs
+Honolulu: skinka, ananas, banan
+Roma: skinka, räkor, champinjoner
+Mexicana: köttfärs, lök, paprika
+Kebabpizza: kebab, champinjoner, vitlökssås, lök, paprika, fefferoni, rhode island
+Opera: salami, bacon, champinjoner, lök
+Mafioso: crabfish, räkor, champinjoner
+Picasso: salami, köttfärs, champinjoner, lök, paprika
+Shasam: camembert, räkor, champinjoner
+Os-pizza: oxfilé, köttfärs, champinjoner, lök
+Tropicana: skinka, oxfilé, räkor, ananas, champinjoner, curry, banan
+Baccus: köttfärs, champinjoner, kronärtskocka
+Black & White: oxfilé, bea
+Capri Super: skinka, oxfilé, räkor, champinjoner, banan
+Provencale: oxfilé, champinjoner, paprika
+Pepperoni: fefferoni, pepperoni
+St. Tropez: kyckling, ananas, curry, banan
+Studente: oxfilé, ädelost, lök, paprika, purjolök
+Venedig: fläskfilé, ananas, banan
+Husets Special: oxfilé, champinjoner, lök, vitlök, tomater
+Kebabpizza Special: kebab, kebabsås, lök, fefferoni, pommes
+Tony Special: oxfilé, köttfärs, champinjoner, vitlök, tomater
+Josef Special: oxfilé, fläskfilé, champinjoner, bea, lök, sparris
+LHC: skinka, oxfilé, fläskfilé, champinjoner, bea, tomater
+Batman: skinka, kebab, vitlökssås, lök, fefferoni, tomater, isbergssallad, rhode island
+Abisko Special: skinka, oxfilé, fläskfilé, räkor, champinjoner, sparris

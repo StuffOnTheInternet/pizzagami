@@ -54,7 +54,7 @@ Afamia: gyroskött, kebabsås, pommes, champinjoner, majs
 Arla: gyroskött, paprika, champinjoner, purjolök, vitlökssås
 Ogarett: jalapeno, aubergine, paprika, bea, oxfilé
 Sibylla: lökringar, chili cheese, ruccola, kebabsås, pommes
-Mozarella: parma, ruccola, mozzarella, purjolök
+Mozzarella: parma, ruccola, mozzarella, purjolök
 Fyra Ostar: ädelost, mozzarella, gorgonzola, ruccola
 Valla Special: ruccola, tomater, mozzarella, champinjoner, feta, oliver
 Florida: curry, bacon, ananas, skinka

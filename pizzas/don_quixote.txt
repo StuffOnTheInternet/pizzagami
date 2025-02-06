@@ -5,7 +5,7 @@ Marinara: räkor, musslor
 Lång John: skinka, tonfisk, räkor
 Vegetariana: champinjoner, ananas, lök, oliver, paprika, kronärtskocka
 Bolognese: köttfärs, paprika, lök, tomater
-Mozarella: mozzarella, skinka, räkor, champinjoner
+Mozzarella: mozzarella, skinka, räkor, champinjoner
 Frutti di Mare: crabfish, räkor, tonfisk, musslor
 Quattro Formaggi: gorgonzola, ädelost, mozzarella, lök, tomater
 Quattro Stagioni: skinka, räkor, musslor, champinjoner, kronärtskocka

@@ -18,7 +18,7 @@ Elba: skinka, champinjoner, tonfisk, räkor
 Mexicana: köttfärs, paprika, lök
 Quattro Stagioni: skinka, champinjoner, paprika, tonfisk
 Kebabpizza: kebab, lök, paprika, kebabsås, fefferoni
-Mozarella Pizza: mozzarella
+Mozzarella Pizza: mozzarella
 Milano: blandning av italienska delikatesskorvar, ruccola
 Parma: prosciutto, ruccola, parmesan
 Napoletana: ansjovis, kapris, vitlök, oliver

@@ -7,7 +7,7 @@ type Name = str
 type Ingredient = str
 type Pizza = tuple[Ingredient, ...]
 
-ingr_common_limit = 140
+ingr_common_limit = 10
 
 
 class Input:
@@ -303,8 +303,8 @@ def main():
 
     # CountIngredientCommonPizzagami(pizzagami).report()
     # IngredientsAtOneStore(inp).report()
-    # SameThings(inp).report()
-    ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
+    #SameThings(inp).report()
+    #ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
 
 
 main()
