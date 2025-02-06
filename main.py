@@ -11,6 +11,35 @@ type Pizza = frozenset[Ingredient]
 ingr_common_limit = 10
 
 
+class CheckFormat:
+    result: [str]
+
+    def __init__(self, pizzadir):
+        self.result = []
+        for p in Path(pizzadir).iterdir():
+            with open(p) as f:
+                for i, pizza in enumerate(f.read().splitlines(), start=1):
+                    try:
+                        name, ingr = pizza.split(":")
+                    except ValueError:
+                        self.result.append(f"{p}:{i}: Missing ':'")
+
+                    if name[0] != name[0].upper():
+                        self.result.append(f"{p}:{i}: Pizza name not capitalized: {name}")
+
+                    ingrs = ingr.split(", ")
+                    for ing in ingrs:
+                        if ing != ing.lower():
+                            self.result.append(f"{p}:{i}: Ingredient name not lowercase: {ing}")
+
+    def any_error(self):
+        return len(self.result) > 0
+
+    def report(self):
+        for err in self.result:
+            print(err)
+
+
 class Input:
     result: dict[Store, dict[Pizza, Name]]
 
@@ -286,6 +315,11 @@ def all_pizzas(inp: Input) -> set[Pizza]:
 
 
 def main():
+    chk_inp = CheckFormat("pizzas")
+    if chk_inp.any_error():
+        chk_inp.report()
+        return
+
     inp = Input("pizzas")
     ingr_count = IngredientCount(inp)
     common_ingr = ingr_count.common_ingr(ingr_common_limit)

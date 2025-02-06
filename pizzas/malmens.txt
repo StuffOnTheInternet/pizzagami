@@ -29,7 +29,7 @@ VM-Pizza: oxfilé, champinjoner, lök, bea
 Tropicana: skinka, fläskfilé, räkor, ananas, banan
 Gyrospizza: gyroskött, lök, fefferoni, kebabsås
 Milleniumpizza: skinka, oxfilé, champinjoner, lök, bea
-Super skinka, fläskfilé, räkor, champinjoner, banan, bea
+Super: skinka, fläskfilé, räkor, champinjoner, banan, bea
 Malmens Special: skinka, kyckling, feta, jalapeno, kebabsås
 Azteka: skinka, jalapeno, tacosås, vitlökssås
 Havet: tonfisk, räkor, musslor, crabfish
