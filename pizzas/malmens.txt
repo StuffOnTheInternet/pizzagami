@@ -1,0 +1,54 @@
+Margherita:
+Vesuvio: skinka
+Funghi: champinjoner
+Tono: tonfisk, lök
+Bolognese: köttfärs, lök
+Hawaii: skinka, ananas
+Capricciosa: skinka, champinjoner
+Romana: köttfärs
+Sorrento: skinka, räkor
+Pescatora: tonfisk, räkor
+Paradiso: champinjoner, räkor
+Paesana: bacon, lök
+Salami: salami, lök
+Long John: skinka, tonfisk, räkor
+Honolulu: skinka, ananas, banan, curry
+Venezia: skinka, räkor, champinjoner
+Malmens: pepperoni (korv), champinjoner
+Vegetaria: champinjoner, lök, paprika, oliver, kronärtskocka
+Tutti Frutti: ananas, banan
+Calzone: skinka
+Calzone Special: köttfärs, spagetti
+Falafelpizza: falafel, tomater, lök, kebabsås
+Kycklingpizza: kyckling, ananas, banan, curry
+Kebabpizza: kebab, lök, fefferoni, kebabsås
+Quattro Stagioni: skinka, räkor, musslor, champinjoner, kronärtskocka
+Opera: bacon, champinjoner, lök
+Mexicana Special: köttfärs, paprika, majs, tacokrydda, jalapeno
+VM-Pizza: oxfilé, champinjoner, lök, bea
+Tropicana: skinka, fläskfilé, räkor, ananas, banan
+Gyrospizza: gyroskött, lök, fefferoni, kebabsås
+Milleniumpizza: skinka, oxfilé, champinjoner, lök, bea
+Super skinka, fläskfilé, räkor, champinjoner, banan, bea
+Malmens Special: skinka, kyckling, feta, jalapeno, kebabsås
+Azteka: skinka, jalapeno, tacosås, vitlökssås
+Havet: tonfisk, räkor, musslor, crabfish
+Black & White: oxfilé, fläskfilé, bea
+Poker: oxfilé, fläskfilé, champinjoner
+Marinera: tonfisk, räkor, musslor
+Paesana Special: bacon, ägg, lök, skinka
+Kycklingspecial: kyckling, paprika, majs, curry
+Maif: gyroskött, skinka, kebabsås, fefferoni
+Fyra Ostar: mozzarella, gorgonzola, feta
+Sverigepizza: kebab, lök, fefferoni, tomater, isbergssallad, gurka, kebabsås
+Vikingpizza: kebab, lök, pommes, kebabsås
+Sverige Special: kebab, pommes, lök, tomater, gurka, fefferoni, isbergssallad, kebabsås
+Ufo: oxfilé, lök, paprika, champinjoner, bea
+Parmapizza: parma, soltorkade tomater, ruccola
+Al Caparra: oxfilé, champinjoner, kapris, bea
+Ciciliapizza: oxfilé, champinjoner, gorgonzola
+Salamino: salami, champinjoner, paprika, ruccola
+Bunon Roti: oxfilé, skinka, pepperoni (korv)
+Pepperoni: pepperoni, skinka, vitlök
+Karl Alfred: spenat, vitlök, tomater, feta, oliver
+Toskana: parma, gorgonzola, vitlök
