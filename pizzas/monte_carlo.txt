@@ -1,0 +1,56 @@
+Vesuvio: skinka
+Calzone: skinka
+Funghi: champinjoner
+Margherita:
+Capricciosa: champinjoner, skinka
+Africana: banan, ananas
+Bolognese: köttfärs, lök
+Marinara: musslor, räkor
+Pirog: köttfärs
+Tonno: tonfisk
+Paesana: bacon, lök
+Sorrento: skinka, räkor
+Hawaii: skinka, ananas
+Paradiso: champinjoner, räkor
+Amigo: champinjoner, köttfärs
+Cacciatora: salami
+Pescatora: tonfisk, räkor
+Jamaica: champinjoner, skinka, räkor
+Lång John: skinka, tonfisk, räkor
+Quattro Stagioni: champinjoner, skinka, kronärtskocka, musslor, räkor
+Vegetaria: champinjoner, tomater, lök, oliver, paprika
+Honolulu: skinka, banan, ananas
+Senora: mozzarella, aubergine, zucchini, soltorkade, tomater, lufttorkad skinka, ruccola
+Venus: mozzarella, oliver, purjolök, champinjoner, paprika, soltorkade tomater, ruccola
+Parma: mozzarella, soltorkade tomater, lufttorkad skinka, ruccola
+Sardeller: mozzarella, ansjovis, kapris, oliver
+Domino: mozzarella, jalapeno, köttfärs, purjolök, champinjoner, paprika
+La Mafia: mozzarella, oxfilé, tomater, feta, champinjoner, paprika
+Aubergine: mozzarella, oxfilé, aubergine, tomater
+Fyra Ostar: mozzarella, ädelost, feta
+Superman: mozzarella, skinka, ananas, gyroskött, fefferoni, kebabsås
+Batman: mozzarella, skinka, gyroskött, champinjoner, fefferoni, kebabsås
+LHC: mozzarella, oxfilé, champinjoner, bea
+Kebabpizza 2: kebab, fefferoni, lök, pommes, kebabsås
+Gyrospizza 1: gyroskött, fefferoni, lök, kebabsås
+Gyrospizza 3: gyroskött, tomater, fefferoni, gurka, isbergssallad, lök, kebabsås
+Gyrospizza 2: gyroskött, fefferoni, lök, pommes, kebabsås
+Pirat: crabfish, musslor, räkor, tonfisk, champinjoner
+Tefat: skinka
+Gyrosbåt: gyroskött, fefferoni, kebabsås, lök
+Tropicana: skinka, banan, fläskfilé, räkor
+Super: räkor, champinjoner, skinka, banan, fläskfilé, oxfilé
+Aram: champinjoner, tomater, oxfilé, ädelost, bea
+Studenten: lök, oxfilé, ädelost, paprika, purjolök
+Poker: fläskfilé, oxfilé, champinjoner, bea
+Myame: champinjoner, bacon, salami, ägg, lök
+Mexicana Het: fefferoni, köttfärs, lök, paprika
+Sax: bacon, köttfärs, fefferoni, lök
+Salut: oxfilé, purjolök, ädelost, champinjoner
+Monte Carlo: skinka, oxfilé, räkor, champinjoner, banan
+Kycklingpizza 1: tomater, kyckling, curry, lök
+Kebabpizza 1: kebab, fefferoni, lök, kebabsås
+Kebabpizza 3: kebab, tomater, gurka, fefferoni, isbergssallad, lök, kebabsås
+Kycklingpizza 2: tomater, kyckling, curry, lök, pommes
+Kycklingpizza 3: kyckling, tomater, curry, gurka, isbergssallad, lök
+Falafelpizza 3: falafel, gurka, isbergssallad, fefferoni, tomater, lök, kebabsås
