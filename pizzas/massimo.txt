@@ -1,0 +1,35 @@
+Salami: salami, lök, oliver
+Acapulco: oxfilé, champinjoner, lök, olja, jalapeno, tacosås
+Blu Barone: oxfilé, ädelost, purjolök, paprika
+Mexicana: köttfärs, lök, olja, jalapeno, tacosås
+Vesuvio: skinka
+Quattro Stagioni: skinka, champinjoner, räkor, musslor, kronärtskocka
+Spenat: spenat, champinjoner, feta, olja
+Bresola: bresola, champinjoner, paprika, ruccola, parmesan, olja
+Karma: lemon curd, créme fraiche, salami, rostad lök, ruccola
+Grigliato: aubergine, paprika, basilika, feta, olja
+Dolce Fuoco: chorizo, paprika, feta, honung, chili flakes
+Salsiccia Bella: salsiccia, körsbärstomater, rödlök, parmesan, olja
+Mediterranea: körsbärstomater, pesto, soltorkade tomater, buffelmozzarella, peppar
+Zucchine Al Sole: zucchini, räkor, basilika, olja
+Affumicato: kyckling, champinjoner, rödlök, BBQ-sås
+Songo Dorato: rödlök, bacon, buffelmozzarella, lönnsirap, peppar
+Capricciosa: skinka, champinjoner
+Capricciosa: skinka, ananas
+Calzone: skinka
+Pepperoni: pepperoni, oregano
+Pollo: kyckling, avokado, cashewnötter
+Divalo: champinjoner, salami, soltorkade tomater, chili
+Primavera: ruccola, lufttorkad skinka, parmesan, olja
+Gorgonzola: champinjoner, ryggbiff, gorgonzola
+La Salame: rödlök, salami, olja
+Massimo Kebab: kebab, ruccola, kebabsås, fefferoni, tomater, gurka
+Ciao Ciao: ryggbiff, champinjoner, olja
+Happy Prawns: räkor, ruccola, avokado, olja
+Black & White: oxfilé, fläskfilé, bea
+Margherita: basilika
+Avokado: ruccola, avokado, rödlök, olja
+Bianca Cheese: gorgonzola, vitost, parmesan, soltorkade tomater, olja
+Chevre: chevré, ruccola, valnötter, päron, honung
+Con Mango: ruccola, mango, vitost, avokado, soltorkade tomater, olja
+Quattro Formaggi: ädelost, gorgonzola, camembert
