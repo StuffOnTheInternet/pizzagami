@@ -1,0 +1,37 @@
+Margherita:
+Funghi: champinjoner
+Vesuvio: skinka
+Hawaii: skinka, ananas
+Capricciosa: skinka, champinjoner
+Calzone: skinka
+Pescatore: tonfisk, räkor
+Cacciatore: salami, oliver
+Kycklingpizza: kyckling, lök, pepperoni, paprika, vitlökssås
+Tonno: tonfisk
+Tutti Frutti: skinka, ananas, banan
+Sorrento: skinka, räkor
+Paradiso: räkor, champinjoner
+Paesana: bacon, lök
+La Maffia: salami, champinjoner, oliver, ruccola, mozzarella
+Italy: salami, oliver, bacon, paprika, vitlök, ruccola, mozzarella
+La Fontana: feta, tomater, kronärtskocka, champinjoner, vitlök, ruccola, mozzarella
+Nerso: tomater, champinjoner, oxfilé, vitlök, ruccola, mozzarella
+Afrodite: ädelost, champinjoner, feta, ruccola, mozzarella
+Mjärdevi Special: oxfilé, ananas, mozzarella, ruccola, bea
+Laluna Special: gyroskött, isbergssallad, vitlökssås
+Afandi: halloumi, oliver, körsbärstomater, balsamicreme, mozzarella
+Caprese: buffelmozzarella, körsbärstomater, oliver, balsamicreme, ruccola
+Venezia: soltorkade tomater, lufttorkad skinka, ruccola
+Kebabpizza: gyroskött, lök, pepperoni (korv), paprika, vitlökssås
+Opera: lök, champinjoner, salami, bacon
+Gyrospizza: gyroskött, lök, paprika, fefferoni, kebabsås
+Vegetaria: champinjoner, lök, paprika, oliver, kronärtskocka
+Long John: skinka, räkor, tonfisk
+Tropicana: skinka, räkor, banan, curry, fläskfilé
+Mexicana: köttfärs, lök, paprika
+Falafelpizza: falafel, tomater, pepperoni (korv), vitlökssås
+Poker: champinjoner, fläskfilé, oxfilé, bea
+Indiana: räkor, paprika, lök, kyckling, curry
+Kebabbåt: gyroskött, isbergssallad, tomater, fefferoni, vitlökssås
+Laluna: salami, champinjoner, oliver
+Havanna: champinjoner, ananas, kyckling, kebabsås
