@@ -12,7 +12,7 @@ ingr_common_limit = 10
 
 
 class CheckFormat:
-    result: [str]
+    result: list[str]
 
     def __init__(self, pizzadir):
         self.result = []
