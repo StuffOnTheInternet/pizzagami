@@ -1,0 +1,88 @@
+Capricciosa: skinka, champinjoner
+Vesuvio: skinka
+Napoli: skinka, ananas, räkor
+Capri: skinka, räkor
+Venezia: köttfärs
+Calzone: skinka
+Palermo: köttfärs, lök
+Benevento: köttfärs, lök, ananas, bea
+Catarina: räkor
+Sicilia: champinjoner
+Roma: räkor, tonfisk
+sorvento: räkor, musslor
+Padova: fläskfilé, champinjoner, lök, fefferoni, tomater, bea
+Bari: salami
+Shalom Special: skinka, kebab, lök, tomater, fefferoni
+Mexico: skinka, köttfärs, oxfilé, lök, jalapeno, fefferoni, bea
+Hawaii: skinka, ananas
+Favoriten: skinka, champinjoner, lök, musslor, räkor, köttfärs, tonfisk
+Amigo: köttfärs, champinjoner, paprika
+Love You: skinka, tonfisk
+Tolos: isbergssallad, feta, tomater, sås
+Corallo: bacon, lök, paprika
+Jamaica: skinka, champinjoner, räkor
+Ciao Ciao: champinjoner, skinka, lök, vitlök
+Disco: skinka, räkor, köttfärs
+Belinda: lök, champinjoner, paprika, ananas, sparris
+John Blund: skinka, bacon, lök, ägg, champinjoner
+Lamare: skinka, ananas, champinjoner, räkor
+Dubbel Ciao Ciao: champinjoner, skinka, lök, vitlök
+Mama Mia: skinka, musslor, räkor, champinjoner, paprika
+Afrikane: ananas, banan
+Quatro Stagioni: skinka, champinjoner, räkor, musslor, kronärtskocka
+Monte Carlo: fläskfilé, jordnötter, banan, curry
+Margareta:
+Mantova: skinka, banan, curry
+Torino: köttfärs, salami, fefferoni
+Mexicana: köttfärs, lök, fefferoni
+Eldorado: köttfärs, bacon, salami, ägg
+Rimini: skinka, bacon, lök, fefferoni
+Messina: skinka, tonfisk, räkor
+Lugano: bacon, lök, ägg
+Dubbel Calzone: skinka
+La Bamba: skinka, champinjoner, salami, lök
+Firo: skinka, fefferoni, salami, köttfärs
+Prima: skinka, räkor, banan, curry
+Maxim: kyckling, champinjoner, curry, fefferoni
+Ravena: kyckling, banan, curry
+Capalccino: champinjoner, kyckling, curry, räkor, banan
+Italia: skinka, champinjoner, lök, salami, ägg, bea
+Balkan: skinka, kyckling, räkor, curry, bea
+Gorgonzola: oxfilé, gorgonzola, ananas, bea
+Padrina: oxfilé, bea
+Romana: champinjoner, lök, oxfilé, fefferoni, tomater
+Las Vegas: skinka, oxfilé, tomater, fläskfilé, lök, bea
+Florida: skinka, oxfilé, räkor, bea
+Venedig: fläskfilé, lök, ägg, champinjoner, tomater
+Lambada: fläskfilé, lök, tomater
+Shiss Kebab: lök, kebab, tomater, sås
+Paradiso: champinjoner, fläskfilé, lök, vitlök
+Dubbel Paradiso: champinjoner, fläskfilé, lök, vitlök
+Kantarell Pizza: kantareller, oxfilé, jordnötter, bea
+Paris: köttfärs, kantareller, oxfilé, gorgonzola
+Amerikansk Pizza: köttfärs, oxfilé, paprika, oliver, champinjoner, bea
+Kebabpizza: kebab, lök, champinjoner, tomater, fefferoni, sås
+Azo Special: oxfilé, sparris, skinka, bea
+Verone: lök, kebab, fefferoni, isbergssallad, tomater, jalapeno, starksås
+Arvika Special: ananas, räkor, kebab, kebabsås
+Ankona: skinka, räkor, salami, lök
+Bergamo: champinjoner, bacon, salami, lök
+Bahama: skinka, jalapeno, lök, tomater, oxfilé, fefferoni, bea
+Modena: skinka, fläskfilé, gorgonzola, lök
+Bambino: köttfärs, paprika, lök, tomater, champinjoner, gorgonzola, räkor
+Catania: fläskfilé, räkor, sparris, lök, bea
+Guldkusten: skinka, tomater, kebab, lök, jalapeno, isbergssallad, fefferoni, sås
+Lussana: tomater, skinka, champinjoner, oxfilé, fläskfilé, jalapeno, bea
+Salvadore: köttfärs, salami, jalapeno, fefferoni
+Bella: skinka, räkor, bacon, kebab, jalapeno, lök, tomater, sås
+Vikingbåt: lök, champinjoner, oxfilé, tomater, paprika, bea
+Maria Special: kebab, feta, isbergssallad, tomater, gurka, fefferoni, räkor, sås
+Grekisk Pizza: lök, feta, oliver, paprika, tomater, kronärtskocka
+Färjestad: skinka, kebab, sås
+Donna Gracia: champinjoner, räkor, ananas, jalapeno, fläskfilé, tomater, bea
+Zorro: kebab, pommes, sås
+Jessica Special: isbergssallad, gurka, tomater, lök, fefferoni, jalapeno, bea, sås
+Veganpizza: ost (v), tomater, majs, oliver, kronärtskocka, lök, paprika, ananas
+Falafelpizza: tomater, falafel, lök, isbergssallad, fefferoni, sås
+
+
