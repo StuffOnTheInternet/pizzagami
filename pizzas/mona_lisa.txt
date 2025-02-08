@@ -1,0 +1,38 @@
+Margherita:
+Vesuvio: skinka
+Banana: skinka, banan
+Calzone: skinka
+Funghi: champinjoner
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Tonno: tonfisk, lök
+Bolognese: köttfärs, lök
+Tutti Frutti: ananas, banan, curry
+Pantri: champinjoner, ananas, banan, curry
+Sorento: skinka, räkor
+Paradiso: champinjoner, räkor
+Pescatore: tonfisk, räkor
+Marinara: musslor, räkor
+Disco: skinka, köttfärs, räkor
+Pepperonipizza: pepperoni, lök, fefferoni
+Kycklingpizza: kyckling, ananas, curry
+Gudfader: skinka, räkor, champinjoner
+Milano: salami, bacon, lök
+Falafelpizza: falafel, paprika, lök, kebabsås
+Santa Cruz: kyckling, champinjoner, lök, tacosås, jalapeno, tacokrydda
+Jackpot: skinka, lök, oxfilé, bea
+Miami Special: kyckling, champinjoner, lök, tomater, kebabsås
+Jonny Special: fläskfilé, lök, tomater, tacokrydda, bea
+Chicken: kyckling, ananas, banan, curry
+Vegetarisk: champinjoner, ananas, paprika, lök, oliver, kronärtskocka
+Quattro Stagioni: skinka, champinjoner, musslor, räkor, kronärtskocka
+Filé Princess: oxfilé, champinjoner, banan, bea
+Black & White: oxfilé, fläskfilé, champinjoner, bea
+Capricciosa Super: skinka, champinjoner, oxfilé, lök, bea
+Provencale: oxfilé, ananas, paprika, bea
+Kebabpizza: kebab, isbergssallad, tomater, gurka, lök, fefferoni, kebabsås
+Gyrospizza: gyroskött, isbergssallad, tomater, gurka, lök, fefferoni, kebabsås
+Vikingkebab: kebab, isbergssallad, tomater, gurka, lök, fefferoni, kebabsås
+Mexicana Het: köttfärs, tacosås, lök, tacokrydda, jalapeno
+Azteka: skinka, lök, jalapeno, tacokrydda, tacosås
+Acapulco: oxfilé, champinjoner, lök, jalapeno, tacosås, tacokrydda
