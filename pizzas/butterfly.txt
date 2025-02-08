@@ -1,0 +1,18 @@
+Margherita: mozzarella
+Vesuvio: mozzarella, skinka
+Salami: mozzarella, salami
+Capricciosa: mozzarella, skinka, champinjoner
+Gyros: mozzarella, gyroskött, aioli
+Manzo: mozzarella, ryggbiff, rödlök, ruccola, körsbärstomater, bea
+Parma: mozzarella, prosciutto, soltorkade tomater, parmesan, ruccola
+Cacciatore: mozzarella, delikatesskorvar, champinjoner, paprika, parmesan, ruccola
+Quattro Formaggi: mozzarella, gorgonzola, pecorino, parmesan, olja
+Diavola: mozzarella, nduja, salami, rödlök, ricotta
+Parma Bianca: mozzarella, créme fraiche, prosciutto, chevré, valnötter, honung, parmesan, ruccola
+Padrino: mozzarella, oxfilé, pancetta, gorgonzola, vitlök, basilika, parmesan
+Libra: grönärtscreme, mozzarella, breasola, ricotta, rödbetor
+Cenerentola: pumpa, mozzarella, salsiccia, pecorino, basilika
+Saporita: taleggio, mozzarella, pancetta, porcini
+Ortolana: mozzarella, paprika, zucchini, aubergine
+Pollo Pesto: mozzarella, kyckling, ruccola, pesto, körsbärstomater, parmesan
+Burrata: prosciutto, buffelmozzarella, balsamico, parmesan, basilika
