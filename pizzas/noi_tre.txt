@@ -1,0 +1,11 @@
+Maggan: tomater, mozzarella, basilika, olja
+Ebba: tomater, mozzarella, kronärtskocka, oliver, champinjoner, paprika, vitlök, oregano
+Osten: mozzarella, gorgonzola, taleggio, parmesan, basilika
+Bettan: mozzarella, chevré, rödbetor, honung, pinjenötter, smetana, spenat
+Löjan: rom, smetana, västerbottenost, rödlök, dill, gräslök, citron
+Kapten: tomater, mozzarella, räkor, musslor, aioli, dill, gräslök, citron
+Calle: tomater, mozzarella, prosciutto, nduja, champinjoner, ruccola, vitlök, parmesan
+Folke: pesto, mozzarella, prosciutto, soltorkade tomater, ruccola
+Peppe: tomater, mozzarella, salami, pesto, ricotta
+Linkan: tomater, mozzarella, fläskfilé, nduja, rödlök, pepperoni, vitlökscreme
+Eddan: tomater, mozzarella, prosciutto, ruccola, balsamico, buffelmozzarella, parmesan
