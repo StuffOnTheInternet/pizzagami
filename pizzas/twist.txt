@@ -24,7 +24,7 @@ Kebabbåt: gyroskött, isbergssallad, tomater, fefferoni, kebabsås
 Nerso: tomater, champinjoner, oxfilé, vitlök, mozzarella, ruccola
 Italy: salami, oliver, paprika, bacon, mozzarella, ruccola
 La fontana: feta, champinjoner, kronärtskocka, paprika, vitlök, tomater, mozzarella, ruccola
-Mjärdevi Special: gyroskött, sallad, kebabsås
+Mjärdevi Special: gyroskött, isbergssallad, kebabsås
 Afandi: halloumi, oliver, körsbärstomater, balsamicreme, ruccola, mozzarella
 Caprese: buffelmozzarella, körsbärstomater, oliver, balsamicreme, ruccola
 Venezia: soltorkade tomater, mozzarella, lufttorkad skinka, ruccola

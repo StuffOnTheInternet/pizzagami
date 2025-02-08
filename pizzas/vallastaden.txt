@@ -42,5 +42,5 @@ Vegan Bolognese: mozzarella (v), köttfärs (v)
 Vegan Kyckling: mozzarella (v), kyckling (v), banan, ananas, curry
 Vegan Kebabpizza: mozzarella (v), kebab (v), tomater, fefferoni, stark tomatsås
 Vegan Paesana: mozzarella (v), bacon (v), champinjoner, lök, vitlök
-Vegan Salami: mozzarella (v), champinjoner, lök, vitlök, pepperoni (korv)
+Vegan Salami: mozzarella (v), champinjoner, lök, vitlök, pepperoni
 Manifesto: mozzarella (v), oxfilé, lök, purjolök, paprika

@@ -3,7 +3,7 @@ Svingod: skinka, champinjoner
 Drömmen: köttfärs, paprika
 Pizzabakaren Special: köttfärs, lök, bacon
 Hawii 5-0: köttfärs, lök, ananas
-Mix: pepperoni (korv), lök, paprika
+Mix: pepperoni, lök, paprika
 El Mexico: kyckling, oxfilé, nachochips, vitlök, majs, chili
 Biffen: bacon, oxfilé, vitlök
 Den Marinerade: champinjoner, lök, oxfilé
@@ -18,13 +18,13 @@ Pestokycklingen: kyckling, chili, pesto, tomater
 Vegetarianen: ananas, champinjoner, paprika, lök, majs
 Kebaben: tacosås, majs, jalapeno, kebab, rödlök
 Farmen: skinka, bacon
-MR.X: köttfärs, ananas, lök, pepperoni (korv)
+MR.X: köttfärs, ananas, lök, pepperoni
 Chorizo Special: chorizo, lök, oxfilé
 Dubbeldäckaren: skinka, köttfärs, oregano
 Hot Hawaii Kyckling: bacon, ananas, kyckling
 Chorizon: chorizo, oregano, pesto, tomater
 Moby Dick: tonfisk, lök
 Grekisk Special: feta, paprika, fefferoni, oliver
-Kempegod: pepparbiff, paprika, pepperoni (korv)
+Kempegod: pepparbiff, paprika, pepperoni
 Tropicana: kyckling, banan, ananas, curry
 Kebab Special: kebab, rödlök, fefferoni, isbergssallad, tomater

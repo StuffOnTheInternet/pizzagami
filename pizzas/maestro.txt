@@ -6,7 +6,7 @@ Elisabeth: lök, bacon, paprika
 Bolognese: köttfärs
 Tonfiskpizza: tonfisk
 Afrikana: banan, ananas, curry
-Salami: salami, pepperoni (korv)
+Salami: salami, pepperoni
 Capri: skinka, räkor
 Hawaii: skinka, ananas
 Mexicana: champinjoner, lök, jalapeno, tacosås
@@ -44,7 +44,7 @@ Björn Special: oxfilé, fläskfilé, skinka, bacon, köttfärs, champinjoner
 Rolf Special: kebab, pommes, lök, isbergssallad, fefferoni, kebabsås
 LHC: champinjoner, oxfilé, vitlöksost, zucchini, bea
 LVC: skinka, champinjoner, banan, ananas, oxfilé, bea
-Antipasto: soltorkade tomater, salami, pepperoni (korv), skinka
+Antipasto: soltorkade tomater, salami, pepperoni, skinka
 Pizza vegetale: soltorkade tomater, champinjoner, lök, oliver, ruccola
 Daniella: champinjoner, feta, soltorkade tomater, paprika, ruccola
 Justina: champinjoner, paprika, oxfilé, bea

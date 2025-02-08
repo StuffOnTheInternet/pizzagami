@@ -11,7 +11,7 @@ Sorrento: skinka, räkor
 Paradiso: räkor, champinjoner
 Salami: salami
 Honolulu: skinka, ananas, banan
-Pepperonipizza: pepperoni (korv), fefferoni
+Pepperonipizza: pepperoni, fefferoni
 Roma: räkor, skinka, champinjoner
 Long John: räkor, skinka, tonfisk
 Quattro Stagioni: räkor, skinka, musslor, kronärtskocka, champinjoner
@@ -25,7 +25,7 @@ Palermo: fläskfilé, räkor, bea, champinjoner, ruccola
 Dedoo: paprika, oxfilé, bea, champinjoner, ruccola
 Chania: oxfilé, fläskfilé, vitlök, tomater, ruccola, bea
 Fyra Ostar: gorgonzola, ädelost, camembert, ruccola
-Mexiko Special: köttfärs, pepperoni (korv), champinjoner, jalapeno, tacokrydda
+Mexiko Special: köttfärs, pepperoni, champinjoner, jalapeno, tacokrydda
 Azteka: skinka, purjolök, jalapeno, tacosås, gräddfil, tacokrydda
 Tabasco: köttfärs, bacon, lök, vitlök, jalapeno, tacokrydda
 Kycklingpizza: kyckling, ananas, curry, banan
@@ -50,5 +50,5 @@ Acapulco: oxfilé, kantareller, vitlök, lök, tacosås, jalapeno
 Vegetarian Pan: champinjoner, paprika, lök, oliver
 Miami: bacon, räkor, ananas, curry
 Arkansas: skinka, champinjoner, salami, tomater
-Dallas: pepperoni (korv), vitlök, tacosås, jalapeno
+Dallas: pepperoni, vitlök, tacosås, jalapeno
 Amerikan Kebab: kebab, fefferoni, rödlök

@@ -1,0 +1,23 @@
+Margarita:
+Vesuvio: skinka
+Kyckling Special: kyckling, majs, paprika
+Capricciosa: skinka, champinjoner
+Nachokyckling: starksås, nachochips, kyckling, chili
+Mexicano: kyckling, oxfilé, nachochips, chili
+Nötköttspizza: oxfilé, vitlök
+Delux Sizzler: oxfilé, rödlök, paprika
+Hawaiin Nötkött: oxfilé, ananas
+Mix Kebab: kebab, kyckling, rödlök, fefferoni
+Kebabpizza Nötkött: kebab, rödlök, fefferoni
+Kycklingkebab: kyckling, rödlök, fefferoni
+Hawaiian: köttfärs, ananas
+Hawaiian Deluxe: kyckling, ananas
+Pepperoni: pepperoni
+Pepperoni Feast: pepperoni, köttfärs
+Chorizo: chorizo
+Chorizo Feast: chorizo, oxfilé
+Meat-O-Meat: pepperoni, kyckling, oxfilé
+Veggie Delight: lök, paprika, champinjoner, oliver, majs
+Veggie Sizzler: paprika, champinjoner, majs, chili, jalapeno, paprika
+Greek Pizza: oliver, paprika, fefferoni, feta
+Tuna Special: lök, tonfisk

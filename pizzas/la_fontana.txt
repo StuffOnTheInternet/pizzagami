@@ -22,14 +22,14 @@ Laluna Special: gyroskött, isbergssallad, vitlökssås
 Afandi: halloumi, oliver, körsbärstomater, balsamicreme, mozzarella
 Caprese: buffelmozzarella, körsbärstomater, oliver, balsamicreme, ruccola
 Venezia: soltorkade tomater, lufttorkad skinka, ruccola
-Kebabpizza: gyroskött, lök, pepperoni (korv), paprika, vitlökssås
+Kebabpizza: gyroskött, lök, pepperoni, paprika, vitlökssås
 Opera: lök, champinjoner, salami, bacon
 Gyrospizza: gyroskött, lök, paprika, fefferoni, kebabsås
 Vegetaria: champinjoner, lök, paprika, oliver, kronärtskocka
 Long John: skinka, räkor, tonfisk
 Tropicana: skinka, räkor, banan, curry, fläskfilé
 Mexicana: köttfärs, lök, paprika
-Falafelpizza: falafel, tomater, pepperoni (korv), vitlökssås
+Falafelpizza: falafel, tomater, pepperoni, vitlökssås
 Poker: champinjoner, fläskfilé, oxfilé, bea
 Indiana: räkor, paprika, lök, kyckling, curry
 Kebabbåt: gyroskött, isbergssallad, tomater, fefferoni, vitlökssås

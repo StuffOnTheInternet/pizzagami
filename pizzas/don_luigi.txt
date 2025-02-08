@@ -14,5 +14,5 @@ Piaggo: mozzarella, prosciutto, balsamico, basilika, champinjoner, ruccola, parm
 Foresta (Bianco)(Veg): chevré, mozzarella, ruccola, honung, päron, valnötter
 Bambini: mozzarella, prosciutto, salami
 Forte: nduja, salami, olja, persilja, paprika, provolone
-Lukas: pepperoni (korv), mozzarella, provolone
+Lukas: pepperoni, mozzarella, provolone
 Pollo: kyckling, mozzarella, pesto, paprika, lök, ruccola

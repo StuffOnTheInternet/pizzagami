@@ -2,7 +2,7 @@ Quattro Formaggi: camembert, gorgonzola, parmesan, ruccola
 Il Piatto Special: rödlök, zucchini, soltorkade tomater, oxfilé, aubergine, ruccola
 Buon Roti: lufttorkad skinka, ruccola, parmesan, tomater
 Fiesole: fläskfilé, ruccola, parmesan, tomater, bea
-Salamino: pepperoni (korv), champinjoner, paprika, ruccola
+Salamino: pepperoni, champinjoner, paprika, ruccola
 Al Pesto: lufttorkad skinka, soltorkade tomater, oliver, pesto, ruccola
 Mazza Luna: champinjoner, ruccola, gorgonzola, oxfilé, ajvar
 Ortolana: champinjoner, paprika, zucchini, aubergine, rödlök
@@ -28,7 +28,7 @@ Gorgonzola: oxfilé, champinjoner, lök, gorgonzola, bea
 Asteka: skinka, jalapeno, tabasco, kebabsås
 Crab: crabfish, musslor, tonfisk, räkor
 Babylon: oxfilé, banan, champinjoner, bea, fläskfilé
-Alanish: lök, kebab, sallad, pommes, kebabsås, pepperoni
+Alanish: lök, kebab, isbergssallad, pommes, kebabsås, pepperoni
 Margerita:
 Vesuvio: skinka
 Calzone: skinka

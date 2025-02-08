@@ -28,7 +28,7 @@ Oscar: fläskfilé, champinjoner, bea
 Black & White: oxfilé, fläskfilé, bea
 Kyckling Pizza: kyckling, lök, tomater, kebabsås, curry
 Caprece: tomater, soltorkade tomater, mozzarella, pesto, ruccola
-Pepperoni: pepperoni (korv), ruccola
+Pepperoni: pepperoni, ruccola
 Fetaost Pizza: tomater, soltorkade tomater, feta, ruccola
 Long John: skinka, räkor, tonfisk
 Kebabpizza special: kebab, lök, isbergssallad, tomater, gurka, fefferoni, kebabsås

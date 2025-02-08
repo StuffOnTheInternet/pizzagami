@@ -2,7 +2,7 @@ Vesuvio: skinka
 Calzone: skinka
 Capricciosa: skinka, champinjoner
 Hawaii: skinka, ananas
-Pepperoni: pepperoni (korv)
+Pepperoni: pepperoni
 Margherita:
 Al Fungi: champinjoner
 Tono: tonfisk

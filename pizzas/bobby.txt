@@ -4,7 +4,7 @@ Funghi: champinjoner
 Capricciosa: skinka, champinjoner
 Vesuvio: skinka
 Calzone: skinka
-Pepperoni: pepperoni (korv)
+Pepperoni: pepperoni
 Tonno: tonfisk
 Cacciatora: salami
 Sorrento: skinka, räkor
@@ -18,7 +18,7 @@ Afrikana: kyckling, banan, ananas, curry, cashewnötter
 Lång John: skinka, tonfisk, räkor
 Catania: mozzarella, oxfilé, ädelost, paprika
 Mozzarella: mozzarella, parma, skinka, tomater, ruccola
-Valencia: mozzarella, pepperoni (korv), champinjoner, ruccola
+Valencia: mozzarella, pepperoni, champinjoner, ruccola
 Julias: mozzarella, feta, soltorkade tomater, basilika, olja
 Carpe Diem: mozzarella, salami, oliver, tomater
 Athena: mozzarella, feta, oliver, tomater, rödlök

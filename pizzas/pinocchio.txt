@@ -16,7 +16,7 @@ Kycklingpizza: lök, tomater, kyckling, curry
 Långjohn: skinka, tonfisk, räkor
 Sorrento: skinka, räkor
 Vegetaria: lök, paprika, champinjoner, oliver, kronärtskocka
-Pepperoni Pizza: pepperoni (korv), ruccola
+Pepperoni Pizza: pepperoni, ruccola
 Italia Pizza: parma, soltorkade tomater, vitlök, ruccola
 Parma Pizza: parma, ruccola, parmesan
 QUattro Formaggio Pizza: camembert, gorgonzola, mozzarella, ädelost

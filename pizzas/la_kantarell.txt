@@ -27,7 +27,7 @@ Mexicana: köttfärs, paprika, purjolök
 Oriental: fläskfilé, paprika, purjolök, tomater
 Camembert: skinka, champinjoner, camembert
 Ciao Ciao: fläskfilé, lök, vitlök, champinjoner
-Hot Pizza: kebabsås, skinka, pepperoni (korv), kebab
+Hot Pizza: kebabsås, skinka, pepperoni, kebab
 Kyckling Pizza: ananas, banan, curry, kebabsås, kyckling, räkor
 Fyra Ostar: mozzarella, camembert, ädelost
 Venedig: fläskfilé, oxfilé, skinka, champinjoner

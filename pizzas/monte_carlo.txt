@@ -20,7 +20,7 @@ Lång John: skinka, tonfisk, räkor
 Quattro Stagioni: champinjoner, skinka, kronärtskocka, musslor, räkor
 Vegetaria: champinjoner, tomater, lök, oliver, paprika
 Honolulu: skinka, banan, ananas
-Senora: mozzarella, aubergine, zucchini, soltorkade, tomater, lufttorkad skinka, ruccola
+Senora: mozzarella, aubergine, zucchini, soltorkade tomater, lufttorkad skinka, ruccola
 Venus: mozzarella, oliver, purjolök, champinjoner, paprika, soltorkade tomater, ruccola
 Parma: mozzarella, soltorkade tomater, lufttorkad skinka, ruccola
 Sardeller: mozzarella, ansjovis, kapris, oliver

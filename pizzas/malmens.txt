@@ -14,7 +14,7 @@ Salami: salami, lök
 Long John: skinka, tonfisk, räkor
 Honolulu: skinka, ananas, banan, curry
 Venezia: skinka, räkor, champinjoner
-Malmens: pepperoni (korv), champinjoner
+Malmens: pepperoni, champinjoner
 Vegetaria: champinjoner, lök, paprika, oliver, kronärtskocka
 Tutti Frutti: ananas, banan
 Calzone: skinka
@@ -48,7 +48,7 @@ Parmapizza: parma, soltorkade tomater, ruccola
 Al Caparra: oxfilé, champinjoner, kapris, bea
 Ciciliapizza: oxfilé, champinjoner, gorgonzola
 Salamino: salami, champinjoner, paprika, ruccola
-Bunon Roti: oxfilé, skinka, pepperoni (korv)
+Bunon Roti: oxfilé, skinka, pepperoni
 Pepperoni: pepperoni, skinka, vitlök
 Karl Alfred: spenat, vitlök, tomater, feta, oliver
 Toskana: parma, gorgonzola, vitlök

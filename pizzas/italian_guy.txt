@@ -4,7 +4,7 @@ Hawaii: prosciutto, ananas
 Funghi: champinjoner, ruccola
 Capricciosa: prosciutto, champinjoner
 Salami: salami, oliver, parmesan, ruccola
-Prosciutto: prosciutto, cocktailtomater, ruccola
+Prosciutto: prosciutto, körsbärstomater, ruccola
 Chèvre: chevré, pinjenötter, päronmamelad, ruccola
 Merguez: lammkorv, paprika, vitlökscreme, ruccola
 Scampi: räkor, aioli, persilja

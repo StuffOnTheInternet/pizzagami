@@ -42,4 +42,4 @@ Carpaccio: oxfilé, olja, ruccola, parmesan
 Caprese: mozzarella, tomater, pesto, soltorkade tomater, ruccola
 Breasola: bresaola, ruccola, parmesan, olja
 Naf Naf Fläskfilé: champinjoner, fläskfilé, bea
-Carne: prosciutto, salami, bresaola, pepperoni (korv)
+Carne: prosciutto, salami, bresaola, pepperoni

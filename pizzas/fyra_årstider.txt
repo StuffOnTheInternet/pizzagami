@@ -31,8 +31,8 @@ Love You: champinjoner, lök, fläskfilé, bea
 Kycklingpizza: lök, champinjoner, kyckling, kebabsås
 Exotisk: mango, banan, ananas, curry
 Västerbotten: champinjoner, räkor, västerbottenost, tomater
-Miami: ananas, banan, pepperoni (korv), curry
-Ekkällan Special: köttfärs, tomater, pepperoni (korv), jalapeno
+Miami: ananas, banan, pepperoni, curry
+Ekkällan Special: köttfärs, tomater, pepperoni, jalapeno
 Quattro Stagioni: skinka, räkor, musslor, champinjoner
 Babylon: oxfilé, banan, lök, räkor, bea
 Rimini: oxfilé, bacon, sparris, tomater, bea
@@ -51,5 +51,5 @@ Italia: aubergine, zucchini, paprika, soltorkade tomater, ruccola
 Parmesana: oxfilé, salami, parmesan, ruccola
 La Kantarell: oxfilé, kantareller, ruccola
 Chevré Pizza: parma, ruccola, chevré, honung, valnötter
-Havets: scampi, musslor, cocktailtomater, basilika, vitlök
-Husets: ruccola, salami, pepperoni (korv), salami, vitlök, cocktailtomater
+Havets: scampi, musslor, körsbärstomater, basilika, vitlök
+Husets: ruccola, salami, pepperoni, salami, vitlök, körsbärstomater
