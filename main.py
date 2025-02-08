@@ -25,12 +25,16 @@ class CheckFormat:
                         self.result.append(f"{p}:{i}: Missing ':'")
 
                     if name[0] != name[0].upper():
-                        self.result.append(f"{p}:{i}: Pizza name not capitalized: {name}")
+                        self.result.append(
+                            f"{p}:{i}: Pizza name not capitalized: {name}"
+                        )
 
                     ingrs = ingr.split(", ")
                     for ing in ingrs:
                         if ing != ing.lower():
-                            self.result.append(f"{p}:{i}: Ingredient name not lowercase: {ing}")
+                            self.result.append(
+                                f"{p}:{i}: Ingredient name not lowercase: {ing}"
+                            )
 
     def any_error(self):
         return len(self.result) > 0
