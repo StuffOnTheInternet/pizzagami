@@ -1,0 +1,33 @@
+Margherita:
+Hawaii: skinka, ananas
+Funghi: champinjoner
+Capricciosa: skinka, champinjoner
+Vesuvio: skinka
+Calzone: skinka
+Pepperoni: pepperoni (korv)
+Tonno: tonfisk
+Cacciatora: salami
+Sorrento: skinka, räkor
+Jamaica: skinka, champinjoner, räkor
+Poker: oxfilé, fläskfilé, champinjoner, bea
+Honolulu: skinka, ananas, banan
+Picasso: oxfilé, kantareller, bea
+Tropicana: skinka, fläskfilé, banan, räkor
+Delicato: kantareller, fläskfilé, tomater, bea
+Afrikana: kyckling, banan, ananas, curry, cashewnötter
+Lång John: skinka, tonfisk, räkor
+Catania: mozzarella, oxfilé, ädelost, paprika
+Mozzarella: mozzarella, parma, skinka, tomater, ruccola
+Valencia: mozzarella, pepperoni (korv), champinjoner, ruccola
+Julias: mozzarella, feta, soltorkade tomater, basilika, olja
+Carpe Diem: mozzarella, salami, oliver, tomater
+Athena: mozzarella, feta, oliver, tomater, rödlök
+Kebabpizza: gyroskött, lök, fefferoni, kebabsås
+Tre Kronor: gyroskött, tomater, gurka, lök, isbergssallad, pommes, fefferoni, kebabsås
+Havana: gyroskött, pommes, fefferoni, kebabsås
+Viking: gyroskött, tomater, lök, gurka, fefferoni, isbergssallad, kebabsås
+LHC: gyroskött, tomater, lök, fefferoni, bea
+Acapulco: oxfilé, chili, tomater, peppar, bea
+Classic: champinjoner, oliver, paprika, vitlök, tomater
+Falafelpizza: falafel, tomater, lök, fefferoni, kebabsås
+Mini Milano: broccoli, paprika, tomater, basilika
