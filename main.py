@@ -23,6 +23,7 @@ class CheckFormat:
                         name, ingr = pizza.split(":")
                     except ValueError:
                         self.result.append(f"{p}:{i}: Missing ':'")
+                        continue
 
                     if name[0] != name[0].upper():
                         self.result.append(
