@@ -330,6 +330,46 @@ class StoreScatter:
         plt.show()
 
 
+class IngredientScatter:
+    result: list[tuple[int, float]]
+    ticks: list[str]
+    labels: list[tuple[float, float, str]]
+
+    def __init__(
+        self, ingr_count: IngredientCount, cond: ConditionalProbabilityOfIngredients
+    ):
+        p_for_ingr: dict[Ingredient, dict[Ingredient, float]] = {
+            i: {} for i in ingr_count.result.keys()
+        }
+        for p, (i1, _), (i2, _) in cond.result:
+            p_for_ingr[i1][i2] = p
+
+        self.result = []
+        self.ticks = []
+        self.labels = []
+        common = ingr_count.common_ingr(20)
+        for x, i1 in enumerate(common):
+            self.ticks.append(i1)
+            ps = []
+            for i2 in ingr_count.result.keys():
+                if i1 == i2:
+                    continue
+                ps.append((p_for_ingr[i1].get(i2, 0.0), i2))
+            ps.sort(reverse=True)
+            for p, i2 in ps[:5]:
+                if p != 0.0:
+                    self.result.append((x, p))
+                    self.labels.append((x + 0.5, p, i2[:3]))
+
+    def figure(self):
+        x, y = zip(*self.result)
+        plt.scatter(x, y)
+        plt.xticks(ticks=range(len(self.ticks)), labels=self.ticks, rotation=90)
+        for x, y, i in self.labels:
+            plt.annotate(i, (x, y))
+        plt.show()
+
+
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
     for _, pizza, _ in inp.iter_pizzas():
@@ -395,6 +435,7 @@ def main():
     # ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
     # FeasiblePizzas(inp).report()
     # StoreScatter(inp, pizzagami).figure()
+    # IngredientScatter(ingr_count, ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=1)).figure()
 
 
 main()
