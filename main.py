@@ -3,6 +3,8 @@ from pathlib import Path
 from typing import Iterator, Optional
 import functools
 
+import matplotlib.pyplot as plt
+
 type Store = str
 type Name = str
 type Ingredient = str
@@ -308,6 +310,26 @@ class FeasiblePizzas:
         print(f"{len(self.all_feasible)} feasible pizzas ({p:.1f}% seen)")
 
 
+class StoreScatter:
+    stores: list[tuple[int, float]]
+    names: list[str]
+
+    def __init__(self, inp: Input, pizzagami: Pizzagami):
+        self.stores = []
+        self.names = []
+        for store, pizzas in inp.result.items():
+            num_pizzagami = sum(1 for p in pizzas if pizzagami.is_pizzagami(p))
+            self.stores.append((len(pizzas), num_pizzagami / len(pizzas)))
+            self.names.append(store.removesuffix(".txt"))
+
+    def figure(self):
+        x, y = zip(*self.stores)
+        plt.scatter(x, y)
+        for i, txt in enumerate(self.names):
+            plt.annotate(txt, (x[i] + 1, y[i]))
+        plt.show()
+
+
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
     for _, pizza, _ in inp.iter_pizzas():
@@ -371,7 +393,8 @@ def main():
     # IngredientsAtOneStore(inp).report()
     # SameThings(inp).report()
     # ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
-    FeasiblePizzas(inp).report()
+    # FeasiblePizzas(inp).report()
+    # StoreScatter(inp, pizzagami).figure()
 
 
 main()
