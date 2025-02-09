@@ -18,7 +18,7 @@ Hawaii: skinka, ananas
 Favoriten: skinka, champinjoner, lök, musslor, räkor, köttfärs, tonfisk
 Amigo: köttfärs, champinjoner, paprika
 Love You: skinka, tonfisk
-Tolos: isbergssallad, feta, tomater, sås
+Tolos: isbergssallad, feta, tomater, mild sås
 Corallo: bacon, lök, paprika
 Jamaica: skinka, champinjoner, räkor
 Ciao Ciao: champinjoner, skinka, lök, vitlök
@@ -55,13 +55,13 @@ Las Vegas: skinka, oxfilé, tomater, fläskfilé, lök, bea
 Florida: skinka, oxfilé, räkor, bea
 Venedig: fläskfilé, lök, ägg, champinjoner, tomater
 Lambada: fläskfilé, lök, tomater
-Shiss Kebab: lök, kebab, tomater, sås
+Shiss Kebab: lök, kebab, tomater, mild sås
 Paradiso: champinjoner, fläskfilé, lök, vitlök
 Dubbel Paradiso: champinjoner, fläskfilé, lök, vitlök
 Kantarell Pizza: kantareller, oxfilé, jordnötter, bea
 Paris: köttfärs, kantareller, oxfilé, gorgonzola
 Amerikansk Pizza: köttfärs, oxfilé, paprika, oliver, champinjoner, bea
-Kebabpizza: kebab, lök, champinjoner, tomater, fefferoni, sås
+Kebabpizza: kebab, lök, champinjoner, tomater, fefferoni, mild sås
 Azo Special: oxfilé, sparris, skinka, bea
 Verone: lök, kebab, fefferoni, isbergssallad, tomater, jalapeno, starksås
 Arvika Special: ananas, räkor, kebab, kebabsås
@@ -71,16 +71,16 @@ Bahama: skinka, jalapeno, lök, tomater, oxfilé, fefferoni, bea
 Modena: skinka, fläskfilé, gorgonzola, lök
 Bambino: köttfärs, paprika, lök, tomater, champinjoner, gorgonzola, räkor
 Catania: fläskfilé, räkor, sparris, lök, bea
-Guldkusten: skinka, tomater, kebab, lök, jalapeno, isbergssallad, fefferoni, sås
+Guldkusten: skinka, tomater, kebab, lök, jalapeno, isbergssallad, fefferoni, mild sås
 Lussana: tomater, skinka, champinjoner, oxfilé, fläskfilé, jalapeno, bea
 Salvadore: köttfärs, salami, jalapeno, fefferoni
-Bella: skinka, räkor, bacon, kebab, jalapeno, lök, tomater, sås
+Bella: skinka, räkor, bacon, kebab, jalapeno, lök, tomater, mild sås
 Vikingbåt: lök, champinjoner, oxfilé, tomater, paprika, bea
-Maria Special: kebab, feta, isbergssallad, tomater, gurka, fefferoni, räkor, sås
+Maria Special: kebab, feta, isbergssallad, tomater, gurka, fefferoni, räkor, mild sås
 Grekisk Pizza: lök, feta, oliver, paprika, tomater, kronärtskocka
-Färjestad: skinka, kebab, sås
+Färjestad: skinka, kebab, mild sås
 Donna Gracia: champinjoner, räkor, ananas, jalapeno, fläskfilé, tomater, bea
-Zorro: kebab, pommes, sås
-Jessica Special: isbergssallad, gurka, tomater, lök, fefferoni, jalapeno, bea, sås
+Zorro: kebab, pommes, mild sås
+Jessica Special: isbergssallad, gurka, tomater, lök, fefferoni, jalapeno, bea, mild sås
 Veganpizza: ost (v), tomater, majs, oliver, kronärtskocka, lök, paprika, ananas
-Falafelpizza: tomater, falafel, lök, isbergssallad, fefferoni, sås
+Falafelpizza: tomater, falafel, lök, isbergssallad, fefferoni, mild sås

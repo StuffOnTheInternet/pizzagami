@@ -1,0 +1,45 @@
+Marghertia:
+Vesuvio: skinka
+Calzone: skinka
+Fungi: champinjoner
+Cacciatora: salami
+Al Tono: tonfisk, lök
+Paesana: bacon, lök
+Sorrento: skinka, räkor
+Capricciosa: skinka, champinjoner
+Hawaii: skinka, ananas
+Paradiso: räkor, champinjoner
+Tutti Frutti: ananas, banan
+Marinara: räkor, musslor
+Pescatora: räkor, tonfisk
+Jamaica: skinka, räkor, champinjoner
+Vegetariana: champinjoner, kronärtskocka, lök, oliver, paprika
+X_Box: kebabsås, pommes
+Honolulu: skinka, ananas, banan
+Mexicana: köttfärs, champinjoner, tacosås, oliver, lök, jalapeno, vitlök
+Fyra Ostar: ädelost, gorgonzola, lök, mozzarella, tomater
+Quattro Stagioni: skinka, räkor, champinjoner, musslor, kronärtskocka
+850 Turbo: skinka, salami, bacon, lök, ägg
+Spenat: olja, oliver, mozzarella, vitlök, tomater, spenat
+Azteka: skinka, jalapeno, tacosås, kebabsås
+Kycklingpizza: kyckling, ananas, curry, banan
+Kebabpizza: gyroskött, kebabsås, lök, fefferoni, tomater
+Vesuvio Special: skinka, fläskfilé, bea
+Tropicana: skinka, fläskfilé, räkor, curry, banan
+Studente: oxfilé, ädelost, lök, paprika, purjolök
+Evet: oxfilé, champinjoner, bea, lök, oliver, paprika
+Miami: oxfilé, räkor, champinjoner, gorgonzola
+Milano: skinka, fläskfilé, räkor, curry, banan
+Parma: parma, olja, lök, mozzarella, vitlök, tomater, ruccola
+Black & White: oxfilé, fläskfilé, bea
+Vikingbåt: skinka, gyroskött, kebabsås, lök, fefferoni, tomater
+Capricciosa: skinka, oxfilé, fläskfilé, räkor, champinjoner, banan
+Florens: gyroskött, kebabsås, gurka, isbergssallad, lök, fefferoni, tomater
+New York: skinka, gyroskött, köttfärs, vitlökssås, fefferoni
+Mclaren F1: oxfilé, champinjoner, bea, banan
+San Diego: gyroskött, salami, bacon, kebabsås, fefferoni
+Simpsons: gyroskött, ananas, vitlökssås, fefferoni, pommes
+Sverige Special: gyroskött, kebabsås, isbergssallad, fefferoni, pommes
+Ballash:oxfilé, champinjoner, bea, purjolök, tomater
+Papay: feta, spenat, vitlök, mozzarella, oliver, aubergine, tomater
+Mexico Speciale: jalapeno, tacosås, vitlök, mozzarella, köttfärs, aubergine, zucchini, champinjoner
