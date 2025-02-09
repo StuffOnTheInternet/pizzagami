@@ -48,13 +48,15 @@ class CheckFormat:
 
 
 class Input:
-    result: dict[Store, dict[Pizza, Name]]
+    result: dict[Store, list[Pizza]]
+    names: dict[tuple[Store, Pizza], list[Name]]
 
     def __init__(self, pizzadir):
         self.result = {}
+        self.names = defaultdict(list)
         for p in Path(pizzadir).iterdir():
             store = p.name
-            self.result[store] = {}
+            self.result[store] = []
             with open(p) as f:
                 for pizza in f.read().splitlines():
                     if ":" in pizza and not pizza.strip().endswith(":"):
@@ -66,13 +68,20 @@ class Input:
                     else:
                         name = pizza.strip().lower()
                         ingr = frozenset()
-                    self.result[store][ingr] = name
+                    self.result[store].append(ingr)
+                    self.names[(store, ingr)].append(name)
 
-    def iter_pizzas(self) -> Iterator[tuple[Store, Pizza, Name]]:
+    def iter_pizzas(self) -> Iterator[tuple[Store, Pizza]]:
+        yield from (
+            (store, pizza) for store, pizzas in self.result.items() for pizza in pizzas
+        )
+
+    def iter_pizzas_with_names(self) -> Iterator[tuple[Store, Pizza, Name]]:
         yield from (
             (store, pizza, name)
             for store, pizzas in self.result.items()
-            for pizza, name in pizzas.items()
+            for pizza in pizzas
+            for name in self.names[(store, pizza)]
         )
 
 
@@ -83,15 +92,15 @@ class IngredientsAtOneStore:
         ingr_seen_once: dict[Ingredient, Store] = {}
         ingr_seen_more: set[Ingredient] = set()
 
-        for store, ingrs, _ in inp.iter_pizzas():
-            for i in ingrs:
-                if i in ingr_seen_more:
+        for store, pizza in inp.iter_pizzas():
+            for ingr in pizza:
+                if ingr in ingr_seen_more:
                     pass
-                elif i in ingr_seen_once and ingr_seen_once[i] != store:
-                    ingr_seen_more.add(i)
-                    del ingr_seen_once[i]
+                elif ingr in ingr_seen_once and ingr_seen_once[ingr] != store:
+                    ingr_seen_more.add(ingr)
+                    del ingr_seen_once[ingr]
                 else:
-                    ingr_seen_once[i] = store
+                    ingr_seen_once[ingr] = store
 
         self.result = {store: set() for _, store in ingr_seen_once.items()}
         for ingr, store in ingr_seen_once.items():
@@ -118,19 +127,22 @@ class IngredientCount:
 
 
 class Pizzagami:
-    result: dict[Store, list[tuple[Name, Pizza, Optional[int]]]]
+    inp: Input
+    result: dict[Store, list[tuple[Pizza, Optional[int]]]]
 
     def __init__(self, inp: Input, common_ingr: list[Ingredient]):
-        self._names_of_pizza = defaultdict(list)
-        for store, pizza, name in inp.iter_pizzas():
-            self._names_of_pizza[pizza].append((store, name))
+        self.inp = inp
+        self._stores_with_pizza: dict[Pizza, list[Store]] = defaultdict(list)
+        for store, pizza, name in inp.iter_pizzas_with_names():
+            self._stores_with_pizza[pizza].append(store)
 
         self.result = {}
-        self._pizza_per_store = {}
+        self._pizza_per_store: dict[Store, int] = {}
         for store, pizzas in inp.result.items():
             self.result[store] = []
             self._pizza_per_store[store] = len(pizzas)
-            for pizza, name in sorted(pizzas.items(), key=lambda kv: kv[1]):
+
+            for pizza in pizzas:
                 if self.is_pizzagami(pizza):
                     is_ingr_common = all(i in common_ingr for i in pizza)
                     ingr_common_level = (
@@ -138,10 +150,10 @@ class Pizzagami:
                         if is_ingr_common
                         else None
                     )
-                    self.result[store].append((name, pizza, ingr_common_level))
+                    self.result[store].append((pizza, ingr_common_level))
 
     def count(self, pizza):
-        return len(self._names_of_pizza[pizza])
+        return len(self._stores_with_pizza[pizza])
 
     def is_pizzagami(self, pizza: Pizza):
         return self.count(pizza) == 1
@@ -150,7 +162,7 @@ class Pizzagami:
         for store, pizzagami in self.result.items():
             if pizzagami:
                 num_ingr_common_pizzagami = sum(
-                    1 for gami in pizzagami if gami[2] is not None
+                    1 for gami in pizzagami if gami[1] is not None
                 )
                 print(
                     "{}: {} pizzagami!".format(store, len(pizzagami))
@@ -176,7 +188,7 @@ class Pizzagami:
         for store, pizzagami in self.result.items():
             if pizzagami:
                 num_ingr_common_pizzagami = sum(
-                    1 for gami in pizzagami if gami[2] is not None
+                    1 for gami in pizzagami if gami[1] is not None
                 )
                 print(
                     "{}: {} pizzagami!".format(store, len(pizzagami))
@@ -190,7 +202,12 @@ class Pizzagami:
                         )
                     )
 
-                for name, pizza, common_ingr_level in pizzagami:
+                for pizza, common_ingr_level in pizzagami:
+                    names = self.inp.names[(store, pizza)]
+                    if len(names) == 1:
+                        name = names[0]
+                    else:
+                        name = "[" + ", ".join(names) + "]"
                     print("  {} ({})".format(name, ", ".join(sorted(pizza))))
                     if common_ingr_level is not None:
                         print(
@@ -210,7 +227,7 @@ class CountIngredientCommonPizzagami:
     def __init__(self, pizzagami: Pizzagami):
         self._per_level = {i: 0 for i in range(1, ingr_common_limit + 1)}
         for _, pizzagamis in pizzagami.result.items():
-            for _, _, ingr_common_level in pizzagamis:
+            for _, ingr_common_level in pizzagamis:
                 if ingr_common_level is not None:
                     self._per_level[ingr_common_level] += 1
         self._total = sum(self._per_level.values())
@@ -229,7 +246,7 @@ class SameThings:
     def __init__(self, inp: Input):
         self.same_name = defaultdict(set)
         self.same_ingredients = defaultdict(set)
-        for _, pizza, name in inp.iter_pizzas():
+        for _, pizza, name in inp.iter_pizzas_with_names():
             self.same_name[name].add(pizza)
             self.same_ingredients[frozenset(pizza)].add(name)
         self.same_name = {
@@ -263,7 +280,7 @@ class ConditionalProbabilityOfIngredients:
     def __init__(self, inp: Input, min_pizzas_to_report: int):
         self.result = []
         pizzas_with: dict[Ingredient, list[Pizza]] = defaultdict(list)
-        for pizza in set(pizza for _, pizza, _ in inp.iter_pizzas()):
+        for pizza in set(pizza for _, pizza in inp.iter_pizzas()):
             for ingr in pizza:
                 pizzas_with[ingr].append(pizza)
         for ingr, pizzas in sorted(pizzas_with.items()):
@@ -301,7 +318,7 @@ class FeasiblePizzas:
 
     def __init__(self, inp: Input):
         self.all_feasible = set()
-        for _, pizza, _ in inp.iter_pizzas():
+        for _, pizza in inp.iter_pizzas():
             self.all_feasible |= FeasiblePizzas._all_below(pizza)
         self.not_seen = self.all_feasible - all_pizzas(inp)
 
@@ -372,13 +389,13 @@ class IngredientScatter:
 
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
-    for _, pizza, _ in inp.iter_pizzas():
+    for _, pizza in inp.iter_pizzas():
         all_ingr |= set(pizza)
     return all_ingr
 
 
 def all_pizzas(inp: Input) -> set[Pizza]:
-    return set(pizza for _, pizza, _ in inp.iter_pizzas())
+    return set(pizza for _, pizza in inp.iter_pizzas())
 
 
 def main():

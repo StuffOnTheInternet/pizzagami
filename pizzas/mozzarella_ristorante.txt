@@ -40,6 +40,6 @@ De Chef: oxfilé, champinjoner, bea
 La Scampi: scampi, tomater, ruccola
 Carpaccio: oxfilé, olja, ruccola, parmesan
 Caprese: mozzarella, tomater, pesto, soltorkade tomater, ruccola
-bresaola: bresaola, ruccola, parmesan, olja
+Bresaola: bresaola, ruccola, parmesan, olja
 Naf Naf Fläskfilé: champinjoner, fläskfilé, bea
 Carne: prosciutto, salami, bresaola, pepperoni
