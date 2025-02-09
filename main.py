@@ -11,6 +11,7 @@ type Ingredient = str
 type Pizza = frozenset[Ingredient]
 
 ingr_common_limit = 10
+with_duplicates = True
 
 
 class CheckFormat:
@@ -113,17 +114,20 @@ class IngredientsAtOneStore:
 
 
 class IngredientCount:
-    result: Counter[Ingredient]
+    counter: Counter[Ingredient]
+    counter_with_duplicates: Counter[Ingredient]
 
     def __init__(self, inp: Input):
-        self.result = Counter()
-        for _, pizzas in inp.result.items():
-            for ingrs in pizzas:
-                for i in ingrs:
-                    self.result[i] += 1
+        self.counter = Counter()
+        self.counter_with_duplicates = Counter()
+        for store, pizza in inp.iter_pizzas():
+            for ingr in pizza:
+                self.counter[ingr] += 1
+                self.counter_with_duplicates[ingr] += len(inp.names[(store, pizza)])
 
-    def common_ingr(self, n) -> list[Ingredient]:
-        return [ingr for ingr, _ in self.result.most_common(n)]
+    def common_ingr(self, n, with_duplicates=False) -> list[Ingredient]:
+        counter = self.counter_with_duplicates if with_duplicates else self.counter
+        return [ingr for ingr, _ in counter.most_common(n)]
 
 
 class Pizzagami:
@@ -133,8 +137,13 @@ class Pizzagami:
     def __init__(self, inp: Input, common_ingr: list[Ingredient]):
         self.inp = inp
         self._stores_with_pizza: dict[Pizza, list[Store]] = defaultdict(list)
-        for store, pizza, name in inp.iter_pizzas_with_names():
+        self._stores_with_pizza_duplicates: dict[Pizza, list[tuple[Store, Name]]] = (
+            defaultdict(list)
+        )
+        for store, pizza in inp.iter_pizzas():
             self._stores_with_pizza[pizza].append(store)
+            for name in inp.names[(store, pizza)]:
+                self._stores_with_pizza_duplicates[pizza].append((store, name))
 
         self.result = {}
         self._pizza_per_store: dict[Store, int] = {}
@@ -152,11 +161,16 @@ class Pizzagami:
                     )
                     self.result[store].append((pizza, ingr_common_level))
 
-    def count(self, pizza):
-        return len(self._stores_with_pizza[pizza])
+    def count(self, pizza, with_duplicates):
+        stores_with = (
+            self._stores_with_pizza_duplicates
+            if with_duplicates
+            else self._stores_with_pizza
+        )
+        return len(stores_with[pizza])
 
     def is_pizzagami(self, pizza: Pizza):
-        return self.count(pizza) == 1
+        return self.count(pizza, with_duplicates=True) == 1
 
     def short_report(self):
         for store, pizzagami in self.result.items():
@@ -356,7 +370,7 @@ class IngredientScatter:
         self, ingr_count: IngredientCount, cond: ConditionalProbabilityOfIngredients
     ):
         p_for_ingr: dict[Ingredient, dict[Ingredient, float]] = {
-            i: {} for i in ingr_count.result.keys()
+            i: {} for i in ingr_count.counter.keys()
         }
         for p, (i1, _), (i2, _) in cond.result:
             p_for_ingr[i1][i2] = p
@@ -368,7 +382,7 @@ class IngredientScatter:
         for x, i1 in enumerate(common):
             self.ticks.append(i1)
             ps = []
-            for i2 in ingr_count.result.keys():
+            for i2 in ingr_count.counter.keys():
                 if i1 == i2:
                     continue
                 ps.append((p_for_ingr[i1].get(i2, 0.0), i2))
@@ -424,8 +438,11 @@ def main():
         )
     )
     print("{} most common ingredients:".format(ingr_common_limit, common_ingr))
+    counter = (
+        ingr_count.counter_with_duplicates if with_duplicates else ingr_count.counter
+    )
     for i, (pizza, amount) in enumerate(
-        ingr_count.result.most_common(ingr_common_limit)
+        counter.most_common(ingr_common_limit), start=1
     ):
         print("  {:>2}. ({:>3}) {}".format(i, amount, pizza))
 
@@ -438,7 +455,7 @@ def main():
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
     non_pizzagami_counts = sorted(
-        (pizzagami.count(p), p)
+        (pizzagami.count(p, with_duplicates), p)
         for p in all_pizzas(inp)
         if not pizzagami.is_pizzagami(p)
     )
