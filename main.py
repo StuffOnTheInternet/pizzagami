@@ -49,6 +49,7 @@ class CheckFormat:
 
 class Input:
     result: dict[Store, dict[Pizza, Name]]
+    common_name: dict[Pizza, Name]
 
     def __init__(self, pizzadir):
         self.result = {}
@@ -74,6 +75,20 @@ class Input:
             for store, pizzas in self.result.items()
             for pizza, name in pizzas.items()
         )
+
+
+class CommonName:
+    result: dict[Pizza, Counter[Name]]
+
+    def __init__(self, inp: Input):
+        self.result = defaultdict(Counter)
+        for _, pizza, name in inp.iter_pizzas():
+            self.result[pizza][name] += 1
+
+    def most_common_name(self, pizza: Pizza):
+        return self.result[pizza].most_common(1)[0][0]
+
+    def report(self): ...
 
 
 class IngredientsAtOneStore:
@@ -370,6 +385,29 @@ class IngredientScatter:
         plt.show()
 
 
+class NonPizzagamiBarChart:
+    y: list[int]
+    ticks: list[str]
+
+    def __init__(self, inp: Input, pizzagami: Pizzagami):
+        self.y, self.ticks = zip(
+            *(
+                list(
+                    sorted(
+                        (pizzagami.count(p), inp.common_name[p])
+                        for p in all_pizzas(inp)
+                        if not pizzagami.is_pizzagami(p)
+                    )
+                )[-40:]
+            )
+        )
+
+    def figure(self):
+        plt.bar(range(len(self.y)), self.y)
+        plt.xticks(ticks=range(len(self.ticks)), labels=self.ticks, rotation=90)
+        plt.show()
+
+
 def all_ingredients(inp: Input) -> set[Ingredient]:
     all_ingr = set()
     for _, pizza, _ in inp.iter_pizzas():
@@ -420,15 +458,6 @@ def main():
     ]
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
-    non_pizzagami_counts = sorted(
-        (pizzagami.count(p), p)
-        for p in all_pizzas(inp)
-        if not pizzagami.is_pizzagami(p)
-    )
-    max_count = max((a for a, _ in non_pizzagami_counts))
-    for c, p in non_pizzagami_counts:
-        print("." * c, " " * (max_count - c), ", ".join(p))
-
     # CountIngredientCommonPizzagami(pizzagami).report()
     # IngredientsAtOneStore(inp).report()
     # SameThings(inp).report()
@@ -436,6 +465,7 @@ def main():
     # FeasiblePizzas(inp).report()
     # StoreScatter(inp, pizzagami).figure()
     # IngredientScatter(ingr_count, ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=1)).figure()
+    # NonPizzagamiBarChart(inp, pizzagami).figure()
 
 
 main()
