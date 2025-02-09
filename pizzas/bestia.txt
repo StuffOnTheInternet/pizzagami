@@ -1,6 +1,6 @@
 Bestia: tomater, mozzarella, olja, basilika
 Pesto Pizza: pesto, mozzarella, prosciutto, tomater, basilika
-Friariella: riccota, mozzarella, friarielli, salsiccia, olja, ruccola, pecorino
+Friariella: ricotta, mozzarella, friarielli, salsiccia, olja, ruccola, pecorino
 La Croccante: mozzarella, salsiccia, basilika, olja, pommes
 Diavola: tomater, mozzarella, nduja, salami
 Svamp: mozzarella, champinjoner, pecorino, vitlök, persilja, olja

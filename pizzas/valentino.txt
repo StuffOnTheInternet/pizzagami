@@ -58,7 +58,7 @@ Husets Pizza: kyckling, purjolök, champinjoner, kebabsås
 Batman: skinka, kebab, kebabsås
 Kebabpizza Special: skinka, champinjoner, kebab, ananas, räkor, kebabsås
 LHC: lök, tomater, kebab, bea, fefferoni, pommes
-Vegetaria Special: champinjoner, oliver, tomater, paprika, vitlök, tärnad ost
+Vegetaria Special: champinjoner, oliver, tomater, paprika, vitlök, gouda
 Capri Super: skinka, champinjoner, räkor, fläskfilé, oxfilé, bea, banan
 American: bacon, lök, ägg, vitlök
 Vikingpizza: kebab, tomater, isbergssallad, gurka, lök, kebabsås, fefferoni

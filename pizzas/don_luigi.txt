@@ -2,7 +2,7 @@ Capri: mozzarella, prosciutto, champinjoner
 Giovani: mozzarella, prosciutto, ananas
 Albero (Veg): kronärtskocka, mozzarella, lök, champinjoner, oliver, paprika, pesto
 Mazza: salami, honung, buffelmozzarella, provolone
-Pazzo: lax, marscapone, olja, prästost, soltorkade tomater, ruccola, kapris
+Pazzo: lax, mascarpone, olja, prästost, soltorkade tomater, ruccola, kapris
 Olearia: pancetta, avokado, mascarpone, soltorkade tomater, mozzarella
 Fratelli: mozzarella
 Salami: salami, salami, basilika, lök, mozzarella

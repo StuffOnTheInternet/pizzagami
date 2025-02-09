@@ -21,7 +21,7 @@ Venedig: mozzarella, sparris, oxfilé, vitlök, champinjoner, kronärtskocka, ru
 Da vinci: mozzarella, ädelost, soltorkade tomater, salami, sparris, ruccola
 Al Capone: mozzarella, vitlök, tomater, oxfilé, bea
 Merame: mozzarella, lufttorkad skinka, vitlök, champinjoner, ruccola, tomater, bea
-Dolce Vita: mozzarella, tärnad ost, oliver, sparris, vitlök, tomater, champinjoner, ruccola
+Dolce Vita: mozzarella, gouda, oliver, sparris, vitlök, tomater, champinjoner, ruccola
 Napolitana: tomater, buffelmozzarella, oliver, vitlök, basilika
 DI terra: tomater, buffelmozzarella, zucchini, paprika, vitlök, kronärtskocka, parmesan, körsbärstomater, olja, ruccola, aubergine
 Il contadino: tomater, buffelmozzarella, nduja, lök, oliver, ruccola, körsbärstomater

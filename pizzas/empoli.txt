@@ -28,7 +28,7 @@ Rimini Super: tomater, fläskfilé, sparris, bea
 Tropicana: fläskfilé, skinka, räkor, banan
 Al Capone: mozzarella, tomater, vitlök, oxfilé, ruccola, bea
 Da Vinci: mozzarella, ädelost, soltorkade tomater, salami, sparris, ruccola, kronärtskocka
-Dolce Vita: mozzarella, oliver, sparris, tomater, vitlök, champinjoner, tärnad ost, ruccola, kronärtskocka
+Dolce Vita: mozzarella, oliver, sparris, tomater, vitlök, champinjoner, gouda, ruccola, kronärtskocka
 Merame: mozzarella, lufttorkad skinka, champinjoner, ruccola, bea, vitlök
 Parma: mozzarella, lufttorkad skinka, soltorkade tomater, ruccola, champinjoner
 Venedig: mozzarella, sparris, oxfilé, vitlök, ruccola, bea

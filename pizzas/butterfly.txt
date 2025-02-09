@@ -10,7 +10,7 @@ Quattro Formaggi: mozzarella, gorgonzola, pecorino, parmesan, olja
 Diavola: mozzarella, nduja, salami, rödlök, ricotta
 Parma Bianca: mozzarella, créme fraiche, prosciutto, chevré, valnötter, honung, parmesan, ruccola
 Padrino: mozzarella, oxfilé, pancetta, gorgonzola, vitlök, basilika, parmesan
-Libra: grönärtscreme, mozzarella, breasola, ricotta, rödbetor
+Libra: grönärtscreme, mozzarella, bresaola, ricotta, rödbetor
 Cenerentola: pumpa, mozzarella, salsiccia, pecorino, basilika
 Saporita: taleggio, mozzarella, pancetta, porcini
 Ortolana: mozzarella, paprika, zucchini, aubergine
