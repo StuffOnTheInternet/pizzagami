@@ -62,3 +62,5 @@ Hot Chili: paprika, chili, lök, salami, köttfärs
 Las Vegas: tomater, paprika, fefferoni, bacon, skinka
 San Fransisco: paprika, lök, bacon, köttfärs
 Kansas: tomater, champinjoner, salami, räkor, skinka
+Nutella: nutella
+Söta dagar: nutella, jordnötter, banan, ost
