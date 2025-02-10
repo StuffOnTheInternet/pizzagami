@@ -331,9 +331,8 @@ class StoreScatter:
 
 
 class IngredientScatter:
-    result: list[tuple[int, float]]
     ticks: list[str]
-    labels: list[tuple[float, float, str]]
+    result: list[tuple[float, float, str, str]]
 
     def __init__(
         self, ingr_count: IngredientCount, cond: ConditionalProbabilityOfIngredients
@@ -344,9 +343,8 @@ class IngredientScatter:
         for p, (i1, _), (i2, _) in cond.result:
             p_for_ingr[i1][i2] = p
 
-        self.result = []
         self.ticks = []
-        self.labels = []
+        self.result = []
         common = ingr_count.common_ingr(20)
         for x, i1 in enumerate(common):
             self.ticks.append(i1)
@@ -358,15 +356,21 @@ class IngredientScatter:
             ps.sort(reverse=True)
             for p, i2 in ps[:5]:
                 if p != 0.0:
-                    self.result.append((x, p))
-                    self.labels.append((x + 0.5, p, i2[:3]))
+                    self.result.append((x, p, i2, i2[:3]))
 
     def figure(self):
-        x, y = zip(*self.result)
-        plt.scatter(x, y)
+        labels_split = defaultdict(list)
+        for x, y, ifull, i in self.result:
+            labels_split[ifull].append((x, y, i))
+
         plt.xticks(ticks=range(len(self.ticks)), labels=self.ticks, rotation=90)
-        for x, y, i in self.labels:
-            plt.annotate(i, (x, y))
+
+        cm = plt.get_cmap("gist_rainbow")
+        for e, labels in enumerate(labels_split.values()):
+            for x, y, i in labels:
+                point = plt.scatter([x], [y])
+                point.set_color(cm(e / len(labels_split)))
+                plt.annotate(i, (x + 0.5, y))
         plt.show()
 
 
