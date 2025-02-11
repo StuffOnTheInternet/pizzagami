@@ -454,14 +454,16 @@ def main():
     ]
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
-    non_pizzagami_counts = sorted(
-        (pizzagami.count(p, with_duplicates), p)
-        for p in all_pizzas(inp)
-        if not pizzagami.is_pizzagami(p)
-    )
-    max_count = max((a for a, _ in non_pizzagami_counts))
-    for c, p in non_pizzagami_counts:
-        print("." * c, " " * (max_count - c), ", ".join(p))
+    # non_pizzagami_counts = sorted(
+    #     (pizzagami.count(p, with_duplicates=True), p)
+    #     for p in all_pizzas(inp)
+    #     if not pizzagami.is_pizzagami(p)
+    # )
+    # xtick = [", ".join(s[:3] for s in p) for _, p in non_pizzagami_counts]
+    # y = [c for c, _ in non_pizzagami_counts]
+    # plt.bar(range(len(y)), y)
+    # plt.xticks(ticks=range(len(y)), labels=xtick, rotation=90)
+    # plt.show()
 
     # CountIngredientCommonPizzagami(pizzagami).report()
     # IngredientsAtOneStore(inp).report()
