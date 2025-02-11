@@ -1,6 +1,7 @@
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Iterator, Optional
+import math
 import functools
 
 import matplotlib.pyplot as plt
@@ -326,7 +327,7 @@ class StoreScatter:
         x, y = zip(*self.stores)
         plt.scatter(x, y)
         for i, txt in enumerate(self.names):
-            plt.annotate(txt, (x[i] + 1, y[i]))
+            plt.annotate(txt, (x[i] + 1, y[i]), rotation=0)
         plt.show()
 
 
@@ -424,22 +425,32 @@ def main():
     ]
     print(len(is_pizzagami), len(non_pizzagami), len(all_pizzas(inp)))
 
-    non_pizzagami_counts = sorted(
-        (pizzagami.count(p), p)
-        for p in all_pizzas(inp)
-        if not pizzagami.is_pizzagami(p)
-    )
-    max_count = max((a for a, _ in non_pizzagami_counts))
-    for c, p in non_pizzagami_counts:
-        print("." * c, " " * (max_count - c), ", ".join(p))
+    # matplot version of raw text bar chart:
+    # non_pizzagami_counts = sorted(
+    #     (pizzagami.count(p), p)
+    #     for p in all_pizzas(inp)
+    #     if not pizzagami.is_pizzagami(p)
+    # )
+    # xtick = [", ".join(s[:3] for s in p) for _, p in non_pizzagami_counts]
+    # y = [c for c, _ in non_pizzagami_counts]
+    # plt.bar(range(len(y)), y)
+    # plt.xticks(ticks=range(len(y)), labels=xtick, rotation=90)
+    # plt.show()
+
+    # pizzagami with few ingredients:
+    # for p in all_pizzas(inp):
+    #     if pizzagami.is_pizzagami(p) and len(p) <= 2:
+    #         print(p)
 
     # CountIngredientCommonPizzagami(pizzagami).report()
     # IngredientsAtOneStore(inp).report()
     # SameThings(inp).report()
     # ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=5).report()
-    # FeasiblePizzas(inp).report()
+    FeasiblePizzas(inp).report()
     # StoreScatter(inp, pizzagami).figure()
-    # IngredientScatter(ingr_count, ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=1)).figure()
+    # IngredientScatter(
+    #     ingr_count, ConditionalProbabilityOfIngredients(inp, min_pizzas_to_report=1)
+    # ).figure()
 
 
 main()
